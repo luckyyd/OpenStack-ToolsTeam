@@ -1,0 +1,2319 @@
+Known User Mode Providers: 
+       0063715b-eeda-4007-9429-ad526f62696e                              : Microsoft-Windows-Services
+       0063715b-eeda-4007-9429-ad526f62696e                              : SCM
+       00b7e1df-b469-4c69-9c41-53a6576e3dad                              : Microsoft-Windows-Security-IdentityStore
+       02292a7f-12e0-4de6-8fb0-cb93cc1126d3                              : Microsoft-WindowsPhone-MMResourceRegistrar
+       048970b2-e55c-4d10-bbc8-2ee964b745a4                              : Microsoft-WindowsMobile-SyncMLDPU-Provider
+       04a490d4-84c6-4920-9c22-51c80825ff2c                              : Microsoft-WindowsPhone-Comms-PhoneUtil
+       04eccf8e-8490-4ad1-8ed5-0ae7750e69e6                              : Microsoft-Windows-MCCS-AccountsHost
+       051873f5-8280-4aec-8482-9c520f854769:0x000000007fffffff:0x4       : ShellManaged
+       051873f5-8280-4aec-8482-9c520f854769:0x000000007fffffff:0x5       : ShellManagedVerbose
+       051873f5-8280-4aec-8482-9c520f854769:0x0000000000000020:0x4       : ShellResponse
+       057b81c2-ae5c-4085-898e-350fd51fe1f1                              : Microsoft-WindowsPhone-Comms-ContactsUtil
+       057e13d9-e9cf-4258-bac1-213c6ad2f680                              : Microsoft-WindowsPhone-Shell-AppChrome-Server
+       059c3e04-5535-4929-85e1-93030e78f47b                              : ShellServices
+       05f02597-fe85-4e67-8542-69567ab8fd4f                              : Microsoft-Windows-LiveId
+       0657adc1-9ae8-4e18-932d-e6079cda5ab3                              : Microsoft-Windows-TimeBroker
+       06edcfeb-0fd0-4e53-acca-a6f8bbf81bcb                              : Microsoft-Windows-Time-Service
+       0719f870-a1d6-4003-a4b7-d0377c96c7fe                              : Microsoft-WindowsPhone-Comms-PeopleSimUi
+       07ca6550-3c4c-11df-9879-0800200c9a66                              : YHarness
+       07f947bf-6018-49b5-82e2-de966c7be483                              : Microsoft-WindowsPhone-OmaDmPrc-Provider
+       08dde8cc-029f-4e95-9d84-259ccf3a6808                              : Microsoft-WindowsMobile-ConfigHost-Provider
+       093da50c-0bb9-4d7d-b95c-3bb9fcda5ee8                              : Microsoft-Windows-Winsock-SQM
+       099614a5-5dd7-4788-8bc9-e29f43db28fc                              : Microsoft-Windows-LDAP-Client
+       0ac48fe9-f2b8-46d6-9687-33cd5a0ad872                              : Microsoft-WindowsPhone-ConfigSPVpn
+       0bca4784-8257-51a0-d9ec-24fe1fe4c90d                              : Microsoft.Windows.App.Browser
+       0bd19909-eb6f-4b16-8074-6dce803f091d                              : Microsoft-Windows-UserDataAccess-Poom
+       0bd3506a-9030-4f76-9b88-3e8fe1f7cfb6                              : Microsoft-Windows-NWiFi
+       0bf2fb94-7b60-4b4d-9766-e82f658df540                              : Microsoft-Windows-Kernel-ShimEngine
+       0c0ffee0-f4b1-4f4d-b591-fb3175b13413                              : Microsoft-WindowsMobile-UIXMobile
+       0cc157b3-cf07-4fc2-91ee-31ac92e05fe1                              : Microsoft-Windows-AppSruProv
+       0d4fdc09-8c27-494a-bda0-505e4fd8adae                              : Microsoft-Windows-Directory-Services-SAM
+       0dd4d48e-2bbf-452f-a7ec-ba3dba8407ae                              : Microsoft-Windows-ActionQueue
+       0f2b3869-4c77-4a50-b443-55e5d34422cc                              : Microsoft-WindowsPhone-Comms-PlatformHelper
+       0f67e49f-fe51-4e9f-b490-6f2948cc6027                              : Microsoft-Windows-Kernel-Processor-Power
+       0ff1c24b-7f05-45c0-abdc-3c8521be4f62                              : Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+       1057e289-4d06-4f85-bad8-8cc25a6f12dd                              : Microsoft-WindowsPhone-AutoDataConfig
+       10a208dd-a372-421c-9d99-4fad6db68b62                              : Microsoft-Windows-ApplicabilityEngine
+       10d98d0b-8650-4f59-9718-27ea53fb2f21                              : Microsoft-WindowsPhone-Shell-Controls
+       10e4f0e0-9686-4e62-b2d6-fd010eb976d3                              : Microsoft-WindowsPhone-Shell-Events
+       119058d7-e759-4be8-9c67-61b3e8dde36f                              : Microsoft-WindowsMobile-SearchMapsSettings
+       11a377e3-be1e-4ee7-abda-81c6eda62e71                              : DwmAltTab
+       11aaccdb-304e-4f53-9677-8f18b07b65e6                              : Microsoft-WindowsPhone-LegacyCSP
+       121d3da8-baf1-4dcb-929f-2d4c9a47f7ab                              : Microsoft-Windows-Base-Filtering-Engine-Connections
+       122ee297-bb47-41ae-b265-1ca8d1886d40                              : Microsoft-Windows-LoadPerf
+       125f2cf1-2768-4d33-976e-527137d080f8                              : Microsoft-Windows-SmartCard-TPM-VCard-Module
+       12e3da5b-14e4-4f76-8e35-c540763ef300                              : Microsoft-Windows-Globalization
+       13b197bd-7cee-4b4e-8dd0-59314ce374ce                              : Microsoft-Windows-Perflib
+       13d97131-ee68-43f4-a1d0-9e762d2a4729                              : Microsoft-WindowsPhone-Mtp
+       142183f9-1546-4f9d-8c9b-fac4ee652420                              : Microsoft-WindowsPhone-VideoTelephonyProvider
+       152fbe4b-c7ad-4f68-bada-a4fcc1464f6c                              : Microsoft-Windows-Hyper-V-Netvsc
+       152fdb2b-6e9d-4b60-b317-815d5f174c4a                              : Microsoft-Windows-Crypto-RSAEnh
+       1540ff4c-3fd7-4bba-9938-1d1bf31573a7                              : DNS
+       15ca44ff-4d7a-4baa-bba5-0998955e531e                              : Microsoft-Windows-Kernel-Boot
+       15f0bf3b-4966-4ef5-8b79-5d7ce1752df2                              : Microsoft-WindowsPhone-Comms-SNCoreProvider
+       16a1adc1-9b7f-4cd9-94b3-d8296ab1b130                              : Microsoft-Windows-Kernel-AppCompat
+       16d29899-a697-43a5-9043-460ddb4f133a                              : Microsoft-WindowsPhone-DevMgmt-SprintCSP
+       175fedee-7510-43fd-a600-a49e99594792                              : Microsoft-WindowsPhone-ProximityProvider
+       17d6e590-f5fe-11dc-95ff-0800200c9a66                              : Microsoft-Windows-ApplicationExperience-SwitchBack
+       18f4a5fd-fd3b-40a5-8fc2-e5d261c5d02e                              : Microsoft-Windows-ApplicationExperience-LookupServiceTrigger
+       199fe037-2b82-40a9-82ac-e1d46c792b99                              : LsaSrv
+       19a4c69a-28eb-4d4b-8d94-5f19055a1b5c                              : Microsoft-Windows-AsynchronousCausality
+       19e77e83-09db-4c9a-839c-5a113d39d50e                              : Microsoft-WindowsPhone-Comms-PhoneApp
+       19fd58f3-a757-4887-b04a-265a36c58ce9                              : ShellThumbnailCache
+       1a553366-f271-494a-bbc0-0ad48aeab605                              : Microsoft-WindowsPhone-StoryboardSink
+       1a772f65-be1e-4fc6-96bb-248e03fa60f5                              : Microsoft-Windows-EnergyEfficiencyWizard
+       1a870028-f191-4699-8473-6fcd299eab77                              : Microsoft-Windows-Remotefs-Rdbss
+       1a8b6642-2d45-44e7-8b84-bd777d28ccc8                              : ManageFramework
+       1a9443d4-b099-44d6-8eb1-829b9c2fe290                              : Microsoft-Windows-PCI
+       1aa764a5-fcae-4749-8c8b-e00b768c48c3                              : PerfX3
+       1b1d4ff4-f27b-4c99-8bd7-da8f1a74051a                              : Summary Level Transaction 2
+       1b4f0e96-6876-49c8-bfba-072dae6543b3                              : Microsoft-Windows-RemoteDesktopServices-vGPU-KModeDriver
+       1b562e86-b7aa-4131-badc-b6f3a001407e                              : Microsoft-Windows-DistributedCOM
+       1b6b0772-251b-4d42-917d-faca166bc059                              : TPM
+       1bd264a4-4198-4ff5-90d8-9f80e9214e31                              : TraceResume
+       1d5990c1-ec62-49f0-9e37-1f4db12db41e                              : Microsoft-Windows-DeviceConfidence
+       1db8dad0-7ca6-4f18-b357-43bfdd8c9806                              : Microsoft-WindowsPhone-Comms-PhoneProviders
+       1dd79e58-dcd1-4673-8aae-8c719ab4afba                              : Microsoft-WindowsPhone-Shell-LockAndWallpaper
+       1de130e1-c026-4cbf-ba0f-ab608e40aeea                              : Microsoft-Windows-BitLocker-Driver-Performance
+       1e2462be-b025-48da-8c1f-7b60b8ccae53                              : Microsoft-Windows-AppModel-MessagingDataModel
+       1e39b4ce-d1e6-46ce-b65b-5ab05d6cc266                              : Microsoft-Windows-Networking-RealTimeCommunication
+       1e9a4978-78c2-441e-8858-75b5d1326bc5                              : Microsoft-Windows-NetworkProvider
+       1ee3abdb-c1fc-4b43-9e56-11064abba866                              : Microsoft-Windows-XAudio2
+       1f678132-5938-4686-9fdc-c8ff68f15c85                              : Schannel
+       1f8ec715-a6df-4043-b5bb-73445f10fa72                              : Microsoft-WindowsPhone-WEHXMLValidator-Provider
+       206f6dea-d3c5-4d10-bc72-989f03c8b84b                              : Microsoft-Windows-Wininit
+       21f1f21b-c2f6-47d0-bafc-5b75a86f5343                              : Microsoft-WindowsPhone-Comms-CommonUtils
+       22a7b160-f6e8-46b9-8e0b-a51989c85c66                              : Microsoft-WindowsPhone-Bluetooth-AG
+       22fb2cd6-0e7b-422b-a0c7-2fad1fd0e716                              : Microsoft-Windows-Kernel-Process
+       24989972-0967-4e21-a926-93854033638e                              : Microsoft-Windows-RRAS
+       25b99a4c-2f80-4fcd-982d-69cd1f77badf                              : Microsoft-Windows-MCCS-NetworkHelper
+       25bd019c-3858-4ea4-a7b3-55b9ec8977e5                              : DwmRedir
+       266cdae9-1ae6-41eb-8872-bebf61829b50                              : Microsoft-WindowsPhone-Comms-MediaDataService
+       27246e9d-b4df-4f20-b969-736fa49ff6ff                              : DFS Filter
+       275316df-d30e-4565-8983-b0064c76ecaf                              : Microsoft-WindowsPhone-Comms-NabSanTrigger
+       28058203-d394-4afc-b2a6-2f9155a3bb95                              : Microsoft-Windows-Proximity-Common
+       287d59b6-79ba-4741-a08b-2fedeede6435                              : Microsoft-Windows-EDP-Audit-TCB
+       28cf047a-2437-4b24-b653-b9446a419a69                              : DShow
+       295f4cfb-fad7-4992-94fa-43239b3185d7                              : Microsoft-WindowsPhone-ProximitySharingUi
+       2a49de31-8a5b-4d3a-a904-7fc7409ae90d                              : Microsoft-Windows-MFH264Enc
+       2aabd03b-f48b-419a-b4ce-7a14403f4a46                              : Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal
+       2c3e6d9f-8298-450f-8e5d-49b724f1216f                              : Microsoft-Windows-TabletPC-Platform-Input-Ninput
+       2c8508d3-72fe-4f2b-8314-9ea7f92856fb                              : Microsoft-WindowsPhone-DevMgmt-NvManager
+       2cd55076-3eca-4cba-b146-b61d3b7694f7                              : Microsoft-WindowsMobile-PushRouter-Provider
+       2cd58181-0bb6-463e-828a-056ff837f966                              : Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+       2d7904d8-5c90-4209-ba6a-4c08f409934c                              : Microsoft-Windows-StartLmhosts
+       2e2bbb16-0c36-4b9b-a567-40924a199fd5                              : Microsoft-Windows-Mobile-Broadband-Experience-Api
+       2e35aaeb-857f-4beb-a418-2e6c0e54d988                              : Microsoft-Windows-DriverFrameworks-UserMode
+       2e65f68e-5bff-4e7b-8a78-a4aad36cb91b                              : Microsoft-WindowsPhone-Comms-RecoverEdb
+       2ed299d2-2f6b-411d-8d15-f4cc6fde0c70                              : Microsoft-Windows-AllJoyn
+       2f94e1cc-a8c5-4fe7-a1c3-53d7bda8e73e                              : Microsoft-WindowsPhone-ConfigManager2
+       2fd73f42-35c6-49fb-b6b2-7dd07899d547                              : Microsoft-WindowsPhone-Comms-Messaging
+       2ff2c0ed-4161-4fa6-a694-099acbacc88f                              : Microsoft-WindowsPhone-Comms-AgeOut
+       2ff3e6b7-cb90-4700-9621-443f389734ed                              : Microsoft-Windows-Kernel-WDI
+       30336ed4-e327-447c-9de0-51b652c86108                              : ShellCore
+       305fc87b-002a-5e26-d297-60223012ca9c                              : Microsoft-Windows-User-Diagnostic
+       306c4e0b-e148-543d-315b-c618eb93157c                              : Microsoft-Windows-Power-Meter-Polling
+       30e1d284-5d88-459c-83fd-6345b39b19ec                              : Microsoft-Windows-USB-USBXHCI
+       3121cf5d-c5e6-4f37-be86-57083590c333                              : SrvControl
+       314b2b0d-81ee-4474-b6e0-c2aaec0ddbde                              : Microsoft-Windows-VWiFi
+       315a8872-923e-4ea2-9889-33cd4754bf64                              : Microsoft-Windows-Immersive-Shell
+       31f60101-3703-48ea-8143-451f8de779d2                              : Microsoft-Windows-DesktopWindowManager-Diag
+       31f60101-3703-48ea-8143-451f8de779d2                              : DwmDiag
+       32254f6c-aa33-46f0-a5e3-1cbcc74bf683                              : Microsoft-Windows-SMBWitnessClient
+       3293f985-41d3-4b6a-b187-2ff4aa91f2fc                              : Multimedia-HEVCDECODER
+       331c3b3a-2005-44c2-ac5e-77220c37d6b4                              : Microsoft-Windows-Kernel-Power
+       33693e1d-246a-471b-83be-3e75f47a832d                              : Microsoft-Windows-BTH-BTHUSB
+       33b41ecf-d1e4-4d00-b6fa-2549397131b3                              : Microsoft-WindowsPhone-Connectivity-VPN-UX
+       36008301-e154-466c-acec-5f4cbd6b4694                              : Microsoft-Windows-MMCSS
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x5       : MediaFoundation
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x1       : MFoundFatal
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x2       : MFoundCritical
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x3       : MFoundWarning
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x4       : MFoundInfo
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x5       : MFoundTrace
+       362007f7-6e50-4044-9082-dfa078c63a73:0x000000000000ffff:0x6       : MFoundVerbose
+       3635d4b6-77e3-4375-8124-d545b7149337                              : Microsoft-Windows-Kernel-WSService-StartServiceTrigger
+       3663a992-84be-40ea-bba9-90c7ed544222                              : Microsoft-Windows-EFS
+       36b10804-e2cd-4205-be1e-4e4fc18af6ad                              : Microsoft-WindowsPhone-Net-CellCore-RilAdaptation
+       36b6f488-aad7-48c2-afe3-d4ec2c8b46fa                              : Microsoft-Windows-Performance-Recorder-Control
+       36da592d-e43a-4e28-af6f-4bc57c5a11e8                              : Microsoft-Windows-USB-UCX
+       3742be72-99a9-42e6-9fd5-c01a330e3625                              : Microsoft-WindowsPhone-PhoneAudio
+       37945dc2-899b-44d1-b79c-dd4a9e57ff98                              : Microsoft-Windows-MPS-CLNT
+       37c5111a-2307-4d02-a63b-e019f19f3252                              : Microsoft-WindowsPhone-Net-Cellcore-SMS
+       37df0687-a79c-4844-bb60-d8f71067b654                              : Microsoft-WindowsPhone-Shell-ReminderEvents
+       39a7b5e0-be85-47fc-b9f5-593a659abac1                              : Mup Drv Instr
+       39e95ad8-e195-4890-b512-6dede1e2c9f1                              : Microsoft-WindowsPhone-Net-CellCore-MSRil
+       3a560832-fabf-41fd-9c00-598939c72f27                              : Microsoft-WindowsPhone-Telemetry
+       3a7141b9-56e9-4854-a68c-f7d24f2b6fc5                              : Microsoft-WindowsPhone-LockdownImplProvider
+       3aa52b8b-6357-4c18-a92e-b53fb177853b                              : Microsoft-Windows-International
+       3aaead8c-c647-49d7-bd04-548449a63644                              : Microsoft-WindowsPhone-Comms-BackgroundTransferServiceClient
+       3b416199-2c3b-4c28-98b8-f7165f5936f0                              : Microsoft-WindowsPhone-DataCollectionService
+       3b9602ff-e09b-4c6c-bc19-1a3dfa8f2250                              : Microsoft-WindowsPhone-OmaDm-Client-Provider
+       3c02a457-0fdf-494d-bbaa-b055f9f57aba                              : Microsoft-WindowsPhone-FileSystemCSP
+       3c42000f-cc27-48c3-a005-48f6e38b131f                              : Microsoft-WindowsPhone-AppPlatProvider
+       3cb2a168-fe19-4a4e-bdad-dcf422f13473                              : Microsoft-Windows-AppID
+       3cb40aaa-1145-4fb8-b27b-7e30f0454316                              : Microsoft-Windows-WWAN-SVC-EVENTS
+       3d42a67d-9ce8-4284-b755-2550672b0ce0                              : Microsoft-Windows-EapMethods-Sim
+       3da494e4-0fe2-415c-b895-fb5265c5c83b                              : Microsoft-WindowsPhone-Enterprise-Diagnostics-Provider
+       3e542731-dbcf-47b3-aed9-c2bee11a5497                              : Microsoft-WindowsPhone-UsbFn
+       3e59a529-b0b3-4a11-8129-9ffe6bb46eb9                              : Microsoft-Windows-Fat-SQM
+       3eb875eb-8f4a-4800-a00b-e484c97d7551                              : Microsoft-Windows-Network-Connection-Broker
+       3f471139-acb7-4a01-b7a7-ff5da4ba2d43                              : Microsoft-Windows-AppXDeployment-Server
+       3ff37a1c-a68d-4d6e-8c9b-f79e8b16c482                              : Microsoft-Windows-Ntfs
+       4025d192-273d-42ec-bdf8-940ec34eedca                              : Microsoft-Windows-MCCS-AccountAccessor
+       40783728-8921-45d0-b231-919037b4b4fd                              : Microsoft-Windows-Security-UserConsentVerifier
+       412bdff2-a8c4-470d-8f33-63fe0d8c20e2                              : Microsoft-Windows-Partition
+       4180c4f7-e238-5519-338f-ec214f0b49aa                              : Microsoft.Windows.ResourceManager
+       42314f6a-4b41-4e24-ad02-3f20eb949a98                              : Microsoft-WindowsPhone-Shell-AppChrome-API
+       4267ec08-7d11-4be3-8882-206e2795f40f                              : Microsoft-WindowsPhone-DevMgmt-ModemConfigCSP
+       429a613a-6ec2-49e2-a5aa-5819caba1524                              : Microsoft-WindowsPhone-Shell-QuickSettingsSvc
+       43d1a55c-76d6-4f7e-995c-64c711e5cafe                              : Microsoft-Windows-WinINet
+       43dad447-735f-4829-a6ff-9829a87419ff                              : Microsoft-Windows-Crypto-DSSEnh
+       43e63da5-41d1-4fbf-aded-1bbed98fdd1d                              : Microsoft-Windows-Subsys-SMSS
+       4432253c-c4b4-472d-b89e-54e60c92662e                              : Microsoft-WindowsPhone-Net-NetCore-TNE
+       45a48590-3de7-415e-a02d-d10e800ab741                              : Microsoft-WindowsPhone-AVReadWrite
+       4637124c-1d40-4b4d-892f-2aaecf24ff06                              : Microsoft-Windows-WinJson
+       467550fb-21b3-489f-93fa-17173d300d8d                              : Microsoft-WindowsPhone-RemoteLockRingCsps-Provider
+       46c78e5c-a213-46a8-8a6b-622f6916201d                              : Microsoft-Windows-OverlayFilter
+       478ea8a8-00be-4ba6-8e75-8b9dc7db9f78                              : Microsoft-Windows-ESE
+       47bc9477-a8ba-452e-b951-4f2ed3593cf9                              : Microsoft-Windows-Serial-ClassExtension
+       47ffa01c-6fc4-4205-bdee-d629dff06db8                              : Microsoft-WindowsPhone-ConfigSPLte
+       486a5c7c-11cc-46c5-9de7-43dfe0bb57c1                              : Microsoft-Windows-DriverFrameworks-KernelMode-Performance
+       48d445a8-2f64-4d49-b093-a5774d8dc531                              : Microsoft-Windows-SrumTelemetry
+       494e7a3d-8db9-4ec4-b43e-2844af6e38d6                              : Microsoft-Windows-exFAT-SQM
+       49c2c27c-fe2d-40bf-8c4e-c3fb518037e7                              : Microsoft-Windows-Search-Core
+       49c2c27c-fe2d-40bf-8c4e-c3fb518037e7                              : SearchIndexer
+       49d5457b-4665-4928-a482-53594c76e74f                              : Microsoft-WindowsPhone-Tools-FeedbackHub
+       4a155f10-25ad-47e6-aba8-2c4f5eee7846                              : Microsoft-Windows-MCCS-ActiveSyncProvider
+       4af188ac-e9c4-4c11-b07b-1fabc07dfeb2                              : Microsoft-Windows-Bluetooth-BthLEPrepairing
+       4b7eac67-fc53-448c-a49d-7cc6db524da7                              : Microsoft-Windows-MediaFoundation-MFReadWrite
+       4bd2826e-54a1-4ba9-bf63-92b73ea1ac4a                              : Microsoft-Windows-Diagnostics-LoggingChannel
+       4d13548f-c7b8-4174-bb7a-d7f64bf22d29                              : Microsoft-WindowsPhone-LocationServiceProvider
+       4de9bc9c-b27a-43c9-8994-0915f1a5e24f                              : Microsoft-Windows-AAD
+       4e733439-0480-4cf6-8d7f-9cda5b9a0290                              : Microsoft-WindowsPhone-Comms-ImportXmlContacts
+       4e7a6fd6-0c60-424c-bac2-5447f3ce5585:0x000000007fffffff:0x4       : Sparkle
+       4eacb4d0-263b-4b93-8cd6-778a278e5642                              : Microsoft-Windows-GenericRoaming
+       4ee76bd8-3cf4-44a0-a0ac-3937643e37a3                              : Microsoft-Windows-CodeIntegrity
+       4f386063-ef17-4629-863c-d71597af743d                              : Microsoft-WindowsPhone-NotificationService
+       4f912829-b932-41e3-87ae-106809893449                              : Microsoft-WindowsPhone-Suggestions-Provider
+       50f93dbe-7d9b-47fd-979c-3a3c64f6d12b                              : MICROSOFT_WINDOWSPHONE_COMMS_SHAREAPP
+       50f99b2d-96d2-421f-be4c-222c4140da9f                              : Microsoft-Windows-EDP-Audit-Regular
+       51f94248-d62c-4c3a-8d0f-fe12462165fc                              : Microsoft-WindowsPhone-Rld
+       52d7e5fb-86d5-4bd1-b03c-f04fbfd649d8                              : PerfX2
+       531a35ab-63ce-4bcf-aa98-f88c7a89e455                              : Microsoft-Windows-XAML
+       5322d61a-9efa-4bc3-a3f9-14be95c144f8                              : Microsoft-Windows-Kernel-Prefetch
+       5322d61a-9efa-4bc3-a3f9-14be95c144f8                              : KernelPrefetch
+       5355a089-84f6-4986-91b6-78905398e058                              : Microsoft-WindowsPhone-StoryboardAllocator
+       5402e5ea-1bdd-4390-82be-e108f1e634f5                              : Microsoft-Windows-WinINet-Config
+       5412704e-b2e1-4624-8ffd-55777b8f7373                              : Microsoft-Windows-Kernel-Pep
+       54164045-7c50-4905-963f-e5bc1eef0cca                              : Microsoft-Windows-CertificateServicesClient-CertEnroll
+       5444519f-2484-45a2-991e-953e4b54c8e0                              : Microsoft-Windows-MPS-SRV
+       54849625-5478-4994-a5ba-3e3b0328c30d                              : Microsoft-Windows-Security-Auditing
+       548c4417-ce45-41ff-99dd-528f01ce0fe1                              : Microsoft-Windows-KernelStreaming
+       553ac94b-a525-444e-a65a-674dd4171e75                              : Microsoft-WindowsPhone-Shell-AppCornerProvider
+       55404e71-4db9-4deb-a5f5-8f86e46dde56                              : Microsoft-Windows-Winsock-NameResolution
+       5576f62e-4142-45a8-9516-262a510c13f0                              : IE6
+       55ab77f6-fa04-43ef-af45-688fbf500482                              : Microsoft-Windows-GPIO-ClassExtension
+       55bacc9f-9ac0-46f5-968a-a5a5dd024f8a                              : Microsoft-Windows-wmvdecod
+       56c71c31-cfbd-4cdd-8559-505e042bbbe1                              : Microsoft-Windows-DeviceAssociationService
+       56dc463b-97e8-4b59-e836-ab7c9bb96301                              : Microsoft-Windows-Diagtrack
+       56f519ab-9df6-4345-8491-a4ba21ac825b                              : Microsoft-Windows-UserDataAccess-UnifiedStore
+       57277741-3638-4a4b-bdba-0ac6e45da56c                              : Microsoft-JScript
+       572af238-4757-43dd-82f6-25045d6d7861                              : DwmTest
+       5786e035-ef2d-4178-84f2-5a6bbedbb947                              : Microsoft-Windows-DirectManipulation
+       578cd504-6de5-4373-bbdb-84074aeea257                              : Microsoft-WindowsPhone-CspWwan
+       58db8e03-0537-45cb-b29b-597f6cbebbfd                              : CD-ROM
+       58db8e03-0537-45cb-b29b-597f6cbebbfe                              : Redbook
+       597a490a-5d95-4471-a839-01d7263f139d                              : Microsoft-WindowsPhone-AssignedAccessCsp-Provider
+       59819d0a-adaf-46b2-8d7c-990bc39c7c15                              : Microsoft-Windows-Battery
+       59e2529e-14e4-4b43-8256-b09a2e41d627                              : Microsoft-WindowsPhone-Speech-ShellUx
+       59e7a714-73a4-4147-b47e-0957048c75c4                              : Microsoft-Windows-XAML-Diagnostics
+       5ac6d0bc-c2d8-4fe8-9d66-ea1c2d978375                              : Microsoft-WindowsPhone-Net-CellCore-FakeWwan
+       5ae63087-6a35-40b0-ae15-cea95a71a8c0                              : Microsoft-Windows-RemoteDesktopServices-vGPU-UModeDriver
+       5b004607-1087-4f16-b10e-979685a8d131                              : Microsoft-Windows-DomainJoinManagerTriggerProvider
+       5b1c79f0-a7b1-4fb1-a3c7-374528a7b075                              : Windows-Media-BackgroundPolicy
+       5b507929-0f8a-4f65-b1aa-7a1ca43b44be                              : Microsoft-WindowsPhone-Tools-CorePlatApis
+       5b5ab841-7d2e-4a95-bb4f-095cdf66d8f0                              : Microsoft-Windows-PackageStateRoaming
+       5bbca4a8-b209-48dc-a8c7-b23d3e5216fb                              : Microsoft-Windows-CAPI2
+       5c103042-7e75-4629-a748-bdfa67607fac                              : Microsoft-WindowsPhone-Power
+       5c8bb950-959e-4309-8908-67961a1205d5                              : Microsoft-IEFRAME
+       5cad3597-5fec-4c62-9ce1-9d7abc723d3a                              : Microsoft-Windows-PushNotifications-Developer
+       5cbdf2a5-7290-4acc-b8a7-9ba285bebc39                              : TaskHost
+       5d674230-ca9f-11da-a94d-0800200c9a66                              : Microsoft-Windows-BitLocker-API
+       5d8087dd-3a9b-4f56-90df-49196cdc4f11                              : Microsoft-Windows-Direct3D12
+       5d86c4e2-8fcd-48d7-a713-9a04609c0189                              : Microsoft-Windows-MCCS-DavSyncProvider
+       5f0e257f-c224-43e5-9555-2adcb8540a58                              : Microsoft-Windows-Immersive-Shell-API
+       5f8e6c40-33c8-11e0-bc8e-0800200c9a66                              : LINQ2SQL
+       602a0873-9bde-48b3-b6b7-277035293458                              : Microsoft-Windows-MCCS-ActiveSyncCsp
+       60786989-4114-4374-a36a-339ddf60482d                              : Microsoft-WindowsPhone-EnterpriseExtCsps-Provider
+       60ff0474-cb0c-4189-aa4f-d8333f4a1ef3                              : Microsoft-WindowsPhone-Net-Cellcore-UtkService
+       618473bc-8eef-4868-adff-a1b640b06411                              : Microsoft-Windows-MCCS-InternetMail
+       62fa713a-6fc1-4c18-b1d2-29ebf8061105                              : Microsoft-WindowsPhone-EntityExtraction-Provider
+       634d6cc4-2e01-470e-8d81-61639c4f78ba                              : Microsoft-WindowsPhone-DemuxMFT0
+       63b530f8-29c9-4880-a5b4-b8179096e7b8                              : Microsoft-Windows-NlaSvc
+       63d1e632-95cc-4443-9312-af927761d52a                              : Microsoft-Windows-HAL
+       642d9ed0-4fc3-4634-aec0-3d1839abf101                              : Kmixer
+       6489b27f-7c43-5886-1d00-0a61bb2a375b                              : Microsoft-Windows-UniversalTelemetryClient
+       648a0644-7d62-4fd3-8841-440064762f95                              : Microsoft-Windows-BackgroundTransfer-ContentPrefetcher
+       64b5ebc3-8d00-43cc-a727-47b0dca85c17                              : Microsoft-WindowsPhone-StorageHelper
+       64ef2b1c-4ae1-4e64-8599-1636e441ec88                              : Microsoft-Windows-Devices-Background
+       65024f54-5cf1-4849-a654-203ebfc3b052                              : Microsoft-WindowsPhone-Nocenter
+       651df93b-5053-4d1e-94c5-f6e6d25908d0                              : Microsoft-Windows-BitLocker-Driver
+       65423fb8-9ae9-409e-95e6-de74ff95b2bc                              : Microsoft-WindowsPhone-DataPlanUsageServiceProvider
+       6545939f-3398-411a-88b7-6a8914b8cec7                              : Microsoft-Windows-ServiceTriggerPerfEventProvider
+       6560d3a9-20f6-4e26-b92f-e524fe3fa123                              : Microsoft-WindowsPhone-Comms-PhoneVoicemail
+       65cd4c8a-0848-4583-92a0-31c0fbaf00c0:0x000000000000ffff:0x5       : DX
+       66c07ecd-6667-43fc-93f8-05cf07f446ec                              : Microsoft-Windows-WinNat
+       67d07935-283a-4791-8f8d-fa9117f3e6f2                              : Microsoft-Windows-Wcmsvc
+       681e3481-7510-4053-8c87-a6305eafc4fa                              : Microsoft-WindowsPhone-Connectivity-WwanExt
+       6897e534-6434-4e55-b3e5-83fdba7ed4cf                              : Microsoft-Windowsphone-Comms-AuthHost
+       6a1f212d-9fc8-4878-bcf4-4be623b84525                              : Windows-Media-Playback
+       6a31956a-501d-4bff-86c4-73013f2ab0a5                              : Microsoft-WindowsPhone-Shell-Chrome-API
+       6a7e44c5-af45-4054-bb38-966632c24e5d                              : Microsoft-WindowsPhone-Comms-CommsMessageService
+       6a9b7790-23e6-4603-aa46-1c5cb93d15a7                              : Microsoft-WindowsPhone-Shell-SendToMediaLib
+       6aca4038-88d6-4370-b94b-770c5511aeb9                              : Microsoft-WindowsMobile-SyncMLAuthProv-Provider
+       6ad52b32-d609-4be9-ae07-ce8dae937e39                              : Microsoft-Windows-RPC
+       6addabf4-8c54-4eab-bf4f-fbef61b62eb0                              : Microsoft-Windows-AIT
+       6c52775a-44ce-44d3-b266-7400df95fdc4                              : Microsoft-WindowsMobile-AppPlatPerfProvider
+       6cffe241-8005-4e27-845e-4f96a7807403                              : Microsoft-WindowsPhone-WWA-Extension
+       6d8a3a60-40af-445a-98ca-99359e500146                              : Microsoft-Windows-ApplicationExperience-Cache
+       6eb8db94-fe96-443f-a366-5fe0cee7fb1c                              : Microsoft-Windows-EapHost
+       6ed11b00-c1b5-48cb-aecc-ff72ebefbae8                              : Microsoft-Windows-Wallet
+       6f34c0f0-d9f6-40d3-a94c-419b50fd8407                              : Microsoft-WindowsPhone-PhoneAudioSes
+       70b36a56-9bfd-40ab-9282-ccf9e295d8cf                              : Microsoft-WindowsPhone-MFPal
+       70eb4f03-c1de-4f73-a051-33d13d5413bd                              : Microsoft-Windows-Kernel-Registry
+       70f8364f-df64-40f5-ac89-d8ec50eb12db                              : Microsoft-WindowsPhone-SEManagementProvider
+       712880e9-7813-41a3-8e4c-e4e0c4f6580a                              : Microsoft-Windows-WiFiDisplay
+       712909c0-6e57-4121-b639-87c8bf9004e0                              : D2D
+       71e0ac1e-cfa2-447c-91c7-4f307030f2fc                              : Microsoft-WindowsPhone-AudioSrvPolicyManager
+       72561cf0-c85c-4f78-9e8d-cba9093df62d                              : Microsoft-Windows-OneBackup
+       7263516b-6eb0-477b-b64f-17b91d29f239                              : Microsoft-WindowsPhone-BatterySense
+       72cd9ff7-4af8-4b89-aede-5f26fda13567                              : Microsoft-Windows-SPB-ClassExtension
+       73aa0094-facb-4aeb-bd1d-a7b98dd5c799                              : Microsoft-Windows-LimitsManagement
+       7426a56b-e2d5-4b30-bdef-b31815c1a74a                              : Microsoft-Windows-USB-USBHUB
+       74816964-5ccb-4b43-afe4-ae3b65886648                              : Microsoft-WindowsPhone-Picker-Contract
+       74e106b7-00be-4a55-b707-7ab58d6a9e90                              : Microsoft-WindowsPhone-Shell-OOBE
+       75ebc33e-d017-4d0f-93ab-0b4f86579164                              : Microsoft-Windows-SetupCl
+       770ca594-b467-4811-b355-28f5e5706987                              : Microsoft-Windows-ApplicationResourceManagementSystem
+       77549803-7bb1-418b-a98e-f2e22f35a873                              : Microsoft-Windows-WinMDE
+       776f12a5-9009-4d03-8ec7-3d5d7ee575b6                              : Microsoft-WindowsPhone-EPD
+       77a7579d-47ee-42e7-be41-c67778a8bb7f                              : Microsoft-WindowsPhone-Shell-Settings-Plugins
+       77e27ce0-f816-4c53-b601-2c042a883a78                              : Microsoft-Windows-Usbstor
+       7839bb2a-2ea3-4eca-a00f-b558ba678bec                              : Microsoft-Windows-WWAN-MM-EVENTS
+       78ed7f6b-39ba-4418-b10e-c8ea6414cce9                              : Microsoft-WindowsPhone-Net-Cellcore-UtkUx
+       797fabac-7b58-4796-b924-d51178a59ce4                              : IE7
+       79ecb2ae-3f73-4d6e-8717-cac7804a1a61                              : Microsoft-WindowsPhone-NodeCacheCsp-Provide
+       7aa78c85-6c2e-4d72-b307-e8ae06953b75                              : Microsoft-WindowsPhone-MtfClient
+       7ad7f65d-efd9-45ab-8c3d-f2bf596204a9                              : Microsoft-WindowsPhone-ERMProvider
+       7af3c030-a51d-4578-a09f-0aace0d46476                              : Microsoft-WindowsPhone-RspCellular
+       7b404aa4-50eb-4446-ab8f-22ccf285c12a                              : Microsoft-WindowsPhone-Comms-CommsDirectAccessClient
+       7b563579-53c8-44e7-8236-0f87b9fe6594                              : Microsoft-Windows-Kernel-WHEA
+       7b6bc78c-898b-4170-bbf8-1a469ea43fc5                              : Microsoft-Windows-HttpEvent
+       7b702970-90bc-4584-8b20-c0799086ee5a                              : Microsoft-Windows-NetworkSecurity
+       7c094b8c-10b3-4384-8e94-01a79e03bbc8                              : Microsoft-WindowsPhone-Family-DrivingMode-Settings
+       7c439735-58ab-4a5d-a7f6-ce295e095c66                              : Microsoft-WindowsPhone-EventSnd
+       7cd5c636-aa0a-486d-a630-8a63a7e8b764                              : Microsoft-WindowsPhone-CaptureService
+       7d29d58a-931a-40ac-8743-48c733045548                              : Microsoft-Windows-SoftwareRestrictionPolicies
+       7d30fe49-d67f-42d7-a360-9a0639ec5719                              : Microsoft-Windows-OneCore-MinUser
+       7d3fbdde-e6cc-4b91-a483-5a70aa31f2ec                              : Microsoft-Windows-ConnMgrLegacyClient
+       7d44233d-3055-4b9c-ba64-0d47ca40a232                              : Microsoft-Windows-WinHttp
+       7d5387b0-cbe0-11da-a94d-0800200c9a66                              : Microsoft-Windows-TPM-WMI
+       7d85c2d0-6490-4bb4-bac1-247d0bd06f10                              : Microsoft-WindowsPhone-OMADMAPI-Provider
+       7d8e1f7a-6922-4ea4-8fdb-27d29cedd734                              : Microsoft-WindowsPhone-Connectivity-UX
+       7d99f6a4-1bec-4c09-9703-3aaa8148347f                              : DwmRedirWin8
+       7dd42a49-5329-4832-8dfd-43d979153a88                              : Microsoft-Windows-Kernel-Network
+       7e7d3382-023c-43cb-95d2-6f0ca6d70381                              : Microsoft-Windows-D3D10Level9
+       7e7d3382-023c-43cb-95d2-6f0ca6d70381                              : D3D10Level9
+       7f2bd991-ae93-454a-b219-0bc23f02262a                              : Microsoft-Windows-MP4SDECD
+       7f8e35ca-68e8-41b9-86fe-d6adc5b327e7                              : Microsoft-IE-JSDumpHeap
+       7fcb9791-f481-46d1-846e-2eb6f003c4d3                              : Microsoft-Windows-MCCS-SyncController
+       802ec45a-1e99-4b83-9920-87c98277ba9d                              : Microsoft-Windows-DxgKrnl
+       802ec45a-1e99-4b83-9920-87c98277ba9d                              : Dxgkrnl
+       8046d656-73f2-4332-adc1-90b4142bdbee                              : Microsoft-WindowsPhone-ContentShareSvc
+       8127f6d4-59f9-4abf-8952-3e3a02073d5f                              : Microsoft-Windows-AppXDeployment
+       8135a447-8c2f-400d-b40a-a9b9cb6e15d1                              : Microsoft-WindowsPhone-ZMediaQueue
+       814182fe-58f7-11e1-853c-78e7d1ca7337                              : Microsoft-Windows-WiFiHotspotService
+       814182ff-58f7-11e1-853c-78e7d1ca7337                              : Microsoft-WindowsPhone-WiFiHotspotHost
+       820a42d8-38c4-465d-b64e-d7d56ea1d612                              : Microsoft-Windows-UIAutomationCore
+       82c8ad90-5f3c-11be-bd9a-85bb5f50dfa4                              : Microsoft-WindowsPhone-ExecManLogPublisher
+       83428fcd-e048-40e0-9043-0ba61a559496                              : Microsoft-WindowsPhone-DevMgmt-CellConfigCsp
+       835b79e2-e76a-44c4-9885-26ad122d3b4d                              : Microsoft-Windows-Narrator
+       83a9277a-d2fc-4b34-bf81-8ceb4407824f                              : Microsoft-Windows-UserDataAccess-CEMAPI
+       83d6e83b-900b-48a3-9835-57656b6f6474                              : Microsoft-Windows-SettingSync
+       83e5483b-c0d4-4033-994d-725de41cac65                              : Microsoft-WindowsPhone-ConfigManager2RecoveryHostSvc
+       83faaa86-63c8-4dd8-a2da-fbadddfc0655                              : Microsoft-Windows-RTWorkQueue-Extended
+       84051b98-f508-4e54-82fa-8865c697c3b1                              : Microsoft-Windows-PnPMgrTriggerProvider
+       84958368-7da7-49a0-b33d-07fabb879626                              : Microsoft-Windows-OLE-Perf
+       851086f0-254e-45f3-9ed9-8a249cb0632d                              : Microsoft-WindowsPhone-Family-DrivingMode-Manager
+       85a62a0d-7e17-485f-9d4f-749a287193a6                              : Microsoft-Windows-Audit-CVE
+       85c070e6-f9ae-481f-aacb-bc550bfd35a1                              : Microsoft-Windows-NFC-ClassExtension
+       85fffba1-cf12-402c-b9b3-29a3217bb007                              : Microsoft-WindowsMobile-Compositor
+       864719c4-fa0f-4919-9c89-2477394bef95                              : Microsoft-WindowsPhone-Comms-PlatformAbstractionLayer
+       872c8950-0def-4d5b-83f6-57dd027f88ce                              : Microsoft-WindowsMobile-Splash
+       88cd9180-4491-4640-b571-e3bee2527943                              : Microsoft-Windows-PushNotifications-Platform
+       8904379f-fba2-4f71-b3e1-4154ad0824f4                              : Microsoft-WindowsPhone-Comms-ContactsOM
+       89203471-d554-47d4-bde4-7552ec219999                              : Microsoft-Windows-KdsSvc
+       8939299f-2315-4c5c-9b91-abb86aa0627d                              : Microsoft-Windows-KnownFolders
+       89592015-d996-4636-8f61-066b5d4dd739                              : Microsoft-Windows-StateRepository
+       89b1e9f0-5aff-44a6-9b44-0a07a7ce5845                              : Microsoft-Windows-User Profiles Service
+       8a1f9517-3a8c-4a9e-a018-4f17a200f277                              : Microsoft-Windows-BTH-BTHPORT
+       8b21f870-7815-4cf6-8491-6cc879d4cd01                              : Microsoft-WindowsPhone-CmCspVpnPlus
+       8c416c79-d49b-4f01-a467-e56d3aa8234c                              : Microsoft-Windows-Win32k
+       8c416c79-d49b-4f01-a467-e56d3aa8234c                              : DwmWin32kWin8
+       8c9dd1ad-e6e5-4b07-b455-684a9d879900:0x00000000ffffffff:0xffffffff: DwmSchedulerWin7
+       8cc44e31-7f28-4f45-9938-4810ff517464:0x00000000ffffffff:0xffffffff: DwmScheduler
+       8e6a5303-a4ce-498f-afdb-e03a8a82b077                              : Microsoft-Windows-Ntfs-UBPM
+       8eb79eb6-8701-4d39-9196-9efc81a31489                              : Microsoft-WindowsPhone-Speech
+       8f0db3a8-299b-4d64-a4ed-907b409d4584                              : Microsoft-Windows-Runtime-Windows-Media
+       8f2048e0-f260-4f57-a8d1-932376291682                              : Microsoft-Windows-MediaEngine
+       8fc7e81a-f733-42e0-9708-cfdae07ed969                              : MRxSmb
+       8fe336f2-9f83-4371-9b93-66f3e323de39                              : Microsoft-WindowsMobile-WAPAUTHPROV-Provider
+       914ed502-b70d-4add-b758-95692854f8a3                              : Microsoft-Windows-QoS-Pacer
+       91cc1150-71aa-47e2-ae18-c96e61736b6f                              : Microsoft-Windows-Schannel-Events
+       92061e3d-21cd-45bc-a3df-0e8ae5e8580a                              : Microsoft-Windows-RadioManager
+       922cdcf3-6123-42da-a877-1a24f23e39c5                              : Microsoft-WindowsPhone-CoreUI
+       92aab24d-d9a9-4a60-9f94-201fed3e3e88                              : Microsoft-Windows-EndpointTriggerProvider
+       945a8954-c147-4acd-923f-40c45405a658                              : Microsoft-Windows-WindowsUpdateClient
+       9485fa1e-23cd-49a1-84e3-11d8bc550cb7                              : Microsoft-Windows-propsys
+       94a984ef-f525-4bf1-be3c-ef374056a592                              : Spooler
+       951b41ea-c830-44dc-a671-e2c9958809b8                              : Microsoft-Windows-Kernel-Interrupt-Steering
+       9580d7dd-0379-4658-9870-d5be7d52d6de                              : Microsoft-Windows-WLAN-AutoConfig
+       9640427c-7d03-4331-b8ee-fb77625bf381                              : Microsoft-Windows-MSFTEDIT
+       966cd1c0-3f69-42ad-9877-517dce8462b4                              : Microsoft-Windows-IndirectDisplays-ClassExtension-Events
+       96ac7637-5950-4a30-b8f7-e07e8e5734c1                              : Microsoft-Windows-Kernel-BootDiagnostics
+       96b29c60-19d7-402e-80ec-1d833abb2b8c                              : Microsoft-WindowsPhone-Comms-RcsPresenceAdapter
+       982824e5-e446-46ae-bc74-836401ffb7b6                              : Microsoft-Windows-Media-Streaming
+       988c59c5-0a1c-45b6-a555-0c62276e327d                              : Microsoft-Windows-SMBClient
+       98bf1cd3-583e-4926-95ee-a61bf3f46470                              : Microsoft-Windows-CertificationAuthorityClient-CertCli
+       98e0765d-8c42-44a3-a57b-760d7f93225a                              : Microsoft-Windows-AppHost
+       98e6cfcb-ee0a-41e0-a57b-622d4e1b30b1                              : Microsoft-Windows-Security-Kerberos
+       99806515-9f51-4c2f-b918-1eae407aa8cb                              : Microsoft-Windows-Superfetch
+       99c66ba7-5a97-40d5-aa01-8a07fb3db292                              : Microsoft-Windows-UserDataAccess-PimIndexMaintenance
+       9a0f6211-9ef7-4364-8d9c-88c9a7a659cc                              : Microsoft-WindowsPhone-JpegAdapterMFT
+       9a7906a3-02eb-40ea-b625-aa8d5019f50f                              : Microsoft-WindowsPhone-DevMgmt-QcModemConfiguration
+       9b307223-4e4d-4bf5-9be8-995cd8e7420b                              : Microsoft-Windows-NetworkManagerTriggerProvider
+       9b7e4c0f-342c-4106-a19f-4f2704f689f0                              : D3D10
+       9b7e4c8f-342c-4106-a19f-4f2704f689f0                              : D3D10_1
+       9b84ab3f-5b1a-4395-8636-3521d7e472a4                              : Microsoft-WindowsPhone-BMR
+       9bb9b4d9-3db8-4246-b479-97a3d391deda                              : Microsoft-Windows-MFH265Enc
+       9c205a39-1250-487d-abd7-e831c6290539                              : Microsoft-Windows-Kernel-PnP
+       9c205a39-1250-487d-abd7-e831c6290539                              : KernelPnP
+       9c2a37f3-e5fd-5cae-bcd1-43dafeee1ff0                              : Microsoft-Windows-Store
+       9c86e843-828d-4c11-8c46-f1f0e25f1e5f                              : Microsoft-WindowsPhone-PowerNotifications
+       9e03f75a-bcbe-428a-8f3c-d46f2a444935                              : Microsoft-Windows-IdleTriggerProvider
+       9e3b3947-ca5d-4614-91a2-7b624e0e7244                              : Microsoft-IE
+       9e3b3947-ca5d-4614-91a2-7b624e0e7244                              : MsHtml
+       9e9bba3c-2e38-40cb-99f4-9e8281425164                              : Microsoft-Windows-Dwm-Core
+       9e9bba3c-2e38-40cb-99f4-9e8281425164:0x00000000ffffffff:0xffffffff: DwmSchedulerWin8
+       9f79511c-06ad-4812-b18b-90006088d2ca                              : Microsoft-WindowsPhone-Shell-Chrome
+       9f7b5df4-b902-48bc-bc94-95068c6c7d26                              : Microsoft-Windows-Volume
+       9fa5dd5d-999e-466a-8ca9-7b3a66f8882f                              : Microsoft-Windows-DriverFrameworks-UserMode-Performance
+       a0af438f-4431-41cb-a675-a265050ee947                              : Microsoft-Windows-Kernel-LicensingSqm
+       a0b7550f-4e9a-4f03-ad41-b8042d06a2f7                              : Microsoft-WindowsPhone-CoreUIComponents
+       a0b8ac98-5e7e-40bd-be8e-96cc6061e0b5                              : Microsoft-WindowsMobile-PackManLogPublisher
+       a0e3d8ea-c34f-4419-a1db-90435b8b21d0                              : Microsoft-Windows-Biometrics
+       a103cabd-8242-4a93-8df5-1cdf3b3f26a6                              : Microsoft-Windows-Kernel-IoTrace
+       a111f1c2-5923-47c0-9a68-d0bafb577901                              : Microsoft-Windows-Network-Setup
+       a13abc63-c22d-49e7-8d35-7ebaa2309e73                              : Microsoft-WindowsPhone-MFVideoSinkOTA
+       a319d300-015c-48be-acdb-47746e154751                              : Microsoft-Windows-FileInfoMinifilter
+       a3d95055-34cc-4e4a-b99f-ec88f5370495                              : Microsoft-Windows-CoreWindow
+       a4112d1a-6dfa-476e-bb75-e350d24934e1                              : Microsoft-Windows-MediaFoundation-MSVProc
+       a42c77db-874f-422e-9b44-6d89fe2bd3e5:0x0000000000000002:0x4       : AvalonPerf
+       a42c77db-874f-422e-9b44-6d89fe2bd3e5:0x000000007fffffff:0x5       : AvalonAll
+       a5347b8a-3c9c-4f07-9440-1e0c5cfcc9d0                              : Microsoft-WindowsPhone-Comms-PhoneShellUI
+       a5a483a3-76df-445b-a371-24265926199b                              : Microsoft-Skype-Cafe-Threshold-Skype
+       a5ca1c0c-527b-419d-8404-7014fe0025d0                              : Microsoft-WindowsPhone-Shell-Settings
+       a5efb9da-3966-44ce-847b-be73b3c2d0a1                              : Windows-Media-TransportControls
+       a66dff35-f896-4c0c-8de1-436466367f11                              : Microsoft-WindowsPhone-RmNetProvider
+       a67075c2-3e39-4109-b6cd-6d750058a732                              : Microsoft-Windows-IPNAT
+       a68ca8b7-004f-d7b6-a698-07e2de0f1f5d                              : Microsoft-Windows-Kernel-General
+       a6a00efd-21f2-4a99-807e-9b3bf1d90285:0x000000000000ffff:0x1       : AudEngCritical
+       a6a00efd-21f2-4a99-807e-9b3bf1d90285:0x000000000000ffff:0x2       : AudEngEvent
+       a6a00efd-21f2-4a99-807e-9b3bf1d90285:0x000000000000ffff:0x3       : AudEngVerbose
+       a6ad76e3-867a-4635-91b3-4904ba6374d7                              : Microsoft-Windows-Kernel-StoreMgr
+       a6bb9ced-e292-473c-91dd-49f2a04a4abd                              : AntiPhishing
+       a6bf0deb-3659-40ad-9f81-e25af62ce3c7                              : Microsoft-Windows-PDC
+       a6f32731-9a38-4159-a220-3d9b7fc5fe5d                              : Microsoft-Windows-SharedAccess_NAT
+       a70ff94f-570b-4979-ba5c-e59c9feab61b                              : Microsoft-Windows-WinINet-Capture
+       a7364e1a-894f-4b3d-a930-2ed9c8c4c811                              : Microsoft-Windows-MF
+       a856304b-d089-4617-98e7-20b37c7c9635                              : FileGrabber
+       a86f8471-c31d-4fbc-a035-665d06047b03                              : Microsoft-Windows-WinRT-Error
+       a88d74df-2241-49fc-9d3d-2881fdad14bb                              : Microsoft-WindowsPhone-IE-WebBrowserControl-Provider
+       a8a1f2f6-a13a-45e9-b1fe-3419569e5ef2                              : Microsoft-Windows-MUI
+       a97524f6-064c-4c4e-b74b-1acc87c3700d                              : Microsoft-Windows-SQM-Events
+       a9b5617d-6c0e-4adc-b076-f3b0cdd4d0ed                              : Microsoft-WindowsPhone-Bluetooth-CM
+       a9c11050-9e93-4fa4-8fe0-7c4750a345b2                              : Microsoft-Windows-CoreSystem-SmsRouter
+       aa087e0e-0b35-4e28-8f3a-440c3f51eef1                              : Microsoft-WindowsPhone-Silverlight
+       aa1f73e8-15fd-45d2-abfd-e7f64f78eb11                              : Microsoft-Windows-Kernel-PowerTrigger
+       aabf8b86-7936-4fa2-acb0-63127f879dbf                              : Microsoft-Windows-Diagnosis-PCW
+       ab0d8ef9-866d-4d39-b83f-453f3b8f6325                              : Microsoft-Windows-OneX
+       abf1f586-2e50-4ba8-928d-49044e6f0db7                              : Microsoft-Windows-Kernel-IO
+       ac239183-f48e-47b1-b70c-d028d24c2fb4                              : Microsoft-WindowsPhone-PlayAudio
+       ac43300d-5fcc-4800-8e99-1bd3f85f0320                              : Microsoft-Windows-NTLM
+       ac52ad17-cc01-4f85-8df5-4dce4333c99b                              : Microsoft-Windows-USB-USBHUB3
+       ac5df123-b13f-4d15-bb36-d8eb9cb9e90f                              : Microsoft-WindowsPhone-Comms-CommsDirectAccessServer
+       ac77b28b-9e55-4c84-a7fe-42b18d08e240                              : Microsoft-WindowsPhone-Connectivity-UX
+       acd88d21-e1d4-4483-b974-0c1da66cc529                              : Microsoft-Windows-MapControls
+       ae2170bd-acc0-48b7-905a-6f77c9e98ac1                              : Microsoft-WindowsMobile-WSP-Provider
+       ae4bd3be-f36f-45b6-8d21-bdd6fb832853                              : Microsoft-Windows-Audio
+       ae5cf422-786a-476a-ac96-753b05877c99                              : Microsoft-Windows-MSMPEG2VDEC
+       aea0cb35-420e-43c4-8967-e53514ee1586                              : Microsoft-WindowsPhone-AppModelCore
+       af0da4b6-c71c-4c35-a9fd-55f0f773cada                              : Microsoft-WindowsPhone-ConfigManager2RecoveryService
+       b059b83f-d946-4b13-87ca-4292839dc2f2                              : Microsoft-Windows-User-Loader
+       b1b4d6d9-2e22-440a-9f8d-9b6def3dd00d                              : Microsoft-WindowsPhone-ConnMgrLogPublisher
+       b20e65ac-c905-4014-8f78-1b6a508142eb                              : Microsoft-Windows-MediaFoundation-Performance-Core
+       b2a40f1f-a05a-4dfd-886a-4c4f18c4334c                              : Microsoft-PerfTrack-IEFRAME
+       b2fcd41f-9a40-4150-8c92-b224b7d8c8aa                              : Microsoft-Windows-SpellChecker
+       b34b0123-eb9d-411a-8f1e-9c5ef8577109                              : Microsoft-WindowsPhone-MFVideoSink
+       b3a0c2c8-83bb-4ddf-9f8d-4b22d3c38ad7                              : Microsoft-Windows-Kernel-PnP-Rundown
+       b3eee223-d0a9-40cd-adfc-50f1888138ab                              : Microsoft-Windows-WWAN-NDISUIO-EVENTS
+       b5325cd6-438e-4ec1-aa46-14f46f2570e4                              : Microsoft-Windows-Ras-AgileVpn
+       b55b0de9-e22b-4201-acf8-974585be7935                              : Microsoft-WindowsPhone-Shell-PacManProxy
+       b6471c6b-b71b-4af9-86ca-5edc62618902                              : Microsoft-WindowsPhone-Net-CellCore-FakeModemAsync
+       b675ec37-bdb6-4648-bc92-f3fdc74d3ca2                              : Microsoft-Windows-Kernel-EventTracing
+       b679d3b8-35a2-437f-9172-bdf0978d7de1                              : Microsoft-WindowsPhone-StoryboardEngine
+       b6bfcc79-a3af-4089-8d4d-0eecb1b80779                              : Microsoft-Windows-SystemEventsBroker
+       b6cc0d55-9ecc-49a8-b929-2b9022426f2a                              : Microsoft-Client-Licensing-Platform
+       b8197c10-845f-40ca-82ab-9341e98cfc2b                              : Microsoft-Windows-MediaFoundation-MFCaptureEngine
+       b840958e-7645-4281-aa14-611b3598640f                              : QCOM DX9 UMD
+       b865b57b-bdda-4e1d-a2c8-adfa69fe6ab9                              : ztrace_maps
+       b8d6861b-d20f-4eec-bbae-87e0dd80602b                              : Microsoft-Windows-COM-Perf
+       b942d6e2-47a0-4489-8b4c-1e4085708390                              : Microsoft-WindowsPhone-Bluetooth-MAP
+       b97561fe-b27a-4c48-aa3e-7d3addc105b1                              : Microsoft-Windows-Data-Pdf
+       b9b2de3c-3fbd-4f42-8ff7-33c3bad35fd4                              : Microsoft-Windows-UserDataAccess-UserDataApis
+       b9d5b35d-bbb8-4625-9450-f71a5d414f4f                              : Microsoft-Windows-Networking-BackgroundTransfer-Events
+       ba2ffb5c-e20a-4fb9-91b4-45f61b4b66a0                              : Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory
+       ba723d81-0d0c-4f1e-80c8-54740f508ddf                              : Microsoft-Windows-AppxPackagingOM
+       baf69c75-bcc8-4d07-af28-b6519ff3f1e4                              : Microsoft-WindowsPhone-Comms-ContactsTokenService
+       bb311100-2d9f-4cd3-b2d6-f4ea3839c548                              : Microsoft-Windows-PlayToManager
+       bb5f7e03-edbc-4434-a33a-ee0b213f06db                              : Microsoft-WindowsPhone-HandsFreeActivation
+       bba3add2-c229-4cdb-ae2b-57eb6966b0c4                              : Kerberos
+       bbea663c-5f9b-4b9b-80f7-c412c14c2d59                              : Microsoft-WindowsPhone-MediaService
+       bc0669e1-a10d-4a78-834e-1ca3c806c93b                              : Microsoft-Windows-CertificateServicesClient-Lifecycle-System
+       bc3d30cd-3838-4ceb-9a72-15fc80f98e0c                              : Microsoft-WindowsPhone-VisualElementFactory
+       bc97b970-d001-482f-8745-b8d7d5759f99                              : Microsoft-Windows-MediaFoundation-Platform
+       bcebf131-e4e6-4ba4-82fa-9c406002f769:0x000000007fffffff:0x3       : Shell
+       bcebf131-e4e6-4ba4-82fa-9c406002f769:0x000000007fffffff:0x4       : ShellVerbose
+       bd12f3b8-fc40-4a61-a307-b7a013a069c1                              : Microsoft-Windows-Servicing
+       bd1a62ed-263b-4a66-a574-1f43c79c64be                              : Microsoft-Windows-Telephony-VoipRT
+       bd8fea17-5549-4b49-aa03-1981d16396a9                              : Microsoft-Windows-Directory-Services-SAM-Utility
+       be3a31ea-aa6c-4196-9dcc-9ca13a49e09f                              : Microsoft-Windows-Photo-Image-Codec
+       be48c7ab-db3b-43b9-a338-10e3c66ace1a                              : Microsoft-WindowsPhone-SecurityModelProvider
+       be967569-e3c8-425b-ad0e-4f2c790b1848                              : Microsoft-Windows-Graphics-Printing3D
+       bea18b89-126f-4155-9ee4-d36038b02680                              : Microsoft-Windows-CertificateServicesClient-Lifecycle-User
+       bec5e7a4-0527-42e8-8174-fabde799ad7f                              : Microsoft-Windows-MCCS-InternetMailCsp
+       becf83fd-d220-4b19-b7c1-c9127307f6b1                              : Microsoft-WindowsPhone-Shell-StartMenu
+       bef2aa8e-81cd-11e2-a7bb-5eac6188709b                              : Microsoft-Windows-Kernel-LiveDump
+       bf1db390-3e67-4d4d-a287-8958044a3db4                              : Microsoft-Windows-UI-Input-Inking
+       bf406804-6afa-46e7-8a48-6c357e1d6d61                              : Microsoft-Windows-COMRuntime
+       bf460fc6-45c5-4119-add3-e361a6e7d5ac                              : Microsoft-Windows-MCCS-EngineShared
+       bf47012d-4413-4285-acd3-278df0342947                              : Microsoft-Windows-StackDB
+       bff15e13-81bf-45ee-8b16-7cfead00da86                              : Microsoft-Windows-AppModel-State
+       c0407ec5-4d47-4297-aa61-2cfdd4975add                              : Microsoft-WindowsPhone-Tools-PerfX
+       c100becc-d33a-4a4b-bf23-bbef4663d017                              : Microsoft-Windows-WCN-Config-Registrar-Secure
+       c100becf-d33a-4a4b-bf23-bbef4663d017                              : Microsoft-Windows-WCN-Config-Registrar
+       c2e44961-2bcf-44b3-b0cb-c4e53f356583:0x000000000000ffff:0x5       : DcePerf
+       c42a2738-2333-40a5-a32f-6acc36449dcc                              : Microsoft-Windows-HttpLog
+       c44219d0-f344-11df-a5e2-b307dfd72085                              : Microsoft-Windows-DirectComposition
+       c4636a1e-7986-4646-bf10-7bc3b4a76e8e                              : Microsoft-Windows-StorPort
+       c514638f-7723-485b-bcfc-96565d735d4a                              : Microsoft-Windows-Kernel-Acpi
+       c5f76a67-74e9-4aaf-8291-bc39d906a784                              : Microsoft-WindowsPhone-ImgUpdLogger
+       c6627799-17db-4372-8b4a-692501284b35                              : Microsoft-WindowsPhone-Shell-BingWallpaper
+       c688a0a1-562d-4a1a-979b-cdf11df977f1                              : Microsoft-WindowsPhone-Persona
+       c72d385e-3a63-4e6d-8393-9399a36bd6e4                              : Microsoft-WindowsPhone-PhoneAudioSrv
+       c7bde69a-e1e0-4177-b6ef-283ad1525271                              : Microsoft-Windows-Kernel-Disk
+       c7e089ac-ba2a-11e0-9af7-68384824019b                              : Microsoft-Windows-Crypto-BCrypt
+       c80a2212-526f-4b48-b6b4-6dd27b01f322                              : Microsoft-WindowsPhone-Comms-BackgroundTransferService
+       c861d0e2-a2c1-4d36-9f9c-970bab943a12                              : ThreadPool
+       c88a4ef5-d048-4013-9408-e04b7db2814a                              : Microsoft-Windows-USB-USBPORT
+       c8d49b04-3234-42ae-98f0-f13f336a2f85                              : Microsoft-Windows-Narrator-Inproc
+       c8d71a73-83cb-4865-b152-5be67c655a5c                              : Microsoft-WindowsPhone-Net-Cellcore-APMux
+       c8dbf506-e3d3-4822-930d-84c557eb6247                              : Microsoft-Windows-SruMon
+       c92cf544-91b3-4dc0-8e11-c580339a0bf8                              : NT LAN Manager
+       ca11c036-0102-4a2d-a6ad-f03cfed5d3c9                              : Microsoft-Windows-DXGI
+       ca11c036-0102-4a2d-a6ad-f03cfed5d3c9                              : DXGI
+       ca48be7d-ce1c-4ca9-a00d-db5359e3a9a1                              : Microsoft-WindowsPhone-AudioTuner
+       cba16cf2-2fab-49f8-89ae-894e718649e7                              : Microsoft-Windows-Processor-Aggregator
+       cba5f63c-e2cf-4b36-8305-bde1311924fc                              : Microsoft-Windows-Websocket-Protocol-Component
+       cbbbc22d-2efe-4eae-9af5-f9c6cf113670                              : Microsoft-WindowsPhone-Comms-PhoneService
+       cbd1c3e5-e1f5-4999-b122-676776f99d95                              : Microsoft-WindowsPhone-Bluetooth-OBEXServer
+       cbda4dbf-8d5d-4f69-9578-be14aa540d22                              : Microsoft-Windows-AppLocker
+       cc12990b-86ee-44c3-bf21-ce4f6686944a                              : Microsoft-WindowsPhone-Tools-PerfX-Trigger
+       cc311f1f-623c-4ca4-ba44-a458016555e8                              : Microsoft-Windows-Tethering-Manager
+       cc85922f-db41-11d2-9244-006008269001                              : Local Security Authority
+       ccaf25e4-ba71-4fe5-bb4a-3440d9abeac4                              : Microsoft-WindowsPhone-BackgroundAudio
+       cd698436-a3e3-4607-bb60-0bac4d765b59                              : XNA
+       cda49807-3cb8-4db0-91e2-4bfcb9b75ad9                              :  Microsoft-WindowsPhone-GwpCPCProvider
+       cdb601a0-c249-4356-aeb3-bd5532d02ba3                              : Microsoft-WindowsPhone-SimPhonebookOM-Provider
+       cddc01e2-fdce-479a-b8ee-3c87053fb55e                              : Rdbss
+       cdead503-17f5-4a3e-b7ae-df8cc2902eb9                              : Microsoft-Windows-NDIS
+       ce8dee0b-d539-4000-b0f8-77bed049c590                              : Microsoft-Windows-UserModePowerService
+       cf441505-1e7d-4907-8e5d-a5240ca18db6                              : Microsoft-WindowsPhone-Sensors
+       cfa5c5d0-5335-4290-b9b4-7b843fa39d8a                              : Microsoft-WindowsPhone-Connectivity-WiFiActionUri
+       cfaa5446-c6c4-4f5c-866f-31c9b55b962d                              : Microsoft-Windows-DCLocator
+       d02a9c27-79b8-40d6-9b97-cf3f8b7b5d60                              : Microsoft-Windows-AppIDServiceTrigger
+       d0e22efc-ac66-4b25-a72d-382736b5e940                              : Microsoft-Windows-Spell-Checking
+       d116f0f2-a6d6-4f1f-bdda-0c88c8d1f2e9                              : Microsoft-Windows-MosHost
+       d1bc9aff-2abf-4d71-9146-ecb2a986eb85                              : Microsoft-Windows-Windows Firewall With Advanced Security
+       d1d93ef7-e1f2-4f45-9943-03d245fe6c00                              : Microsoft-Windows-Kernel-Memory
+       d1f688bf-012f-4aec-a38c-e7d4649f8cd2                              : Microsoft-Windows-UserDataAccess-UserDataUtils
+       d205e05a-9904-4b1c-b068-b5d8725639a3                              : Microsoft-WindowsPhone-TchHID
+       d29d56ea-4867-4221-b02e-cfd998834075                              : Microsoft-Windows-Dwm-Dwm
+       d37687e7-8bf0-4d11-b589-a7abe080756a                              : Microsoft-Windows-SleepStudy
+       d38fb874-33e4-4dcf-911e-1b53bb106d53                              : Microsoft-Windows-DLNA-Namespace
+       d3f29eda-805d-428a-9902-b259b937f84b                              : Microsoft-Windows-RetailDemo
+       d41f1fd2-8543-4297-9294-1a6a0859cea5:0x0000000000000001           : ManagedHeapRef
+       d41f1fd2-8543-4297-9294-1a6a0859cea5:0x0000000000000003           : ManagedHeapRefStacks
+       d41f1fd2-8543-4297-9294-1a6a0859cea5:0x0000000000000005           : ManagedHeapRefSnaps
+       d41f1fd2-8543-4297-9294-1a6a0859cea5:0x0000000000000007           : ManagedHeapRefSnapsStacks
+       d4263c98-310c-4d97-ba39-b55354f08584                              : Microsoft-Windows-COM
+       d48ce617-33a2-4bc3-a5c7-11aa4f29619e                              : Microsoft-Windows-SMBServer
+       d49918cf-9489-4bf1-9d7b-014d864cf71f                              : Microsoft-Windows-ProcessStateManager
+       d4d7b3d1-37be-456a-87af-3243318382d0                              : Microsoft-WindowsPhone-WEHService-Provider
+       d53270e3-c8cf-4707-958a-dad20c90073c                              : Microsoft-Windows-WindowsColorSystem
+       d55e8d78-92fb-416a-9375-2d7e40e9b5df                              : Microsoft-WindowsPhone-MediaServiceRemote
+       d5c25f9a-4d47-493e-9184-40dd397a004d                              : Microsoft-Windows-Winsock-WS2HELP
+       d5e118bb-e2ca-42e5-8f5a-ba2f9b13660a                              : Microsoft-WindowsPhone-VideoProvider
+       d710d46c-235d-4798-ac20-9f83e1dcd557                              : Microsoft-Windows-EapMethods-Ttls
+       d775f388-5a4a-474d-8726-7b255544285f                              : Microsoft-Windows-DirectWrite
+       d781ca11-61c0-4387-b83d-af52d3d2dd6a:0x000000000000000f:0xf       : Win32HeapRanges
+       d84521f7-2235-4237-a7c0-14e3a9676286                              : Microsoft-Windows-Ras-NdisWanPacketCapture
+       d8975f88-7ddb-4ed0-91bf-3adf48c48e0c                              : Microsoft-Windows-RPCSS
+       d8cbe1ab-367d-44d3-8edc-3932128df37c                              : Microsoft-WindowsPhone-CmCspVpn
+       d9035584-b054-41c3-b8a5-b137e5576e56                              : Microsoft-WindowsPhone-Net-Cellcore-Cellux
+       d92ef8ac-99dd-4ab8-b91d-c6eba85f3755                              : Microsoft-Windows-ASN1
+       da0967e8-1194-47c4-8064-5164da6a84f1                              : Microsoft-WindowsPhone-CmRecoveryHost
+       da6c4ac4-94d2-4e5d-b75c-6b5fc41cab6c                              : Microsoft-WindowsPhone-DeMuxMFT
+       daa6a96b-f3e7-4d4d-a0d6-31a350e6a445                              : Microsoft-Windows-WLAN-Driver
+       dab01d4d-2d48-477d-b1c3-daad0ce6f06b                              : ACPI Driver
+       dab065a9-620f-45ba-b5d6-d6bb8efedee9                              : Microsoft-Windows-Search-ProtocolHandlers
+       db00dfb6-29f9-4a9c-9b3b-1f4f9e7d9770                              : Microsoft-Windows-User Profiles General
+       db25b328-a6f6-444f-9d97-a50e20217d16                              : Microsoft-Windows-Bluetooth-Bthmini
+       db6f6ddb-ac77-4e88-8253-819df9bbf140                              : Microsoft-Windows-Direct3D11
+       db6f6ddb-ac77-4e88-8253-819df9bbf140                              : D3D11
+       dbe9b383-7cf3-4331-91cc-a3cb16a3b538                              : Winlogon
+       dca074ce-547c-4595-ae90-56229b8e3bd9                              : Microsoft-Windows-MCCS-SyncUtil
+       dcb453db-c652-48be-a0f8-a64459d5162e                              : D2DWin8
+       dd2743c6-1722-4674-9f6f-c80044c4232e                              : Microsoft-Windows-MCCS-AccountsRT
+       dd4ac270-4867-49a1-b6cc-fa2e39325865                              : Microsoft-WindowsPhone-UsbFnClx
+       dd5ef90a-6398-47a4-ad34-4dcecdef795f                              : Microsoft-Windows-HttpService
+       dd5ef90a-6398-47a4-ad34-4dcecdef795f                              : Universal Listener
+       dd70bc80-ef44-421b-8ac3-cd31da613a4e                              : Ntfs
+       ddcc3826-a68a-4e0d-bcfd-9c06c27c6948                              : Microsoft-Windows-Energy-Estimation-Engine
+       dddc1d91-51a1-4a8d-95b5-350c4ee3d809                              : Microsoft-Windows-AuthenticationProvider
+       de095dbe-8667-4168-94c2-48ca61665aca                              : Microsoft-Windows-HotspotAuth
+       de7b24ea-73c8-4a09-985d-5bdadcfa9017                              : Microsoft-Windows-TaskScheduler
+       de8fd7ad-1891-4b17-83b3-b3f915437044                              : Microsoft-WindowsPhone-DMClientCsp-Provider
+       df271536-4298-45e1-b0f2-e88f78619c5d                              : Microsoft-Windows-Ndu
+       dfa86faa-2c55-4140-bff9-5cc586217a7b                              : Microsoft-Windows-PDFReader
+       e02a841c-75a3-4fa7-afc8-ae09cf9b7f23                              : Microsoft-Windows-Kernel-Audit-API-Calls
+       e04fe2e0-c6cf-4273-b59d-5c97c9c374a4                              : Microsoft-Windows-WebServices
+       e062b7f8-a5ec-4a0e-b3ce-d53309ec25cf                              : Microsoft-WindowsPhone-CertificatePicker
+       e08c85f4-c224-499d-b5b3-c1bce960f096                              : Microsoft-WindowsPhone-Comms-PhoneOM
+       e0a40b26-30c4-4656-bc9a-74a5c3a0b2ec                              : Microsoft-Windows-UIAnimation
+       e0c6f6de-258a-50e0-ac1a-103482d118bc                              : Microsoft-Windows-Install-Agent
+       e1168941-8333-497f-98d9-67bee05a6034                              : Microsoft-Windows-Globalization-FontGroups
+       e13c0d23-ccbc-4e12-931b-d9cc2eee27e4:0x0000000000000001:0x4       : ClrGC
+       e13c0d23-ccbc-4e12-931b-d9cc2eee27e4:0x0000000000000002:0x4       : ClrThreadPool
+       e13c0d23-ccbc-4e12-931b-d9cc2eee27e4:0x00000000ffffffff:0x5       : ClrAll
+       e18d0fc9-9515-4232-98e4-89e456d8551b                              : Microsoft-Windows-RTWorkQueue-Threading
+       e1b302dd-d9bf-4f31-924d-03186a527abe                              : Microsoft-WindowsPhone-VidStream
+       e1f65b93-f32a-4ed6-aa72-b039e28f1574                              : NLB
+       e27950eb-1768-451f-96ac-cc4e14f6d3d0                              : AudioWPP
+       e2816346-87f4-4f85-95c3-0c79409aa89d                              : Microsoft-Windows-VHDMP
+       e2cc4786-2c0c-491e-a6ef-48fec558c2cc                              : Microsoft-WindowsPhone-AntiTheftSvc-Provider
+       e3bac9f8-27be-4823-8d7f-1cc320c05fa7                              : Microsoft-Windows-MountMgr
+       e3e3da3e-b97e-47ba-a47e-9d00a92d607a                              : Microsoft-WindowsPhone-DMPhoneUtils
+       e4480490-85b6-11dd-ad8b-0800200c9a66                              : Microsoft-Windows-VDRVROOT
+       e53c6823-7bb8-44bb-90dc-3f86090d48a6                              : Microsoft-Windows-Winsock-AFD
+       e5437859-0df3-4a2c-a199-e2d36d9cb56f                              : NotificationSimulationEngineProvider
+       e5514d5f-a8e4-4658-b381-63227e390476                              : Microsoft-WindowsPhone-Speech-Ux
+       e595f735-b42a-494b-afcd-b68666945cd3                              : Microsoft-Windows-Firewall
+       e5ba83f6-07d0-46b1-8bc7-7e669a1d31dc                              : Microsoft-Windows-Security-Netlogon
+       e5c16d49-2464-4382-bb20-97a4b5465db9                              : Microsoft-Windows-WiFiNetworkManager
+       e5fc4a0f-7198-492f-9b0f-88fdcbfded48                              : Microsoft-Windows Networking VPN Plugin Platform
+       e6307a09-292c-497e-aad6-498f68e2b619                              : Microsoft-Windows-ReadyBoost
+       e6835967-e0d2-41fb-bcec-58387404e25a                              : Microsoft-Windows-BrokerInfrastructure
+       e6c38788-c835-4d10-b26e-5920c34e5f20                              : Microsoft-WindowsPhone-Speech-WinRT
+       e6c92fb8-89d7-4d1f-be46-d56e59804783                              : Microsoft-Windows-Security-Vault
+       e7558269-3fa5-46ed-9f4d-3c6e282dde55                              : Microsoft-Windows-UAC
+       e7aa32fb-77d0-477f-987d-7e83df1b7ed0                              : Microsoft-Windows-Graphics-Printing
+       e7ef96be-969f-414f-97d7-3ddb7b558ccc                              : DwmWin32k
+       e80aa9fe-913d-4ede-af58-73e332dcac8d                              : Summary Level Transaction 1
+       e8316a2d-0d94-4f52-85dd-1e15b66c5891                              : Microsoft-Windows-Subsys-Csr
+       e856c26a-e105-4683-a948-6920dcc42e45                              : Microsoft-Windows-DirectWrite-FontCache
+       e8a7c168-81ee-465c-8e8e-d39a2ac1ca41                              : Microsoft-Windows-Thermal-Polling
+       e8f90fe5-8c92-4146-a764-305aaf12b066                              : Microsoft-WindowsMobile-TaskScheduler
+       e975df42-10a9-4573-9c01-5291c2f0a660                              : Microsoft-WindowsMobile-OnlineServices
+       e98ebdbf-3058-4784-8521-47860b1d2b8e                              : Microsoft-WindowsPhone-Ufx
+       eb19f14b-62c4-49eb-9eb7-9a7827137e77                              : Microsoft-WindowsMobile-WapDPU-Provider
+       eb2a9fcd-1cd6-41e4-bbd6-3b2430cee816                              : Microsoft-WindowsPhone-WinsockSecProvider
+       eb492407-201e-4281-8531-cdfb141ca69f                              : Microsoft-Windows-Bluetooth-BthLEEnum
+       eb5667d3-a91a-5ede-35bc-fcfb2c6bffb1                              : Microsoft-Skype-Cafe-Threshold-Calling
+       eb65a492-86c0-406a-bace-9912d595bd69                              : Microsoft-Windows-AppModel-Exec
+       ebd942ae-c045-4743-9139-bfa88d61a872                              : Microsoft-WindowsPhone-Bluetooth-BTUX
+       ecdaacfa-6fe9-477c-b5f0-85b76f8f50aa                              : Microsoft-Windows-Crashdump
+       ed07ce1c-cee3-41e0-93e2-eeb312301848                              : Microsoft-WindowsPhone-Input
+       ed56cd5c-617b-49a5-9b80-eca3e02414bd:0x0000000000000000:0x4       : Dwm
+       ed8b9bd3-f66e-4ff2-b86b-75c7925f72a9                              : Microsoft-Windows-Provisioning-Diagnostics-Provider
+       edd0620d-036c-516e-dc22-564351a84725                              : Microsoft-Apps-SkypeApp-UI
+       edd08927-9cc4-4e65-b970-c2560fb5c289                              : Microsoft-Windows-Kernel-File
+       ee6150ef-c97e-46dd-b635-4c047599fc0f                              : Microsoft-WindowsPhone-Bluetooth-CMCL
+       ee685ec4-8270-4b08-9e4e-8b356f48f92f                              : WARP
+       eee173ef-7ed2-45de-9877-01c70a852fbd                              : Microsoft-Windows-Serial-ClassExtension-V2
+       ef5e8ec7-4d12-4478-a91b-ac520f8a0bef                              : Microsoft-WindowsPhone-Comms-AppsShared
+       ef6c34a5-1698-4414-b481-fb20fece6a37                              : Microsoft-WindowsPhone-Shell-RingtonesAndSounds
+       f029ac39-38f0-4a40-b7de-404d244004cb                              : Microsoft-Windows-Kernel-XDV
+       f0b7c897-0e63-4d58-aee6-6d9ea1ec596e                              : Microsoft-WindowsPhone-Tools-DiagnosticService
+       f0be35f8-237b-4814-86b5-ade51192e503                              : Microsoft-Windows-AppReadiness
+       f0febce4-5f0a-4cd8-b14c-7f04b2f57f9e                              : Microsoft-WindowsPhone-ZTrace
+       f1201b5a-e170-42b6-8d20-b57ac57e6416                              : Microsoft-Windows-DeviceManagement-Pushrouter
+       f184d934-d688-4ae7-b078-24cb2c8063ff                              : Microsoft-WindowsPhone-Cad
+       f19faf17-d1e4-48d5-80b1-b1b6d990d655                              : Microsoft-Windows-MosTrace
+       f1ef270a-0d32-4352-ba52-dbab41e1d859                              : Microsoft-Windows-AppModel-Runtime
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000001           : ManagedSymbolTrace
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000005           : EventStackTrace
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000081           : FunctionSummary
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000011           : ModboundTrace
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000009           : FunctionTrace
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000181           : FunctionSummarySuspend
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000111           : ModboundTraceSuspend
+       f213f1af-5610-46aa-8074-98a686fe1843:0x0000000000000109           : FunctionTraceSuspend
+       f230d19a-5d93-47d9-a83f-53829edfb8df                              : Microsoft-Windows-TriggerEmulatorProvider
+       f243dc34-205e-4d34-94ca-36e8c0859787                              : Microsoft-WindowsPhone-MobileUI
+       f2c628ae-d26c-4352-9c45-74754e1e2f9f                              : Microsoft-Windows-MPRMSG
+       f33959b4-dbec-11d2-895b-00c04f79ab69                              : Active Directory Domain Services: Net Logon
+       f3bea907-0867-4a05-8dab-556bf51bbee2                              : Microsoft-WindowsPhone-MMPhoneDeviceApi
+       f3c5e28e-63f6-49c7-a204-e48a1bc4b09d                              : Microsoft-Windows-FilterManager
+       f3f14ac7-64bc-4a44-a190-807189ed2918                              : Microsoft-WindowsPhone-Net-CellCore-WwanFilter
+       f404b94e-27e0-4384-bfe8-1d8d390b0aa3                              : Microsoft-Windows-MediaFoundation-Performance
+       f498b9f5-9e67-446a-b9b8-1442ffaef434                              : NLB Packet
+       f4aed7c7-a898-4627-b053-44a7caa12fcd                              : Microsoft-Windows-RPC-Events
+       f4e559cd-6639-46e0-93f8-2ac9d6d33976                              : Microsoft-WindowsPhone-EnterpriseAppMgmt
+       f5344219-87a4-4399-b14a-e59cd118abb8                              : Microsoft-Windows-Http-SQM-Provider
+       f5528ada-be5f-4f14-8aef-a95de7281161                              : Microsoft-Windows-Kernel-Licensing-StartServiceTrigger
+       f5988abb-323a-4098-8a34-85a3613d4638                              : Microsoft-Windows-UserDataAccess-CallHistoryClient
+       f7a8fd9f-8ffd-482f-86c0-4c19240f334c                              : Device-Health-Etw
+       f8bc21f6-223c-47a8-bb3e-1bf1e7e959f7                              : Microsoft-WindowsMobile-WPAutobrightSvc
+       f997cd11-0fc9-4ab4-acba-bc742a4c0dd3                              : Microsoft-Windows-RPC-FirewallManager
+       f9a3b5cb-d4de-419d-94e5-66869c9cda33                              : Microsoft-WindowsPhone-MtfServer
+       fa5cf675-72eb-49e2-b447-de5552faff1c                              : Microsoft-Windows-Runtime-Graphics
+       fb19ee2c-0d22-4a2e-969e-dd41ae0ce1a9                              : Microsoft-Windows-UserDataAccess-UserDataService
+       fb80ef11-d0b6-4cd2-971e-46bfc7cea9a6                              : Microsoft-WindowsPhone-Comms-PhoneOmSimSec
+       fbcfac3f-8459-419f-8e48-1f0b49cdb85e                              : Microsoft-Windows-NetworkProfile
+       fbcfac3f-8460-419f-8e48-1f0b49cdb85e                              : Microsoft-Windows-NetworkProfileTriggerProvider
+       fbe0d67b-2433-49a0-aea8-65799db9324b                              : Microsoft-Windowsphone-Comms-LegacyRcsDisabler
+       fc4b0d39-e8be-4a83-a32f-c0c7c4f61ee4                              : Mup Drv Debug
+       fc570986-5967-4641-a6f9-05291bce66c5                              : Mup Drv Perf
+       fc6c3def-a65f-4f41-bafe-2f90ab0653bf                              : Microsoft-WindowsPhone-Shell-BingWallpaper-Worker
+       fe6859da-3726-46df-9989-003696fd48dc                              : Microsoft-WindowsPhone-DirectComposition-Provider
+       ff1f4f07-48a2-4a93-b501-11f42399a15b                              : Microsoft-WindowsPhone-Comms-SyncPhoneUtil
+       ff79a477-c45f-4a52-8ae0-2b324346d4e4                              : Windows-ApplicationModel-Store-SDK
+       ffdb9886-80f3-4540-aa8b-b85192217ddf                              : Microsoft-PerfTrack-MSHTML
+       ffef6934-8d7f-41c9-a33f-0bdd2ae8887c                              : Microsoft-WindowsPhone-BMR2
+
+Registered User Mode Providers: 
+       Microsoft-Windows-XAML-Diagnostics
+       Microsoft-Windows-CertificateServicesClient-Lifecycle-User
+       7d3036c6-a69c-470b-ac5d-ebe3767027ca
+       f0ae506b-805e-434a-a005-7971d555179c
+       d8e0c67b-7d87-48b6-9290-42126e66faee
+       9cc9beb7-9d24-47c7-8f9d-ccc9dcac29eb
+       1b42986f-288f-4dd7-b7f9-120297715c1e
+       Microsoft-Windows-Network-Setup
+       Microsoft-Windows-Subsys-SMSS
+       7ffb8eb8-2c86-45d6-a7c5-c023d9c070c1
+       eeeeeeee-eeee-eeee-0000-000000000004
+       221d444c-d07e-4fde-b425-15b746cf535b
+       Microsoft-Windows-Kernel-AppCompat
+       Microsoft-Windows-Kernel-Registry
+       Microsoft-Windows-Kernel-General
+       b0f40491-9ea6-5fd5-ccb1-0ec63be8b674
+       fb7fcbc6-7156-5a5b-eabd-0be47b14f453
+       4a16abff-346d-56dc-fa87-eb1e29fe670a
+       cdc1f6f4-5e70-11e1-8d83-5ca74824019b
+       Microsoft-Windows-IdleTriggerProvider
+       637a0f36-dff5-4b2f-83dd-b106c1c725e2
+       ebadf775-48aa-4bf3-8f8e-ec68d113c98e
+       ec6ede49-f40f-5f93-8651-a4edc18afe06
+       a111f1c3-5923-47c0-9a68-d0bafb577901
+       bbbc2565-8272-486e-b5e5-2bc4630374ba
+       a4d16fc5-d1cf-4d72-a055-25f3eb02a70e
+       Microsoft-Windows-FilterManager
+       4f5d14a2-97bb-454b-b848-6f3ce0df80f1
+       Microsoft-WindowsPhone-ProximityProvider
+       Microsoft-WindowsMobile-ConfigHost-Provider
+       Microsoft-Windows-WLAN-AutoConfig
+       a6270e87-076e-4b23-b2b5-b11b5a377007
+       AudioWPP
+       d8caafb9-7211-5dc8-7c1f-8027d50640ec
+       66f03b1f-1aec-5184-d349-a81761122be4
+       7d265c9d-2276-4606-95f0-fd113c05065e
+       Microsoft-Windows-EDP-Audit-TCB
+       Microsoft-Client-Licensing-Platform
+       927821f8-d9e6-42e2-84f2-949e18256f3a
+       7076bf7a-db99-4a63-8afe-0bb2ab92997a
+       f83552c4-a4e8-50f7-b2d4-a9705c474490
+       a111f1c0-5923-47c0-9a68-d0bafb577901
+       2ab7abe2-fd6b-49dd-931e-d3339832676a
+       ca030134-54cd-4130-9177-dae76a3c5791
+       5bbb6c18-aa45-49b1-a15f-085f7ed0aa90
+       7a688f0e-f39b-4a7a-bbbb-066e2c1fcb04
+       Microsoft-Windows-Winsock-AFD
+       Microsoft-Windows-SleepStudy
+       Microsoft-Windows-AppxPackagingOM
+       8a4fdc68-fe67-410b-b5aa-040cb8df423d
+       Microsoft-WindowsPhone-BMR2
+       Microsoft-Windows-Narrator
+       6a1e3074-ffee-5d94-f0b9-f1e92857ac55
+       Microsoft-WindowsPhone-Comms-ContactsUtil
+       Microsoft-Windows-WinINet
+       8cfd055c-25aa-4e6d-8277-62e6f7bce202
+       53cc8a8b-3182-5101-7405-8dfc7e5f313e
+       85a7888c-4ef7-5c56-643f-fbd6dc10febe
+       eef54e71-0661-422d-9a98-82fd4940b820
+       0f51c5a7-0e76-47a5-bede-7cf62c5822f6
+       Microsoft-Windows-AppModel-Runtime
+       Microsoft-Windows-NDIS
+       9b322459-4ad9-4f81-8eea-dc77cdd18ca6
+       Microsoft-WindowsPhone-Connectivity-WwanExt
+       31630cf1-5ab5-4569-b772-f285b01d7a15
+       Microsoft-Windows-SettingSync
+       75f56e41-4e48-45a5-84cd-81f349ec01c3
+       Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal
+       Microsoft-Windows-Mobile-Broadband-Experience-SmsApi
+       645a72a6-1657-53bb-d5e7-d6526033ef20
+       d67329a1-427d-4b47-8ae8-4fa9d2586b16
+       7c970fc8-dae6-4b89-8bbf-294ee1c4a79d
+       Microsoft-Windows-NlaSvc
+       Microsoft-Windows-MMCSS
+       5af52b0d-e633-4ead-828a-4b85b8daac2b
+       af2114e4-cb29-4a94-b24b-6a27bb43ed83
+       06917f71-ce18-4fb2-80cf-38ddedde08ed
+       Microsoft-Windows-Kernel-PnP
+       c111d732-030c-4181-a464-68361e6e85dc
+       1193ff07-26a3-4eca-9384-12ccf39cae03
+       358e211a-d198-49ed-9ab9-2db55c8699a2
+       5bbabe0a-b28b-4a7f-b7c1-1071f2d8a176
+       Microsoft-WindowsPhone-Net-Cellcore-UtkUx
+       74c5d08a-6406-5728-2b7e-8d9ee2d34ab7
+       WARP
+       93112de2-0aa3-4ed7-91e3-4264555220c1
+       ff32ada1-5a4b-583c-889e-a3c027b201f5
+       047311a9-fa52-4a68-a1e4-4e289fbb8d17
+       Microsoft-Windows-Kernel-LiveDump
+       f96abc17-6a5e-4a49-a3f4-a2a86fa03846
+       4eeb8774-6c4c-492f-8f2f-5ee4721b7bf7
+       3c18f9b3-8bc1-49c3-b1bf-910446198523
+       Microsoft-Windows-AppHost
+       Microsoft-Windows-EapMethods-Sim
+       e34441d9-5bcf-4958-b787-3bf824f362d7
+       Microsoft-IE
+       5b7144a2-f0f6-4f99-a66d-fb2477e4cee6
+       77b174b4-c0fb-4f2c-96e1-e9771c435686
+       4eacdc10-6c5b-11e0-ae3e-0800200c9a66
+       Microsoft-WindowsPhone-Persona
+       c7b89fc6-5c99-56f4-2b2e-c536b212904d
+       6ee5d800-84e9-5917-a448-dcf4cb6096d8
+       07b7592c-a848-4520-89da-1ab26bc4629f
+       ab9ebce4-fe7f-4dab-ace8-b28af18ec32d
+       d9131565-e1dd-4c9e-a728-951999c2adb5
+       077e5c98-2ef4-41d6-937b-465a791c682e
+       7fad10b2-2f44-5bb2-1fd5-65d92f9c7290
+       Microsoft-Windows-StartLmhosts
+       Microsoft-Windows-Volume
+       Microsoft-Windows-Kernel-ShimEngine
+       Microsoft-WindowsPhone-Shell-AppChrome-Server
+       Microsoft-WindowsPhone-Comms-PhoneService
+       Microsoft-Skype-Cafe-Threshold-Skype
+       9fbf7b95-0697-4935-ada2-887be9df12bc
+       93efa482-84a2-5a52-520c-3adcf4aa635d
+       6a013b08-21fd-4711-b129-b5f2c26b89f1
+       0ae8c676-6a4e-4e4f-8326-a7dabd9f78b7
+       Microsoft-WindowsPhone-Comms-PhoneUtil
+       Microsoft-Windows-PushNotifications-Platform
+       12d25187-6c0d-4783-ad3a-84caa135acfd
+       45d87330-ffec-4a95-9f07-206a4452555d
+       0b7a6f19-47c4-454e-8c5c-e868d637e4d8
+       Microsoft-Windows Networking VPN Plugin Platform
+       6892b716-cfea-4c82-9557-9c782e3f8c6c
+       Microsoft-Windows-Globalization
+       cec2553a-8961-4d34-92ca-ab2ecef646c5
+       7140345f-b491-497c-98de-0072d12d0fe1
+       2f07e2ee-15db-40f1-90ef-9d7ba282188a
+       ec044b58-3d13-4880-936f-7b67dfb3e056
+       18f2ab69-92b9-47e4-b9db-b4ac2e4c7115
+       8d43f18f-af82-450a-bfb7-d6f1b53570ba
+       Microsoft-Windows-MCCS-SyncUtil
+       8f30764b-e542-5331-ce00-1e888073db78
+       Microsoft-WindowsPhone-LocationServiceProvider
+       3d9d790d-fb07-539d-b66e-5a2ffb7899ca
+       c2772df8-1667-59fa-2da8-2267ba4423bc
+       Microsoft-Windows-Security-Vault
+       553ca39b-c608-566d-18ae-7b9a03a39acd
+       0c21ce58-215f-4d10-a4bb-c688ab6ac3fb
+       0c5a3172-2248-44fd-b9a6-8389cb1dc56a
+       27c8423b-e0c9-4e8f-a99a-e87cd369b79e
+       2bea554d-9c79-4b23-91ba-bd542dff64fe
+       10eb6007-818c-4db6-a694-b518e589d07a
+       9b694f87-000e-4be6-91ac-fe2e50d61a6f
+       Microsoft-Windows-Network-Connection-Broker
+       Microsoft-WindowsPhone-Shell-BingWallpaper
+       Microsoft-Windows-MCCS-ActiveSyncProvider
+       c6dba857-03f1-5c5b-350c-ef08dbd04572
+       Microsoft-Windows-MCCS-EngineShared
+       b2393654-1cde-512b-8f3c-6654cd70172a
+       TaskHost
+       d2440861-bf3e-4f20-9fdc-e94e88dbe1f6
+       b79b9c1f-2626-4d0c-9574-5cfce4e793e6
+       a5d0104b-e6e4-420b-a7b5-839041cbb0e6
+       97f6e3a0-7332-4ed0-8df4-637696cc32f8
+       509b009b-d8eb-4f7d-a12b-a23218bfca84
+       6e7b1892-5288-5fe5-8f34-e3b0dc671fd2
+       Microsoft-Windows-MPS-SRV
+       106b464a-8043-46b1-8cb8-e92a0cd7a560
+       485e7df0-0a80-11d8-ad15-505054503030
+       e46eead8-0c54-4489-9898-8fa79d059e0e
+       Microsoft-Windows-Winsock-NameResolution
+       487d6e37-1b9d-46d3-a8fd-54ce8bdf8a53
+       Microsoft-Windows-ApplicationExperience-Cache
+       Microsoft-Windows-Crashdump
+       11616a11-a1c1-423c-a493-30983d8d4ec8
+       03906a40-cce8-447f-83f4-e2346215db84
+       Microsoft-Windows-Kernel-IoTrace
+       ea3f84fc-03bb-540e-b6aa-9664f81a31fb
+       6e0043e4-57d6-4fa6-ae61-1b6595c2412f
+       Microsoft-WindowsPhone-Comms-CommsMessageService
+       Microsoft-Windowsphone-Comms-AuthHost
+       914598a6-28f0-42ac-bf3d-a29c6047a739
+       a1dde9c2-b985-5d80-c6a2-4c0a0b14ff01
+       986de178-ea3f-4e27-bbee-34e0f61535dd
+       ed1640e7-9dc0-45b5-a1ef-88b70cf1742c
+       7067398c-bae7-4191-bf16-c436de658baf
+       24b4f621-1022-48ed-8b93-23fa02191d83
+       d905ac1c-65e7-4242-99ea-fe66a8355df8
+       Microsoft-Windows-COMRuntime
+       Microsoft-Windows-RPCSS
+       Microsoft-Windows-User Profiles General
+       NT LAN Manager
+       Microsoft-Windows-WinRT-Error
+       Microsoft-Windows-Subsys-Csr
+       Microsoft-Windows-SQM-Events
+       c6998471-62cd-424d-a9a3-fe4c1fa378a4
+       Microsoft-Windows-KernelStreaming
+       Microsoft-Windows-Kernel-WHEA
+       945186bf-3dd6-4f3f-9c8e-9edd3fc9d558
+       945186bf-3dd6-4f3f-9c8e-9edd3fc9d559
+       eb004a05-9b1a-11d4-9123-0050047759bc
+       Microsoft-Windows-Kernel-IO
+       Microsoft-Windows-AppModel-State
+       Microsoft-WindowsPhone-FileSystemCSP
+       66feb609-f4b6-4224-bf13-121f8a4829b4
+       ba44067a-3c4b-459c-a8f6-18f0d3cf0870
+       c7491fe4-66f4-4421-9954-b55f03db3186
+       6132b241-dc58-4694-bba6-1a14a8c40d51
+       Windows-Media-BackgroundPolicy
+       Microsoft-WindowsPhone-Comms-Messaging
+       53439ad7-895a-47f3-8372-db39c41b641d
+       Microsoft-Windows-WinJson
+       Microsoft-WindowsPhone-CoreUI
+       Microsoft-WindowsPhone-Net-Cellcore-SMS
+       ac01ece8-0b79-5cdb-9615-1b6a4c5fc871
+       d905ac1d-65e7-4242-99ea-fe66a8355df8
+       468d9e9d-07f5-4537-b650-98389559206e
+       ced8d3d1-c760-49a7-a709-0de39da17de8
+       cb587ad1-cc35-4ef1-ad93-36cc82a2d319
+       a9f17d57-43d6-498c-94e4-eb0e9e7e19c2
+       Microsoft-WindowsPhone-Connectivity-UX
+       Microsoft-Windows-PackageStateRoaming
+       3b6eab83-3683-4a4e-8382-58a748e0f56d
+       Windows-Media-TransportControls
+       Microsoft-Windows-MCCS-NetworkHelper
+       Microsoft-WindowsPhone-Silverlight
+       07699ff6-d2c0-4323-b927-2c53442ed29b
+       c1fc4970-bc57-4138-b3fb-91ea9848a0e5
+       77fe4532-3f5c-5786-632b-fb3201bce29b
+       1d480c11-3870-4b19-9144-47a53cd973bd
+       14f8138e-3b61-580b-544b-2609378ae460
+       099eed30-ef6b-4e21-a651-7fb5b1412ce2
+       Microsoft-Windows-Search-Core
+       4be7b04b-179f-47cb-b6d9-b58ceef35be7
+       aaacb431-6067-4a42-8883-3c01526dd43a
+       077b8c4a-e425-578d-f1ac-6fdf1220ff68
+       facb33c4-4513-4c38-ad1e-57c1f6828fc0
+       064f02d0-a6c4-4924-841a-f3badc2675f6
+       6710597f-7319-4aae-9b85-c8d87136a56b
+       fd66a680-c052-4375-8cc9-225f923cef88
+       69a770dd-1cdb-46c0-91c9-cd2a9b76e061
+       ad33fa19-f2d2-46d1-8f4c-e3c3087e45ad
+       Microsoft-Windows-Store
+       898e7cf6-7381-4763-a6fb-5992ddf95085
+       Microsoft-WindowsPhone-Comms-PhoneOM
+       b8efdc71-988b-50be-86bb-0f97b0a3a7c8
+       Microsoft-WindowsPhone-Bluetooth-MAP
+       cb671458-ad15-40e8-a65a-753ea62d853a
+       9bb1a5a5-abd6-4f8e-9507-12cc2b314896
+       eefb94ca-d0ea-547f-14a8-7b6ff9cd7200
+       d7afa934-92e9-4f14-98f2-62f2486c39fb
+       ed0c10a5-5396-4a96-9ee3-6f4aa0d1120d
+       Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+       cb76d769-a1ed-4fb1-98c3-266951610fd8
+       365df67f-27bc-44d9-be8f-d59cf012902f
+       20644520-d1c2-4024-b6f6-311f99aa51ed
+       6f93acd0-1c1c-5637-8860-e38dc9dd1e69
+       467c1914-37f0-4c7d-b6db-5cd7dfe7bd5e
+       Microsoft-Windows-Kernel-Acpi
+       Microsoft-WindowsPhone-DMPhoneUtils
+       Microsoft-WindowsPhone-Shell-Settings
+       Microsoft-WindowsPhone-Comms-ContactsTokenService
+       a4f32eea-babb-59b2-3828-ce92e4e20765
+       Microsoft-WindowsPhone-Comms-RcsPresenceAdapter
+       2dd11de3-fdde-4da9-b57a-af6585f74233
+       Microsoft-WindowsPhone-Net-Cellcore-Cellux
+       9a6615a6-902a-4705-804b-57b8813089b8
+       8bbe74b4-d9fc-4052-905e-92d01579e3f1
+       afa71204-ca19-516e-3b0b-97016857d3d7
+       65cacb72-8567-457a-bc48-e16b67fb3e27
+       64f02056-afd9-42d9-b221-6c94733b09b1
+       56dd9c57-06cc-48ba-b123-876a6495ba13
+       846aaa8d-c5c3-539a-aa7e-805a6a7853a4
+       9a7d7195-b713-4092-bdc5-58f4352e9563
+       364e2beb-6efc-47dc-b8b1-49aae1d83922
+       47c779cd-4efd-49d7-9b10-9f16e5c25d06
+       689010e5-3340-4908-a8bb-c05443b4a5b8
+       88bcd62d-f7ae-45b7-b578-4bf2b8ab867b
+       f9df4e0c-a520-40cd-aaed-d12908096a65
+       Microsoft-WindowsPhone-Shell-Chrome-API
+       e2c91436-8fb1-446a-9655-31395f42a737
+       594bf743-ce2e-48ee-83ee-3d50a0add692
+       106b464d-8043-46b1-8cb8-e92a0cd7a560
+       Microsoft-WindowsPhone-ExecManLogPublisher
+       c02edc8d-d627-46c9-abd9-c8b78f88c223
+       Microsoft-WindowsPhone-Bluetooth-CM
+       2ed6006e-4729-4609-b423-3ee7bcd678ef
+       4a37e115-b49e-401f-93c1-268f17f9f652
+       8b7650e3-0bd4-458f-b678-34ac4e348b7c
+       2d711040-1c6e-5ed4-655d-5d14c429d39b
+       2f53626b-06c4-46cc-8711-50f96756a367
+       Microsoft-Windows-Mobile-Broadband-Experience-Api
+       ffdb0cfd-833c-4f16-ad3f-ec4be3cc1af5
+       f09a0e39-7cc2-475d-94d9-507fa08fc950
+       d29624ca-200f-44bb-9471-13b01ea15b9e
+       cf69df80-7690-41da-99c9-186e46860e7d
+       Microsoft-WindowsPhone-Bluetooth-AG
+       Microsoft-Windows-DirectWrite
+       2bed2d8b-72d4-4d19-b0ac-dc27bf3b24ea
+       cf7f94b3-08dc-5257-422f-497d7dc86ab3
+       864c5689-9310-594c-5cef-000695f5ace8
+       485e7de9-0a80-11d8-ad15-505054503030
+       bcb6ba09-84a1-48a7-b1c2-42cb89f39007
+       a323cdc2-81b0-48b2-80c8-b749a221478a
+       548854b9-da55-403e-b2c7-c3fe8ea02c3c
+       3374f1c0-597f-4aa1-b2c2-12789d9c8c3f
+       Microsoft-Windows-QoS-Pacer
+       3b9e3da4-70b8-46d3-9ef2-3ddf128bded8
+       41932cab-7e12-40d6-a728-62d30e054593
+       Microsoft-Windows-Wininit
+       Microsoft-WindowsPhone-MediaServiceRemote
+       f84ceeac-399a-598b-bf51-903ed91d881c
+       Microsoft-Skype-Cafe-Threshold-Calling
+       23b8d46b-67dd-40a3-b636-d43e50552c6d
+       Microsoft-WindowsPhone-WinsockSecProvider
+       49d5f264-500b-54ec-0549-b61dbb42265d
+       4b01be74-d810-5994-228e-ee8417be3468
+       b9f6f171-08a4-42ea-b4dd-de69b04efa60
+       99c9988d-2185-5021-a21d-7a863b8a1a10
+       072665fb-8953-5a85-931d-d06aeab3d109
+       cbf776fd-5b21-5fbc-e4cd-f19fe9acc193
+       245f975d-909d-49ed-b8f9-9a75691d6b6b
+       Microsoft-Windows-Base-Filtering-Engine-Connections
+       63bcb611-4446-564a-a4b3-7d65624589ef
+       7a0db36b-2dca-4b50-ab37-b4b15bf8dad7
+       485e7de8-0a80-11d8-ad15-505054503030
+       dadefa21-806e-4241-8d0e-e23293c74e06
+       1b31cb5d-bc52-4f2d-812e-083e9fe75fe6
+       Microsoft-Windows-MosHost
+       Microsoft-WindowsPhone-ERMProvider
+       1a71a81a-640f-43fb-a478-99476079c688
+       Microsoft-Windows-StateRepository
+       Microsoft-Windows-MCCS-AccountAccessor
+       Microsoft-Windows-SruMon
+       8f5656fb-bf28-48cb-a5f7-545d6758bf80
+       Microsoft-WindowsMobile-UIXMobile
+       91c94360-27f0-4b84-a116-7bdc205ef4e0
+       c906ed7b-d3d9-435b-97cd-22f4e7445f2a
+       Microsoft-Windows-Energy-Estimation-Engine
+       b92d1ff0-92ec-444d-b7ec-c016f971c000
+       Microsoft-Windows-RTWorkQueue-Threading
+       c755ef4d-de1c-4e7d-a10d-b8d1e26f5035
+       aa6f6a10-8a13-417d-8799-52361684bd76
+       485e7deb-0a80-11d8-ad15-505054503030
+       6966fe51-e224-4baa-99bc-897b3ed3b823
+       Microsoft-Windows-UserModePowerService
+       d0b639e0-e650-4d1d-8f39-1580ade72784
+       bc4a5b68-1a74-4c42-8ce3-c29b42a25c2b
+       Microsoft-Windows-Kernel-Process
+       Microsoft-WindowsPhone-ConfigManager2RecoveryHostSvc
+       3da5aa05-5152-551f-a243-80a4e743c70e
+       3eac74cb-eeaf-49a9-be3a-906188621192
+       2481b7c3-4603-428c-ba06-349328401af9
+       9df18e6f-2779-55d0-d0f3-bce81550ef3b
+       e0bb2fc4-4ae5-55c3-069c-ff72f46612cc
+       Microsoft-Windows-WebServices
+       84c5f702-eb27-41cb-aed2-64aa9850c3d0
+       Microsoft-Windows-Immersive-Shell
+       Microsoft-WindowsPhone-Net-CellCore-WwanFilter
+       485e7dea-0a80-11d8-ad15-505054503030
+       fb6a424f-b5d6-4329-b9b5-a975b3a93ead
+       98177d7f-7d3a-51ef-2d41-2414bb2c0bdb
+       9502cbc6-aa74-4eff-ba91-d9329bcce758
+       29f239d9-979b-4160-a7dd-c4ea36a75181
+       Microsoft-Windows-StorPort
+       6c6d5103-b4ab-46b1-b4cf-7d330f4c81e6
+       3475aabe-44ba-49eb-bfd8-de32e88b4f35
+       58980f4b-bd39-4a3e-b344-492ed2254a4e
+       9f973c1d-d056-4e38-84a5-7be81cdd6ab6
+       9d53d899-9bcd-54a3-1d23-ecb49abeaad6
+       57517664-9caf-51b8-36a7-897fee1ad275
+       ee97cdc4-b095-5c70-6e37-a541eb74c2b5
+       ed092a80-0125-4403-92ac-4c06632420f8
+       1ac55562-d4ff-4bc5-8ef3-a18e07c4668e
+       a14cafa7-a31f-4993-ad02-279f410a19d7
+       485e7ded-0a80-11d8-ad15-505054503030
+       2955e23c-4e0b-45ca-a181-6ee442ca1fc0
+       3fd9da1a-5a54-46c5-9a26-9bd7c0685056
+       Microsoft-Windows-Crypto-BCrypt
+       Microsoft-Windows-Remotefs-Rdbss
+       Ntfs
+       7022681d-4045-4c1d-bf02-7b05b32682ae
+       Microsoft-Windows-PnPMgrTriggerProvider
+       Microsoft-Windows-Kernel-Network
+       33466aa0-09a2-4c47-9b7b-1b8a4dc3a9c9
+       9000d609-40f9-4ed1-b6e4-07a1521446e8
+       eb528f81-7d3a-5d04-a41a-28858b9ca896
+       9b3fe00f-dac4-4437-a77b-de27b87046d4
+       6e863631-3836-4f0d-a504-f04976ddbf1d
+       Microsoft-WindowsPhone-Comms-NabSanTrigger
+       00000008-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-WindowsPhone-Net-CellCore-FakeModemAsync
+       Microsoft-WindowsPhone-Net-CellCore-FakeWwan
+       Microsoft-Windows-CoreWindow
+       00000009-0dc9-401d-b9b8-05e4eca4977e
+       c0183094-fdc6-493f-a3e8-697224f83f6f
+       d76203c4-8c1b-4e53-afab-c22865594f3f
+       52134415-75c1-4df9-9118-8b2bd00cc6e2
+       0998dfb7-59d7-4e82-92ce-8a83e7c0bb3e
+       4e7add1a-6945-435a-82b6-612688ba9f57
+       555908d1-a6d7-4695-8e1e-26931d2012f4
+       eb7428f5-ab1f-4322-a4cc-1f1a9b2c5e98
+       bde5a307-3888-46cc-851e-5c151fcebd05
+       e59fb1ec-318f-4ac6-b36b-6d11c5a49bec
+       Microsoft-Windows-Kernel-File
+       Microsoft-WindowsPhone-ImgUpdLogger
+       ff036693-0480-41dd-ac12-ed3c6a936a5f
+       Microsoft-WindowsPhone-ConfigManager2
+       3c11d160-c4df-4146-b7cf-9584ddf65336
+       Microsoft.Windows.App.Browser
+       Microsoft-WindowsPhone-CoreUIComponents
+       783f30af-5514-51bc-5b99-5d33b678539b
+       79172b48-631e-5d2c-9f04-1ad99f6e1046
+       1c58b436-ed03-4184-8b7d-e761a817f345
+       77b767e0-b594-4004-aa63-d30f083dff1c
+       b94d76c5-9d56-454a-8d1b-6ca30898160e
+       2c03c3c6-936c-4c79-b8f9-9f5084153e6d
+       e58123f6-f32f-4d9f-a3f6-8f39ece9e112
+       Microsoft-Windows-Crypto-DSSEnh
+       f818ebb3-fbc4-4191-96d6-4e5c37c8a237
+       8ad60765-a021-4494-8594-9346970cf50f
+       84a5010c-3fd1-499f-885f-7ccb03bfde8d
+       485e7def-0a80-11d8-ad15-505054503030
+       e3368fca-e5e8-4853-bf25-dc780bf7ee2f
+       e8ed09dc-100c-45e2-9fc8-b53399ec1f70
+       Microsoft-Windows-EndpointTriggerProvider
+       Microsoft-Windows-Kernel-Prefetch
+       e9f2d03a-747c-41c2-bb9a-02c62b6d5fcb
+       Microsoft-Windows-Ntfs
+       ba696cfe-f69c-431b-81c4-68a83567a600
+       8cc7d9c9-09af-45ca-86ce-4cecf680f2b7
+       Microsoft-WindowsPhone-Speech-ShellUx
+       4e530037-e29d-4535-ac16-a75bd0cdb897
+       Microsoft-WindowsPhone-Comms-CommsDirectAccessClient
+       MICROSOFT_WINDOWSPHONE_COMMS_SHAREAPP
+       63b6c2d2-0440-44de-a674-aa51a251b123
+       9c81866c-f1b7-4902-ac59-49c7a0839976
+       65a1b6fc-4c24-59c9-e3f3-ad11ac510b41
+       22eb0808-0b6c-5cd4-5511-6a77e6e73a93
+       1a211ee8-52db-4af0-bb66-fb8c9f20b0e2
+       44492b72-a8e2-4f20-b0ae-f1d437657c92
+       Microsoft-Windows-Direct3D11
+       acc49822-f0b2-49ff-bff2-1092384822b6
+       219bc9ac-db43-505d-4dff-507d357163a1
+       Microsoft-Windows-NetworkSecurity
+       Microsoft-Windows-Wcmsvc
+       485e7dee-0a80-11d8-ad15-505054503030
+       8fad9705-702c-4183-b39a-a92f4df545e9
+       b2fc00c4-2941-4d11-983b-b16e8aa4e25d
+       96c57851-af06-470f-8635-9c5e463e5f0c
+       544d4c9d-942c-46d5-bf50-df5cd9524a50
+       024a3ba4-3c81-4bf0-b4a0-e574c6411113
+       dda1d007-6e0a-4fb6-83a3-996599b3826e
+       d173c6af-d86c-5327-17b8-5dcc03543da5
+       Microsoft-WindowsPhone-SEManagementProvider
+       Microsoft-WindowsPhone-Shell-QuickSettingsSvc
+       Microsoft-Windows-OneX
+       Microsoft-Windows-UserDataAccess-UserDataUtils
+        Microsoft-WindowsPhone-GwpCPCProvider
+       68e8b204-3604-46df-a258-6db3b5f5e003
+       41926823-e7c9-402e-97bf-c5112abb7993
+       1c95126e-7eea-49a9-a3fe-a378b03ddb4d
+       Microsoft-WindowsPhone-Bluetooth-OBEXServer
+       6b4e98da-b103-588e-d0db-c7a111582066
+       46dc5dcf-095f-4157-aaee-dd6ae23720e0
+       Microsoft-Windows-Tethering-Manager
+       Microsoft-Windows-Bluetooth-BthLEPrepairing
+       393ff4cc-f02d-5d0a-4180-b79bf8da529d
+       Microsoft-Windows-WinHttp
+       37d2c3cd-c5d4-4587-8531-4696c44244c8
+       Microsoft-Windows-DxgKrnl
+       47711976-08c7-44ef-8fa2-082da6a30a30
+       Microsoft-WindowsPhone-UsbFnClx
+       Microsoft-Windows-NetworkProfileTriggerProvider
+       Microsoft-WindowsPhone-MMPhoneDeviceApi
+       Microsoft-WindowsPhone-AudioTuner
+       Microsoft-WindowsPhone-Comms-PhoneVoicemail
+       3d6120a6-0986-51c4-213a-e2975903051d
+       Microsoft-WindowsPhone-Comms-PhoneProviders
+       00000004-0dc9-401d-b9b8-05e4eca4977e
+       bd77357a-92a9-48d2-b8ae-d02573bf86ee
+       c872ff32-5a0c-4736-bdf2-334c9b8d429f
+       46dc5dcf-095f-4157-abed-fd6ae23720e0
+       Microsoft-WindowsPhone-WEHService-Provider
+       6d7051a0-9c83-5e52-cf8f-0ecaf5d5f6fd
+       7913ac64-a5cd-40cd-b096-4e8c4028eaab
+       Microsoft-Windows-Power-Meter-Polling
+       Microsoft-Windows-Kernel-Memory
+       b1f30020-8bc3-4888-bb1b-4dd681f24209
+       fadd8651-7b42-423f-b37d-3b98b9e81560
+       Microsoft-WindowsPhone-Shell-StartMenu
+       Microsoft-WindowsPhone-Shell-LockAndWallpaper
+       e028f912-f867-4980-a3f3-96fd4f47731e
+       b9ca7b47-8bad-5693-9481-028527614d30
+       9a55d953-bc27-4430-a248-6da24f2e99b7
+       870ac05a-7777-5c66-c3f0-c1f6b7129ef6
+       802ec45b-1e99-4b83-9920-87c98277ba9d
+       00000005-0dc9-401d-b9b8-05e4eca4977e
+       f12e8ba5-a070-454b-9925-151ed58e8a5a
+       6b7b5e3a-f4de-42d9-9545-bae12852d778
+       Microsoft-WindowsPhone-Net-CellCore-MSRil
+       Microsoft-Windows-BTH-BTHPORT
+       b117acb6-f2da-4c4b-bfb6-6cbfc9928b67
+       30dd1049-5862-4ec9-9f03-872e2e44a43b
+       4ff58fbe-3d4d-447a-ac26-7da2c51f4b7d
+       00000006-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-Windows-UniversalTelemetryClient
+       Microsoft-Windows-DirectWrite-FontCache
+       Microsoft-Windows-Crypto-RSAEnh
+       169ec169-5b77-4a3e-9db6-441799d5cacb
+       6d40a846-5f13-4cce-8c0f-9f7543bebc5d
+       57ea7890-55e6-4446-8130-e09aed57edb5
+       1491f89f-c57d-4135-8e05-76f0f68124a8
+       Microsoft-Windows-HAL
+       Microsoft-WindowsPhone-NodeCacheCsp-Provide
+       Microsoft-WindowsPhone-Shell-Events
+       21ba7b61-05f8-41f1-9048-c09493dcfe38
+       8e6931a7-4c49-5fb7-a500-65b951d7652f
+       50b3e73c-9370-461d-bb9f-26f32d68887d
+       2fdb1f25-8de1-4bc1-bac2-e445e5b38743
+       af9f58ec-0c04-4be9-9eb5-55ff6dbe72d7
+       9bfa0c89-0339-4bd1-b631-e8cd1d909c41
+       c89b991e-3b48-49b2-80d3-ac000dfc9749
+       d235f230-b85a-54d3-4046-32ca71979867
+       Microsoft-Windows-SMBClient
+       89fe8f40-cdce-464e-8217-15ef97d4c7c3
+       LsaSrv
+       Microsoft-Windows-ServiceTriggerPerfEventProvider
+       bebd6159-6f76-5a22-366a-7753c2a63c3c
+       Microsoft-Windows-PDC
+       26263d29-c728-4ebb-b776-da46edab631f
+       Microsoft-WindowsPhone-MFPal
+       Microsoft-WindowsPhone-Enterprise-Diagnostics-Provider
+       35d2a0ee-e046-5da9-43c3-8e8bf05175af
+       1ee9ab78-81de-5903-9f1b-4c73e2f3501d
+       00000007-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-Windows-PushNotifications-Developer
+       bd2f4252-5e1e-49fc-9a30-f3978ad89ee2
+       bf4c9654-66d1-5720-7b51-d2ae226735ea
+       Microsoft-Windows-Devices-Background
+       Microsoft-Windows-Dwm-Core
+       0a341881-4a88-1b0c-77b8-54b162421f46
+       Microsoft-Windows-Performance-Recorder-Control
+       Microsoft-Windows-Directory-Services-SAM
+       Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory
+       9c4ade62-db32-447b-ac54-76a160c05e6a
+       42c60cea-0fe7-4541-a86b-9e11f95bd9bf
+       0383d92c-2337-4f25-a0b5-a51767f04746
+       Microsoft-WindowsPhone-Shell-AppCornerProvider
+       Microsoft-WindowsPhone-WiFiHotspotHost
+       Microsoft-WindowsPhone-EPD
+       3c20a2bd-0497-5e1d-ad49-7b789b9d7318
+       0e6f34b3-0637-55ab-f0bb-8b8fa83eda04
+       00000000-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-Windows-ConnMgrLegacyClient
+       Microsoft-Windows-CoreSystem-SmsRouter
+       da7abd3e-3687-4d04-8ba2-38446f5226df
+       2dbd0b99-c886-5c44-9fc2-7220ddf5aaf6
+       28d62fb0-2131-41d6-84e8-e2325867964c
+       a66a8706-ae1e-4a26-a15b-27d924c43063
+       Microsoft-Windows-Hyper-V-Netvsc
+       96f4a050-7e31-453c-88be-9634f4e02139
+       89dfbde8-86e8-489b-9867-eefdc5e8879b
+       46deb98e-b7d7-4578-a15a-e3f365c73ddb
+       5bc69579-c5e2-4bc8-9a9b-b2795c6b9cbb
+       Microsoft-Windows-Kernel-Disk
+       eb82178e-2795-4416-b83a-8ffd3e1e6531
+       Microsoft-Windows-WiFiHotspotService
+       Microsoft-WindowsPhone-PhoneAudioSrv
+       a1f18f1f-bf5c-54d1-214d-8e1d3fe8427f
+       Microsoft-WindowsPhone-ContentShareSvc
+       Microsoft-WindowsPhone-AudioSrvPolicyManager
+       Microsoft-IEFRAME
+       Microsoft-Windows-AppXDeployment-Server
+       00000001-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-WindowsPhone-ConfigSPVpn
+       Microsoft-WindowsPhone-MtfServer
+       Microsoft-Windows-ProcessStateManager
+       Microsoft-WindowsPhone-VideoTelephonyProvider
+       059b9abc-dcde-4a4b-b640-69384994f4a4
+       b67069e7-206c-4e4c-80ce-4663560ea07f
+       31f05ccd-99d9-5674-0e43-36e104f04d22
+       0eff663f-8b6e-4e6d-8182-087a8eaa29cb
+       0a9a90c8-9417-482d-b517-df1774c8f404
+       f64bf471-cbde-4203-8974-afc7381a2862
+       c2ba06e2-f7ce-44aa-9e7e-62652cdefe97
+       Microsoft-Windows-FileInfoMinifilter
+       703fcc13-b66f-5868-ddd9-e2db7f381ffb
+       Microsoft-WindowsPhone-Comms-PhoneShellUI
+       7d7180b3-a452-4fff-8d1f-7b32b248ab70
+       Microsoft-Windows-AAD
+       00000002-0dc9-401d-b9b8-05e4eca4977e
+       Microsoft-WindowsPhone-MtfClient
+       6bd96334-dc49-441a-b9c4-41425ba628d8
+       Microsoft-Windows-SMBServer
+       bb86e31d-f955-40f3-9e68-ad0b49e73c27
+       2e16b12a-b093-468a-86fa-f002e013b6a6
+       d0f1a5c6-fc43-48ae-99bf-efb1c38be9d1
+       e75a83ec-ef30-4e3c-a5fb-1e7626e48f43
+       de5a9d0a-c195-504d-0175-039ac1243837
+       Microsoft-Windows-Kernel-Power
+       a8d6436f-e198-45f0-8052-323ce88a23a3
+       8cebf433-4842-449e-9fa0-99c6b14a7126
+       Microsoft-Windows-PCI
+       Microsoft-Windows-Kernel-Audit-API-Calls
+       Microsoft-Windows-ESE
+       Microsoft-Windows-ApplicabilityEngine
+       Microsoft-WindowsPhone-Shell-Controls
+       15773ad5-aa2f-422a-9129-4a83f4c19db0
+       00000003-0dc9-401d-b9b8-05e4eca4977e
+       f3d10d5a-8291-433d-9275-cdd0067a0022
+       c95fd9ab-d373-473b-80b7-3a90b8dd5bc2
+       c31e3c2c-0867-5334-34af-93b3dfdee3b8
+       7d76b731-d927-5737-81c5-ae3d3733c0ab
+       a0b6be33-b959-50c3-3c92-8451b6f965c3
+       bd59a9a8-cafb-4503-845e-d85fb72ae2e1
+       Microsoft-Windows-Diagtrack
+       b87cf16b-0bf8-4492-a510-d5f59626b033
+       Microsoft-Windows-ASN1
+       80df111f-178d-44fb-afb4-5d179de9d4ec
+       351734b9-8706-4cee-9247-04accd448c76
+       Microsoft-WindowsPhone-Cad
+       Microsoft-WindowsPhone-PowerNotifications
+       Microsoft-Windows-NWiFi
+       Microsoft-WindowsPhone-Shell-Chrome
+       418ff038-023f-460c-8af6-cc4fada9fb83
+       10a52d85-620f-4a8a-81cb-31952b92f324
+       f780a2d1-75f6-4154-839d-404a04f49892
+       Microsoft-Windows-WinINet-Capture
+       0675cf90-f2b8-11db-bb42-0013729b82c4
+       0dc96237-bbd4-4bc9-8184-46df83b1f1f0
+       da995380-18dc-5612-a0db-161c5db2c2c1
+       10ff35f4-901f-493f-b272-67afb81008d4
+       3c302a2a-f195-4fed-bd7b-c91ba3f33879
+       6da4ddca-0901-4bae-9ad4-7e6030bab531
+       41d006be-1a11-4121-a0eb-0ea2ae688044
+       Microsoft-Windows-NetworkProfile
+       81b213eb-73a8-4b62-95bc-354477c97a6f
+       63a3adbe-9717-410d-a0f5-e07e68823b4d
+       6b510852-3583-4e2d-affe-a67f9f223438
+       e9eaf418-0c07-464c-ad14-a7f353349a00
+       573a8439-2c0f-450b-bf98-51a86843d700
+       Windows-ApplicationModel-Store-SDK
+       3d24d8c1-2f25-4a6d-a8fe-9d08ed3a2ffb
+       e6dec100-4e0f-4927-92be-e69d7c15c821
+       Microsoft-WindowsPhone-Shell-BingWallpaper-Worker
+       Microsoft-Windows-UserDataAccess-PimIndexMaintenance
+       Microsoft-WindowsPhone-Comms-AgeOut
+       cb18e7b3-f5b0-412f-9f18-5d87fefcd662
+       Microsoft-Windows-DirectManipulation
+       cb18e7b3-f5b0-412f-9f18-5d87fefcd663
+       073c75a0-d07d-4203-9501-a91f2a239d55
+       94b4fed6-bedc-4cde-a81c-8d5f40af3c78
+       413e55f6-5309-4e2d-a7e7-ea98ba06ee89
+       07a29c3d-26a4-41e2-856a-095b3eb8b6ef
+       06184c97-5201-480e-92af-3a3626c5b140
+       21063878-2959-42ea-a85a-0da1ab119c03
+       aa3a221d-9a6f-4cf9-904e-897100ce8915
+       Microsoft-Windows-Thermal-Polling
+       b876b1fc-c7f1-443e-9012-86677f7de580
+       Microsoft-WindowsPhone-OmaDm-Client-Provider
+       3ea8c7a0-b9bb-4fc6-b2db-f322cb1856c8
+       46aa338f-f274-48bb-9975-a58fc1ace7e0
+       82b5ad62-b453-481a-b838-ca1eeae6e472
+       Microsoft-Windows-MediaFoundation-Platform
+       29cfb5c5-e518-4960-a985-e18e570f935b
+       dd685aa3-9e8c-5e0c-819d-a3d24d221af1
+       540dc156-e9d6-42dc-a225-29794149a495
+       8360d517-2805-4654-aa04-e9985b4433b4
+       Microsoft-Windows-NetworkProvider
+       2588030c-920e-4ad5-acbf-8aa2cd761ddb
+       Microsoft-Windows-Diagnosis-PCW
+       6c0ebbbb-c292-457d-9675-dfcc1c0d58b0
+       Microsoft-Windows-WiFiNetworkManager
+       Microsoft-WindowsPhone-Connectivity-WiFiActionUri
+       Microsoft-Windows-Kernel-WSService-StartServiceTrigger
+       Microsoft-WindowsPhone-Comms-ContactsOM
+       4331556e-1bcb-5b8f-1fb6-0896d9ab2afb
+       Microsoft-WindowsPhone-ProximitySharingUi
+       973c694b-79a6-480e-89a5-c8c20745d461
+       Microsoft-Windows-Bluetooth-Bthmini
+       b881e3b7-cf0e-4cc3-86f9-6027db19c688
+       0d770577-bb34-538f-9c4f-da99fb5df794
+       2beade0b-84cd-44a5-90a7-5b6fb2ff83c8
+       02f42b1b-4b78-48ce-8cdf-d98f8b443b93
+       aea3a1a8-ea43-4802-b750-2dd678910779
+       0001376b-930d-50cd-2b29-491ca938cd54
+       f2969c49-b484-4485-b3b0-b908da73cebb
+       f3a71a4b-6118-4257-8ccb-39a33ba059d4
+       ddb15654-924f-42de-8be1-2f8bf4946be1
+       7efe4ab3-990d-4350-a878-cd8772888199
+       a6a847b7-4429-49aa-bba6-2ad8c191ac8c
+       ae5ed6c3-503b-4127-8711-c515db58bd2e
+       Microsoft-Windows-MCCS-SyncController
+       788fda79-b68a-40df-b409-8778a3fa6edd
+       44ccc985-1749-4b09-83cc-5a312b5a4f29
+       3a07e1ba-3a6b-49bf-8056-c105b54dd7fb
+       Microsoft-Windows-MSFTEDIT
+       7073707a-0587-4e03-b31f-6443eb1acbcd
+       767166e4-869c-5cc7-4f54-b13d12274111
+       Microsoft-Windows-Dwm-Dwm
+       b8020478-a6a8-42bb-9ede-b2d3ebf8da7c
+       5e85651d-3ff2-4733-b0a2-e83dfa96d757
+       3d8e0e0a-54db-46d1-94ba-7ff7209d6a31
+       012616ab-ff6d-4503-a6f0-effd0523ace6
+       bb8dd8e5-3650-5ca7-4fea-46f75f152414
+       Microsoft-Windows-RPC-Events
+       deb96c0a-d2d9-5868-a5d5-50ee13513c8b
+       Microsoft-Windows-ApplicationResourceManagementSystem
+       b8794785-f7e3-4c2d-a33d-7b0ba0d30e18
+       Microsoft-Windows-Directory-Services-SAM-Utility
+       Microsoft-WindowsPhone-Shell-SendToMediaLib
+       fd6b6ae4-7563-550d-46a4-da9fe46cad57
+       Microsoft-Windows-MCCS-InternetMailCsp
+       Microsoft-WindowsPhone-DataCollectionService
+       Microsoft-Windows-MCCS-AccountsHost
+       1ee4093e-d437-4847-8312-acfc2f05e6ec
+       0f5f7568-ec49-41bb-bb63-73ff7f2dc464
+       082f46b6-01f6-4511-9044-d83675f46637
+       Microsoft-WindowsPhone-Picker-Contract
+       Microsoft-WindowsPhone-NotificationService
+       950d4eda-1729-47cc-8f1e-d9ed5aa17642
+       6ecba0bf-67f5-499e-901f-82973c1091ff
+       e99e99ce-b719-4533-8c59-f5be7da1c5f4
+       f4c19371-9e73-45ef-96de-2efb32299a79
+       23e0d3d9-6334-4edd-9c80-54d3d7cfa8da
+       5661c247-0ebb-4c40-9a63-9564005ef074
+       Microsoft-Windows-Ndu
+       2744f0b7-8455-44f8-9b64-5f589f9d163a
+       6eaa8566-66f9-5c32-c995-05cbb0b423ac
+       7d5ab09c-908a-5449-b08c-6767407c4965
+       Microsoft-Windows-TaskScheduler
+       Microsoft-Windows-TimeBroker
+       58c83e82-babb-4b14-aa65-2ac73525fd3a
+       Microsoft-WindowsPhone-CmRecoveryHost
+       Microsoft-WindowsPhone-MediaService
+       Microsoft-Windows-AppXDeployment
+       Microsoft-WindowsPhone-RemoteLockRingCsps-Provider
+       94041064-dbc2-4668-a729-b7b82747a0c2
+       Microsoft-WindowsPhone-Comms-MediaDataService
+       Microsoft-WindowsPhone-Comms-PhoneApp
+       Microsoft-Windows-UserDataAccess-Poom
+       Microsoft-WindowsPhone-AppModelCore
+       969e8d6b-df02-56e3-a058-ec3bef103534
+       0107cf95-313a-473e-9078-e73cd932f2fe
+       fcf77cb9-e787-4e43-8d12-f6f7545bb938
+       9884084d-ca1f-4fe6-ab4e-e3a85e988222
+       Microsoft-WindowsPhone-EventSnd
+       Microsoft-Windows-ReadyBoost
+       f9fdd5a0-85ea-46bd-a4ba-fbeec97c558c
+       Microsoft-Windows-Audio
+       19d78d7d-476c-47b6-a484-285d1290a1f3
+       ebcca1c2-ab46-4a1d-8c2a-906c2ff25f39
+       1aff6089-e863-4d36-bdfd-3581f07440be
+       09281f1f-f66e-485a-99a2-91638f782c49
+       772013fb-617e-4269-a691-66a6847d2856
+       Microsoft-WindowsPhone-WWA-Extension
+       5ca18737-22ac-4050-85bc-b8dbb9f7d986
+       c88b592b-6090-480f-a839-ca2434de5844
+       e647b5bf-99a4-41fe-8789-56c6bb3fa9c8
+       db923f05-afb5-43d7-aab9-1e85bdad101d
+       Microsoft-WindowsPhone-Speech
+       2af7f6b8-e17e-52a1-f715-fa43d637798a
+       0b3219b8-d321-4f33-83e8-ebfe3dd8a6ff
+       0616f7dd-722a-4df1-b87a-414fa870d8b7
+       Microsoft-WindowsPhone-PlayAudio
+       Microsoft-Windows-MediaFoundation-Performance
+       b6a9c8ba-70de-42e4-88de-001a041b0768
+       18608e62-a628-49d9-8c02-55972e097d24
+       771e7665-3e83-4475-8ae6-8f5384c41408
+       54732ee5-61ca-4727-9da1-10be5a4f773d
+       bda92ae8-9f11-4d49-ba1d-a4c2abca692e
+       63bca7a1-77ec-4ea7-95d0-98d3f0c0ebf7
+       20c46239-d059-4214-a11e-7d6769cbe020
+       Microsoft-Windows-Ntfs-UBPM
+       54d5ac20-e14f-4fda-92da-ebf7556ff176
+       1b208304-26f2-433d-8781-0512d91b101c
+       Microsoft-Windows-CodeIntegrity
+       Microsoft-Windows-ApplicationExperience-LookupServiceTrigger
+       Microsoft-Windows-MCCS-DavSyncProvider
+       Microsoft-WindowsPhone-Comms-RecoverEdb
+       0efbb51e-935f-438b-9413-5546fd4f6ab7
+       Microsoft-WindowsPhone-Telemetry
+       41877cb4-11fc-4188-b590-712c143c881d
+       9b223f67-67a1-5b53-9126-4593fe81df25
+       318bbc33-cdfd-42c0-b5e5-57ed92e8935f
+       4d5a5784-b063-4c87-8def-dbf683902ce3
+       cd079d47-329d-4dc5-881c-cb28bb80a9a0
+       Microsoft-Windows-Kernel-Interrupt-Steering
+       Microsoft-WindowsPhone-AntiTheftSvc-Provider
+       Microsoft-WindowsPhone-Ufx
+       bb6f5b93-635c-47be-816f-e895e77064a8
+       92f43f71-2741-40b2-a566-70eebcf2d181
+       21586994-d965-5828-4e8a-7c7496f6b975
+       4a743cbb-3286-435c-a674-b428328940e4
+       369f0950-bf83-53a7-b3f0-771a8926329d
+       36797c31-a122-43db-b296-36ab887335c3
+       797e4878-22cf-452a-86ff-3872d880f93b
+       9b65317a-28c3-43d8-9740-81a404a621ed
+       cb672e13-24cd-4e00-a355-21971759c8ad
+       5a1600d2-68e5-4de7-bcf4-1c2d215fe0fe
+       e176aa66-5cc8-4321-9624-f9c1d2b7bf06
+       Microsoft-Windows-SystemEventsBroker
+       9ca335ed-c0a6-4b4d-b084-9c9b5143aff0
+       Microsoft-Windows-Security-Kerberos
+       46486b01-4dc0-4bca-b74c-8d10dc2c9801
+       daa76f6a-2d11-4399-a646-1d62b7380f15
+       37a3e5d6-9edb-46d7-baec-6b841d4e89e7
+       d08bd885-501e-489a-bac6-b7d24bfe6bbf
+       cb5b2c18-ad73-4ebf-8af1-73b30b885030
+       9f068318-a1b6-4e76-8cfd-7f47886f8de6
+       7614521c-4d0b-4341-bfc9-873082c0f1d3
+       Microsoft-Windows-UserDataAccess-CallHistoryClient
+       Microsoft-Windows-MosTrace
+       e1a8d70d-11f0-420e-a170-29c6b686342d
+       Microsoft-WindowsPhone-DMClientCsp-Provider
+       Microsoft-Windows-MapControls
+       ztrace_maps
+       1f685704-783a-4388-920d-06d40635a6fb
+       7fc34c90-0657-4fdf-960b-702abb741e24
+       2d0a7070-7102-43c0-9a9e-196c43c3af7c
+       5c15713b-c125-4cdc-b35b-e37546ac8adb
+       Microsoft-WindowsMobile-Compositor
+       1bf43430-9464-4b83-b7fb-e2638876aeef
+       4ca869f9-d720-449f-a322-28d0d1763e50
+       2e8d9ec5-a712-48c4-8ce0-631eb0c1cd65
+       cc3df8e3-4111-48d0-9b21-7631021f7ca6
+       Microsoft-Windows-AuthenticationProvider
+       5e753e4d-2b0d-4451-b8f9-0f1253ca0b44
+       Microsoft-Windows-MountMgr
+       Microsoft-Windows-VDRVROOT
+       Microsoft-Windows-Battery
+       29043218-3029-4be2-a6c1-b6763cecb3cc
+       19043218-3029-4be2-a6c1-b6763cecb3cc
+       83afaf72-df00-4584-8f4c-aded166f72b1
+       Microsoft-WindowsPhone-Shell-PacManProxy
+       89dc763c-d554-4cf1-83a5-6b5e8005e807
+       Microsoft-WindowsPhone-AppPlatProvider
+       ee818f02-698c-48be-8ff2-326c6dd34db1
+       d75df9f1-5f3d-49d0-9d15-2a55bd1c012e
+       ee845016-ebe1-41eb-be52-5e3ae58339f2
+       08f93b14-1608-4a72-9cfa-457eecedbba7
+       8a36782f-4949-4980-ba6e-acadf0fe679a
+       a2d1c713-093b-43a7-b445-d09370ec9f47
+       Microsoft-Windows-OneCore-MinUser
+       15a7a4f8-0072-4eab-abad-f98a4d666aed
+       15a7a4f8-0072-4eab-abab-f98a4d666aed
+       63ede161-b6d4-4ba4-83f5-60a11ac37370
+       Microsoft-Windows-DXGI
+       ac69ae5b-5b21-405f-8266-4424944a43e9
+       1d44957b-7181-4835-b70a-d0b16112a4de
+       ffd1d811-6488-4d44-82af-c31d372609a9
+       0a8e17fd-ed19-4c54-a1e7-5a2829bf507f
+       3d6b82f2-5ff3-435a-87bc-8f9d2ac45ced
+       Microsoft-Apps-SkypeApp-UI
+       Microsoft-Windows-Networking-BackgroundTransfer-Events
+       1247a572-e563-52f8-1be5-7581e71bce0f
+       1b206982-6302-43cf-b4b8-b7fbd9be1913
+       Microsoft-WindowsPhone-ZTrace
+       Microsoft-Windows-NetworkManagerTriggerProvider
+       Microsoft-WindowsPhone-Shell-AppChrome-API
+       Microsoft-Windows-LiveId
+       ec3ca551-21e9-47d0-9742-1195429831bb
+       c0d0fe1d-53e4-5b98-71d7-c51fe5c10003
+       988ce33b-dde5-44eb-9816-ee156b443ff1
+       767d1a28-b916-5b5e-9bec-5456c827edd5
+       Microsoft-WindowsPhone-Net-Cellcore-UtkService
+       Microsoft-Windows-WWAN-SVC-EVENTS
+       30818a38-cdb2-4e6b-9ab5-e4257e94381d
+       3c430b0a-397a-4e1d-9a83-9c388405c00c
+       Microsoft-Windows-DirectComposition
+       43ac453b-97cd-4b51-4376-db7c9bb963ac
+       90717974-98db-4e28-8100-e84200e22b3f
+       8fd4b82b-602f-4470-8577-cbb56f702ebf
+       12579e92-1b46-40a6-9cfc-c718a677830b
+       3a8d6942-b034-48e2-b314-f69c2b4655a3
+       5590bf8b-9781-5d78-961f-5bb8b21fbaf6
+       Microsoft-Windows-BitLocker-Driver
+       baa05370-7451-48d2-8f38-778380946ce9
+       Microsoft-WindowsPhone-CertificatePicker
+       7fdd167c-79e5-4403-8c84-b7c0bb9923a1
+       Microsoft-WindowsPhone-Comms-PlatformAbstractionLayer
+       Microsoft-Windows-MCCS-ActiveSyncCsp
+       890a5df1-f996-431e-b5f7-5562bdb23571
+       565174a1-b385-5a0e-5333-afc6187b1f82
+       9f4cc6dc-1bab-5772-0c71-a89954718d66
+       12bca6d1-2e36-4515-af2d-ab00a7613a6f
+       Microsoft-Windows-WWAN-NDISUIO-EVENTS
+       638705b0-17a5-4e43-9516-ae6c2f8819f6
+       1701c7dc-045c-45c0-8cd6-4d42e3bbf387
+       3d1d28b1-73f5-5937-3446-0de4df173ff5
+       6465da78-e7a0-4f39-b084-8f53c7c30dc6
+       2e1eb30a-c39f-453f-b25f-74e14862f946
+       6b4db0bc-9a3d-467d-81b9-a84c6f2f3d40
+       92765247-03a9-4ae3-a575-b42264616e78
+       Microsoft-Windows-Audit-CVE
+       ad5c7a10-4e08-45e1-81b5-cb5eb6ec8917
+       Microsoft-WindowsPhone-AutoDataConfig
+       Microsoft-Windows-EapHost
+       Microsoft-WindowsPhone-Family-DrivingMode-Settings
+       ec1d179a-2636-59d2-c915-370b8a31143a
+       8f4fd2af-c8db-5cc1-27ec-54a4bcf3aab5
+       Microsoft-WindowsPhone-Comms-ImportXmlContacts
+       Microsoft-Windows-AppModel-MessagingDataModel
+       Microsoft-WindowsPhone-VisualElementFactory
+       fd35e984-9dee-4011-9eae-5c135b050261
+       Microsoft-Windows-Proximity-Common
+       2056054c-97a6-5ae4-b181-38bc6b58007e
+       5978339c-8ab2-467e-bb85-8832659d5ed0
+       cf5838d7-9fdc-5907-a62c-abd41de9d862
+       D2DWin8
+       47eba62c-87e6-4564-9946-0dd4e361ed9b
+       014de49f-ce63-4779-ba2b-d616f6963a87
+       Microsoft-Windows-MPS-CLNT
+       8971e817-3247-579a-74fb-624214ec10b8
+       Microsoft-Windows-Winsock-SQM
+       dd7a21e6-a651-46d4-b7c2-66543067b869
+       Microsoft-Windows-Fat-SQM
+       68ec658d-c373-4166-996f-d8a757108b27
+       314de49f-ce63-4779-ba2b-d616f6963a88
+       Microsoft-WindowsPhone-Shell-ReminderEvents
+       Microsoft-WindowsPhone-BatterySense
+       Microsoft-WindowsPhone-Comms-BackgroundTransferService
+       21fb27ae-04e4-5227-7d4b-ad1687cddba2
+       054b421c-7def-54ef-ef59-41b32c8f94bc
+       Microsoft-Windows-SrumTelemetry
+       0aba6892-455b-551d-7da8-3a8f85225e1a
+       Microsoft-Windows-RTWorkQueue-Extended
+       ae5c851e-b4b0-4f47-9d6a-2b2f02e39a5a
+       DNS
+       6b6c257f-5643-43e8-8e5a-c66343dbc650
+       6d7469b0-534a-4354-bd77-6294b6506a84
+       fe28004e-b08f-4407-92b3-bad3a2c51708
+       0c478c5b-0351-41b1-8c58-4a6737da32e3
+       b27a2c15-40f4-4ea3-9637-628fc612a1d0
+       0bbe6221-ef09-4a3f-82ee-be00dbb6a98a
+       Microsoft-WindowsPhone-OMADMAPI-Provider
+       Microsoft-WindowsPhone-UsbFn
+       Microsoft-Windows-Kernel-PowerTrigger
+       b3a7698a-0c45-44da-b73d-e181c9b5c8e6
+       Microsoft-WindowsPhone-EnterpriseAppMgmt
+       f7b7c8e4-a5b1-4955-b927-248dddc028c7
+       1808648e-b1c3-4693-922b-701a6ef832c7
+       221a8b88-4fb1-4d57-8027-3b148b43c8b9
+       0a6eaeee-4b93-43b1-b7d7-4ed7f8403a24
+       ef77a703-9f74-4986-a6fe-231fa385e762
+       caeba7aa-c477-4e62-b297-789e5d9a28a3
+       de441ffa-fafa-4495-977f-2e9d2509746d
+       0b9b891e-ff74-49ac-a582-4c58bdf12d8b
+       0bb8e5ca-316f-4b0f-9100-debbc6671308
+       Microsoft-Windows-COM-Perf
+       Microsoft-Windows-Kernel-StoreMgr
+       Microsoft-Windows-Kernel-Processor-Power
+       afe654eb-0a83-4eb4-948f-d4510ec39c30
+       78267204-1ef8-4199-8e25-3b42000c4b23
+       f2e2ce31-0e8a-4e46-a03b-2e0fe97e93c2
+       9a295599-d345-4708-a503-2e11cb970c87
+       fc262701-7cc6-40c3-9f75-8aafeadab122
+       9ca9745c-2667-4e74-8782-3811ce02bb0c
+       ca95ac21-e6fd-4a1b-81be-acf16fcfc0fc
+       7acf487e-104b-533e-f68a-a7e9b0431edb
+       39c9f48f-d244-45a8-842f-dc9fbc9b6e92
+       5cc4fd14-93bf-4f68-988f-a42f005bb92d
+       4f28a611-e7f9-4fa6-8bf1-8698d06336e9
+       28c9f48f-d244-45a8-842f-dc9fbc9b6e92
+       Microsoft-Windows-User Profiles Service
+       d1d7d72d-00d5-4e56-8bac-23fac0f9ed4e
+       21c36b70-7cda-5bc2-09b3-92d7d0459faa
+       4d9dfb91-4337-465a-a8b5-05a27d930d48
+       Microsoft-Windows-User-Diagnostic
+       Microsoft-Windows-BitLocker-Driver-Performance
+       2839ff94-8f12-4e1b-82e3-af7af77a450f
+       7d1767ba-af8f-4583-b259-13f5349c074f
+       32ddfe20-2a5a-4faf-87c3-ed018e21574b
+       Microsoft-WindowsPhone-LegacyCSP
+       9cc0413e-5717-4af5-82eb-6103d8707b45
+       Microsoft-WindowsPhone-Shell-OOBE
+       Microsoft-WindowsPhone-Comms-SyncPhoneUtil
+       Microsoft-WindowsPhone-Comms-AppsShared
+       13dd5f16-9468-4b9f-a47b-47a8e9b0feec
+       bbffc7cb-97b0-470c-ae93-1e1766b0f854
+       6b0aee64-3ef0-43ea-8328-01e664442782
+       Microsoft.Windows.ResourceManager
+       Microsoft-Windows-MF
+       86cc27ea-6f87-47f7-8b43-3473527d4a87
+       4e749b6a-667d-4c72-80ef-373ee3246b08
+       c2709ea3-ae58-5742-3c79-9c11f30145ac
+       6ff5771a-f64e-473f-a2e8-4654c218ff3a
+       Local Security Authority
+       Microsoft-Windows-Partition
+       83ed54f0-4d48-4e45-b16e-726ffd1fa4af
+       Microsoft-WindowsPhone-ConfigManager2RecoveryService
+       Microsoft-WindowsPhone-Connectivity-UX
+       Microsoft-Windows-DomainJoinManagerTriggerProvider
+       Microsoft-WindowsPhone-BMR
+       Microsoft-Windows-UserDataAccess-UserDataApis
+       6451dc83-288a-4b70-9266-25602fac9bbb
+       41d92334-b49c-4938-85f1-3c22595db157
+       f860141e-94e0-418e-a8a6-2321623c3018
+       Microsoft-Windows-XAML
+       509d9518-eae5-4c53-ae47-271ba6b7ef53
+       3d2b6366-47a4-5e10-6974-e5f7de0d3f28
+       66ba1a86-43c6-41ac-955b-28b520db532a
+       a3a7b70d-a430-4f3e-ac8b-32dc24e12d7e
+       03bbe5b8-c788-4d0b-b47e-5b5731398a89
+       Microsoft-Windows-Schannel-Events
+       ceb93324-0dc4-4d12-a466-9926716f2b2a
+       d14e883c-c62a-450f-9a3d-ac55797cd8b2
+       9b52e09f-0c58-4eaf-877f-70f9b54a7946
+       ab67b0f3-ae94-452d-b595-307667142420
+       ac739df5-0d61-415c-af07-e1fece999e29
+       49b12c7c-4bd5-4f93-bb75-30fce739600b
+       Microsoft-WindowsPhone-Shell-Settings-Plugins
+       Microsoft-WindowsPhone-SimPhonebookOM-Provider
+       Microsoft-WindowsPhone-SecurityModelProvider
+       Microsoft-WindowsPhone-Net-Cellcore-APMux
+       5100ef35-4747-4d3f-92a1-4ed6d661c3fb
+       Microsoft-Windows-MediaFoundation-Performance-Core
+       fa386406-8e25-47f7-a03f-413635a55dc0
+       a74efe00-14be-4ef9-9da9-1484d5473304
+       00432966-2ca5-5920-a571-defd107e9a55
+       d086235d-48b9-4e49-aded-5304bf8f636d
+       Microsoft-Windows-Immersive-Shell-API
+       a74efe00-14be-4ef9-9da9-1484d5473305
+       a74efe00-14be-4ef9-9da9-1484d5473301
+       a74efe00-14be-4ef9-9da9-1484d5473302
+       ddd9464f-84f5-4536-9f80-03e9d3254e5b
+       fa8de7c4-acde-4443-9994-c4e2359a9edb
+       51734b23-5b7e-4892-ba8e-45bc110b735c
+       54cb22ff-26b4-4393-a8c2-6b0715912c5f
+       0bee3bc5-a50c-4ec3-a0e0-5ad11f2455a3
+       a74efe00-14be-4ef9-9da9-1484d5473303
+       7f99598f-b2c1-4371-9911-63dee13b9eb1
+       0533f688-4fe9-446a-91c7-a204062e82e9
+       Microsoft-WindowsPhone-Speech-Ux
+       df85b620-df3f-471e-880d-c2806109947c
+       Microsoft-Windows-UserDataAccess-UserDataService
+       Microsoft-WindowsPhone-Tools-FeedbackHub
+       Microsoft-WindowsPhone-Net-CellCore-RilAdaptation
+       b0f691ea-ef99-45a0-8af4-2c2bcf7f67b8
+       Microsoft-Windows-AppSruProv
+       Winlogon
+       Microsoft-Windows-CAPI2
+       f4190f32-f96e-479c-a45d-d485cffe42e6
+       5f31090b-d990-4e91-b16d-46121d0255aa
+       Microsoft-Windows-Security-Netlogon
+       b8ddcea7-b520-4909-bceb-e0170c9f0e99
+       ce20d1cc-faee-4ef6-9bf2-2837cef71258
+       b4b126de-32fe-4591-9ac5-b0778d79a0e7
+       0b9fdccc-451c-449c-9bd8-6756fcc6091a
+       e3e0e2f0-c9c5-11e0-8ab9-9ebc4824019b
+       949d7457-6151-4fa0-9e46-d82a6f9927cf
+       Microsoft-WindowsPhone-Shell-RingtonesAndSounds
+       Microsoft-WindowsPhone-Comms-PhoneOmSimSec
+       Microsoft-WindowsPhone-Power
+       Microsoft-WindowsPhone-PhoneAudio
+       Microsoft-WindowsPhone-Comms-SNCoreProvider
+       Microsoft-WindowsPhone-Bluetooth-BTUX
+       7355ca5c-21c2-4834-a8a0-3057011b4533
+       5acbeb5b-fd8c-45d4-83f1-c8ce2303763c
+       76d1c1d6-4cee-5e0c-ee01-cd252eef4036
+       f70a576f-6c0f-58c7-b941-8042a1158feb
+       2acf2633-ed1b-41fd-a17e-9f98719cdb36
+       Microsoft-WindowsMobile-PackManLogPublisher
+       d951cb3f-2cba-4a1c-9436-6cf2e904dde8
+       de5dcaee-6f88-585a-05ee-d8b05b912772
+       248cbd0d-4137-442e-8d6d-530dcfd43dff
+       609151dd-04f5-4da7-974c-fc6947eaa323
+       8a4fc74e-b158-4fc1-a266-f7670c6aa75d
+       ACPI Driver
+       f5d05b38-80a6-4653-825d-c414e4ab3c68
+       05516000-0670-11e0-8e5c-f4ce462d9187
+       999ac137-42dc-41d3-ba9d-a325a9e1a986
+       Microsoft-Windows-UserDataAccess-UnifiedStore
+       dd98ec7c-0d36-4a77-a2fc-c57a1176399a
+       44e18db2-6cfd-4a07-8fe7-6073794c531a
+       a6a9ce06-035f-40cb-829b-ebb822697591
+       Microsoft-WindowsMobile-AppPlatPerfProvider
+       6af9e939-1d95-430a-afa3-7526fadee37d
+       27445658-7f9c-465c-a1e9-894c5cb6cd59
+       Microsoft-WindowsPhone-LockdownImplProvider
+       b7a19fcd-15ba-41ba-a3d7-dc352d5f79ba
+       e4ad554c-63b2-441b-9f86-fe66d8084963
+       Microsoft-Windows-AsynchronousCausality
+       b2a2afc4-fd0b-5a85-9eef-0ce26805cb02
+       Microsoft-Windows-VWiFi
+       8b86727c-e587-4b89-8fc5-d1f24d43f69c
+       2d0cc56c-874f-422c-b25f-246f286a24ba
+       1e1d83b7-d071-4344-b6f9-0c9a4989d62f
+       1aea69ee-2cfc-5eb1-f1f6-18f99a528b11
+       18f2739c-2213-59b4-2c5e-aa8e1a270f2f
+       Microsoft-WindowsPhone-Comms-PlatformHelper
+       e857ec7f-7588-41ec-ba58-6a08348b910e
+       13020f14-3a73-4db1-8be0-679e16ce17c2
+       1b7da76e-0a98-4e71-a9a5-dfd0a5262c13
+       5eefebdb-e90c-423a-8abf-0241e7c5b87d
+       5a454db4-0839-4ee5-8157-1e54f6eef842
+       6ecc4586-a9b8-421d-8678-4625026f82be
+       Microsoft-Windows-EFS
+       Microsoft-Windows-LDAP-Client
+       72a4952f-db5c-4d90-8f9d-0ed3465b315e
+       Microsoft-Windows-Kernel-EventTracing
+       1b9885b6-24ec-498f-ba72-92499ae79e1f
+       Microsoft-Windows-Install-Agent
+       Microsoft-WindowsPhone-Sensors
+       Windows-Media-Playback
+       Microsoft-Windows-Services
+       Microsoft-WindowsPhone-ConfigSPLte
+       f85b4793-1347-5620-7572-b79d5a28da82
+       Microsoft-WindowsPhone-DataPlanUsageServiceProvider
+       a19fdc69-a626-5289-be4d-1f508a8c9a3b
+       253f4cd1-9475-4642-88e0-6790d7a86cde
+       Microsoft-Windows-KnownFolders
+       Microsoft-Windows-RPC
+       0086eae4-652e-4dc7-b58f-11fa44f927b4
+       e013d109-cd92-452f-9e75-d9027e693ea8
+       696d4914-12a4-422c-a09e-e7e0eb25806a
+       366370bb-e0f9-4a5f-9f74-804566ff4a96
+       Microsoft-Windows-OneBackup
+       Microsoft-Windowsphone-Comms-LegacyRcsDisabler
+       c9c074d2-ff9b-410f-8ac6-81c7b8e60d0f
+       Microsoft-WindowsPhone-Comms-CommsDirectAccessServer
+       2ff93dc3-eea4-4dda-bdc5-8539e1490d32
+       Microsoft-WindowsPhone-Tools-PerfX
+       6ade59e8-a7c0-53d6-c3e0-8fe89759ca13
+       7665d4fd-30eb-4ddc-9dc1-4ebab74ed98e
+       289e2456-ee16-4c81-aaf1-7414d66ca0be
+       9891e0a7-f966-547f-eb21-d98616bf72ee
+       0e7e8596-d648-5c94-adbd-3d780faa58e8
+       ShellCore
+       55d407f6-b994-49f1-95e7-9a3e4b628f46
+       8e598056-8993-11d2-819e-0000f875a064
+       77811378-e885-4ac2-a580-bc86e4f1bc93
+       Kerberos
+       8aa41f62-e9cd-4291-bae1-94daa9a3ac26
+       Microsoft-Windows-Win32k
+       fa3f78ff-ba6d-4ede-96b2-9c5bb803e3ba
+       455fefe7-5b3d-485a-bcbb-d0f09a47d1ae
+       Microsoft-WindowsPhone-Family-DrivingMode-Manager
+       eb3540f2-1909-5d51-b72d-a3ecb0b9bf08
+       Microsoft-WindowsPhone-Nocenter
+       d6e51873-c21a-43ab-9508-f02700e63700
+       Microsoft-WindowsPhone-Net-NetCore-TNE
+       dd2e708d-f725-5c93-d0d1-91c985457612
+       Schannel
+       cf82aecb-ffff-4049-bd5b-687734a5d519
+       Microsoft-Windows-Superfetch
+       Microsoft-Windows-SMBWitnessClient
+       63665931-a4ee-47b3-874d-5155a5cfb415
+       Microsoft-Windows-BrokerInfrastructure
+       Microsoft-WindowsPhone-CaptureService
+       9192accc-612c-5570-ff17-6d6d222f80c9
+       Microsoft-Windows-UserDataAccess-CEMAPI
+       Microsoft-Windows-AppModel-Exec
+       4992d724-46ea-4903-b9ef-3352cab9aa0d
+       e07696f9-80f1-44de-848d-1356b25460dc
+       db5afa36-72be-5ee9-fb28-349ccdfc00ad
+       1d6540ce-a81b-4e74-ad35-eef8463f97f5
+       8ccca27d-f1d8-4dda-b5dd-339aee937731
+       4ef79621-73ba-4bc1-8ad9-222f6facdb65
+       bca7bd7f-b0bf-4051-99f4-03cfe79664c1
+       6a1f2b00-6a90-4c38-95a5-5cab3b056778
+       AudEngCritical
+       Microsoft-Windows-DriverFrameworks-UserMode
+       9d2a53b2-1411-5c1c-d88c-f2bf057645bb
+       45ac0c12-fa92-4407-bc96-577642890490
+       05f95efe-7f75-49c7-a994-60a55cc09571
+       fc8df8fd-d105-40a9-af75-2eec294adf8d
+       Microsoft-Windows-AIT
+       Microsoft-WindowsPhone-MobileUI
+       Microsoft-Windows-MCCS-InternetMail
+       Microsoft-WindowsPhone-IE-WebBrowserControl-Provider
+       6de9ba0e-9e72-53d2-229a-dc09205a27ea
+       3f56c708-705a-5321-5909-ecaaf5f287ba
+       Microsoft-WindowsPhone-Comms-PeopleSimUi
+       Microsoft-WindowsPhone-Input
+       9c6fc32a-e17a-11df-b1c4-4ebadfd72085
+       Microsoft-WindowsMobile-Splash
+       e8109b99-3a2c-4961-aa83-d1a7a148ada8
+       d375f14e-9624-5a18-f53e-5bce2043a97f
+       a140e353-85e5-507d-d20f-bfc45b6ffc7f
+       Microsoft-Windows-TriggerEmulatorProvider
+       4d5e90b3-ec84-480b-9616-a40f5ef9cfb3
+       f8f90fe5-8c92-4146-a764-305aaf12b066
+       9474a749-a98d-4f52-9f45-5b20247e4f01
+       7e9e8b9c-406c-5d73-e566-0f50ea3ade3e
+       daa65a07-d199-48de-a5b5-3c8244cb5507
+       Microsoft-Windows-Kernel-PnP-Rundown
+       0e316aa7-3b31-4d58-9b8b-10b3b2c0f2ed
+       Microsoft-WindowsMobile-TaskScheduler
+       Microsoft-Windows-MCCS-AccountsRT
+       73cf4d38-21a5-41dc-93d5-c8ec31d84b70
+       Microsoft-WindowsPhone-PhoneAudioSes
+       Microsoft-WindowsPhone-Comms-BackgroundTransferServiceClient
+       Microsoft-WindowsPhone-Comms-CommonUtils
+       3b3877a1-ae3b-54f1-0101-1e2424f6fcbb
+       19e464a4-7408-49bd-b960-53446ae47820
+
+PerfTrack Providers: 
+
+UTC Providers: 
+       ebadf775-48aa-4bf3-8f8e-ec68d113c98e:0x0000e00000000000:0xff      : ebadf775-48aa-4bf3-8f8e-ec68d113c98e
+       7d3036c6-a69c-470b-ac5d-ebe3767027ca:0x0000e00000000000:0xff      : 7d3036c6-a69c-470b-ac5d-ebe3767027ca
+       ec6ede49-f40f-5f93-8651-a4edc18afe06:0x0000e00000000000:0xff      : ec6ede49-f40f-5f93-8651-a4edc18afe06
+       4a16abff-346d-56dc-fa87-eb1e29fe670a:0x0000e00000000000:0xff      : 4a16abff-346d-56dc-fa87-eb1e29fe670a
+       221d444c-d07e-4fde-b425-15b746cf535b:0x0000e00000000000:0xff      : 221d444c-d07e-4fde-b425-15b746cf535b
+       a111f1c3-5923-47c0-9a68-d0bafb577901:0x0000e00000000000:0xff      : a111f1c3-5923-47c0-9a68-d0bafb577901
+       fb7fcbc6-7156-5a5b-eabd-0be47b14f453:0x0000e00000000000:0xff      : fb7fcbc6-7156-5a5b-eabd-0be47b14f453
+       9580d7dd-0379-4658-9870-d5be7d52d6de:0x0000e000e0000000:0xff      : Microsoft-Windows-WLAN-AutoConfig
+       2ab7abe2-fd6b-49dd-931e-d3339832676a:0x0000e00000000000:0xff      : 2ab7abe2-fd6b-49dd-931e-d3339832676a
+       f83552c4-a4e8-50f7-b2d4-a9705c474490:0x0000e00000000000:0xff      : f83552c4-a4e8-50f7-b2d4-a9705c474490
+       7a688f0e-f39b-4a7a-bbbb-066e2c1fcb04:0x0000e00000000000:0xff      : 7a688f0e-f39b-4a7a-bbbb-066e2c1fcb04
+       85a7888c-4ef7-5c56-643f-fbd6dc10febe:0x0000e00000000000:0xff      : 85a7888c-4ef7-5c56-643f-fbd6dc10febe
+       0f51c5a7-0e76-47a5-bede-7cf62c5822f6:0x0000e00000000000:0xff      : 0f51c5a7-0e76-47a5-bede-7cf62c5822f6
+       7d265c9d-2276-4606-95f0-fd113c05065e:0x0000e00000000000:0xff      : 7d265c9d-2276-4606-95f0-fd113c05065e
+       53cc8a8b-3182-5101-7405-8dfc7e5f313e:0x0000e00000000000:0xff      : 53cc8a8b-3182-5101-7405-8dfc7e5f313e
+       a4d16fc5-d1cf-4d72-a055-25f3eb02a70e:0x0000e00000000000:0xff      : a4d16fc5-d1cf-4d72-a055-25f3eb02a70e
+       75f56e41-4e48-45a5-84cd-81f349ec01c3:0x0000e00000000000:0xff      : 75f56e41-4e48-45a5-84cd-81f349ec01c3
+       645a72a6-1657-53bb-d5e7-d6526033ef20:0x0000e00000000000:0xff      : 645a72a6-1657-53bb-d5e7-d6526033ef20
+       f3c5e28e-63f6-49c7-a204-e48a1bc4b09d:0x0000e00000000000:0xff      : Microsoft-Windows-FilterManager
+       d67329a1-427d-4b47-8ae8-4fa9d2586b16:0x0000e00000000000:0xff      : d67329a1-427d-4b47-8ae8-4fa9d2586b16
+       7c970fc8-dae6-4b89-8bbf-294ee1c4a79d:0x0000e00000000000:0xff      : 7c970fc8-dae6-4b89-8bbf-294ee1c4a79d
+       af2114e4-cb29-4a94-b24b-6a27bb43ed83:0x0000e00000000000:0xff      : af2114e4-cb29-4a94-b24b-6a27bb43ed83
+       cdead503-17f5-4a3e-b7ae-df8cc2902eb9:0x0000e00000000000:0xff      : Microsoft-Windows-NDIS
+       06917f71-ce18-4fb2-80cf-38ddedde08ed:0x0000e00000000000:0xff      : 06917f71-ce18-4fb2-80cf-38ddedde08ed
+       07b7592c-a848-4520-89da-1ab26bc4629f:0x0000e00000000000:0xff      : 07b7592c-a848-4520-89da-1ab26bc4629f
+       74c5d08a-6406-5728-2b7e-8d9ee2d34ab7:0x0000e00000000000:0xff      : 74c5d08a-6406-5728-2b7e-8d9ee2d34ab7
+       4eeb8774-6c4c-492f-8f2f-5ee4721b7bf7:0x0000e00000000000:0xff      : 4eeb8774-6c4c-492f-8f2f-5ee4721b7bf7
+       ab9ebce4-fe7f-4dab-ace8-b28af18ec32d:0x0000e00000000000:0xff      : ab9ebce4-fe7f-4dab-ace8-b28af18ec32d
+       c7b89fc6-5c99-56f4-2b2e-c536b212904d:0x0000e00000000000:0xff      : c7b89fc6-5c99-56f4-2b2e-c536b212904d
+       6ee5d800-84e9-5917-a448-dcf4cb6096d8:0x0000e00000000000:0xff      : 6ee5d800-84e9-5917-a448-dcf4cb6096d8
+       45d87330-ffec-4a95-9f07-206a4452555d:0x0000e00000000000:0xff      : 45d87330-ffec-4a95-9f07-206a4452555d
+       ec044b58-3d13-4880-936f-7b67dfb3e056:0x0000e00000000000:0xff      : ec044b58-3d13-4880-936f-7b67dfb3e056
+       88cd9180-4491-4640-b571-e3bee2527943:0x0000e00000000000:0xff      : Microsoft-Windows-PushNotifications-Platform
+       8d43f18f-af82-450a-bfb7-d6f1b53570ba:0x0000e00000000000:0xff      : 8d43f18f-af82-450a-bfb7-d6f1b53570ba
+       7fad10b2-2f44-5bb2-1fd5-65d92f9c7290:0x0000e00000000000:0xff      : 7fad10b2-2f44-5bb2-1fd5-65d92f9c7290
+       2f07e2ee-15db-40f1-90ef-9d7ba282188a:0x0000e00000000000:0xff      : 2f07e2ee-15db-40f1-90ef-9d7ba282188a
+       93112de2-0aa3-4ed7-91e3-4264555220c1:0x0000e00000000000:0xff      : 93112de2-0aa3-4ed7-91e3-4264555220c1
+       6892b716-cfea-4c82-9557-9c782e3f8c6c:0x0000e00000000000:0xff      : 6892b716-cfea-4c82-9557-9c782e3f8c6c
+       ff32ada1-5a4b-583c-889e-a3c027b201f5:0x0000e00000000000:0xff      : ff32ada1-5a4b-583c-889e-a3c027b201f5
+       7067398c-bae7-4191-bf16-c436de658baf:0x0000e00000000000:0xff      : 7067398c-bae7-4191-bf16-c436de658baf
+       c6998471-62cd-424d-a9a3-fe4c1fa378a4:0x0000e00000000000:0xff      : c6998471-62cd-424d-a9a3-fe4c1fa378a4
+       27c8423b-e0c9-4e8f-a99a-e87cd369b79e:0x0000e00000000000:0xff      : 27c8423b-e0c9-4e8f-a99a-e87cd369b79e
+       24b4f621-1022-48ed-8b93-23fa02191d83:0x0000e00000000000:0xff      : 24b4f621-1022-48ed-8b93-23fa02191d83
+       66feb609-f4b6-4224-bf13-121f8a4829b4:0x0000e00000000000:0xff      : 66feb609-f4b6-4224-bf13-121f8a4829b4
+       ac01ece8-0b79-5cdb-9615-1b6a4c5fc871:0x0000e00000000000:0xff      : ac01ece8-0b79-5cdb-9615-1b6a4c5fc871
+       509b009b-d8eb-4f7d-a12b-a23218bfca84:0x0000e00000000000:0xff      : 509b009b-d8eb-4f7d-a12b-a23218bfca84
+       ced8d3d1-c760-49a7-a709-0de39da17de8:0x0000e00000000000:0xff      : ced8d3d1-c760-49a7-a709-0de39da17de8
+       bf460fc6-45c5-4119-add3-e361a6e7d5ac:0x0000e00000000000:0xff      : Microsoft-Windows-MCCS-EngineShared
+       a1dde9c2-b985-5d80-c6a2-4c0a0b14ff01:0x0000e00000000000:0xff      : a1dde9c2-b985-5d80-c6a2-4c0a0b14ff01
+       c2772df8-1667-59fa-2da8-2267ba4423bc:0x0000e00000000000:0xff      : c2772df8-1667-59fa-2da8-2267ba4423bc
+       553ca39b-c608-566d-18ae-7b9a03a39acd:0x0000e00000000000:0xff      : 553ca39b-c608-566d-18ae-7b9a03a39acd
+       487d6e37-1b9d-46d3-a8fd-54ce8bdf8a53:0x0000e00000000000:0xff      : 487d6e37-1b9d-46d3-a8fd-54ce8bdf8a53
+       ed1640e7-9dc0-45b5-a1ef-88b70cf1742c:0x0000e00000000000:0xff      : ed1640e7-9dc0-45b5-a1ef-88b70cf1742c
+       dca074ce-547c-4595-ae90-56229b8e3bd9:0x0000e00000000000:0xff      : Microsoft-Windows-MCCS-SyncUtil
+       6e7b1892-5288-5fe5-8f34-e3b0dc671fd2:0x0000e00000000000:0xff      : 6e7b1892-5288-5fe5-8f34-e3b0dc671fd2
+       77fe4532-3f5c-5786-632b-fb3201bce29b:0x0000e00000000000:0xff      : 77fe4532-3f5c-5786-632b-fb3201bce29b
+       4be7b04b-179f-47cb-b6d9-b58ceef35be7:0x0000e00000000000:0xff      : 4be7b04b-179f-47cb-b6d9-b58ceef35be7
+       c1fc4970-bc57-4138-b3fb-91ea9848a0e5:0x0000e00000000000:0xff      : c1fc4970-bc57-4138-b3fb-91ea9848a0e5
+       fd66a680-c052-4375-8cc9-225f923cef88:0x0000e00000000000:0xff      : fd66a680-c052-4375-8cc9-225f923cef88
+       cb671458-ad15-40e8-a65a-753ea62d853a:0x0000e00000000000:0xff      : cb671458-ad15-40e8-a65a-753ea62d853a
+       d7afa934-92e9-4f14-98f2-62f2486c39fb:0x0000e00000000000:0xff      : d7afa934-92e9-4f14-98f2-62f2486c39fb
+       1d480c11-3870-4b19-9144-47a53cd973bd:0x0000e00000000000:0xff      : 1d480c11-3870-4b19-9144-47a53cd973bd
+       9bb1a5a5-abd6-4f8e-9507-12cc2b314896:0x0000e00000000000:0xff      : 9bb1a5a5-abd6-4f8e-9507-12cc2b314896
+       9c2a37f3-e5fd-5cae-bcd1-43dafeee1ff0:0x0000e00000000000:0xff      : Microsoft-Windows-Store
+       eefb94ca-d0ea-547f-14a8-7b6ff9cd7200:0x0000e00000000000:0xff      : eefb94ca-d0ea-547f-14a8-7b6ff9cd7200
+       69a770dd-1cdb-46c0-91c9-cd2a9b76e061:0x0000e00000000000:0xff      : 69a770dd-1cdb-46c0-91c9-cd2a9b76e061
+       099eed30-ef6b-4e21-a651-7fb5b1412ce2:0x0000e00000000000:0xff      : 099eed30-ef6b-4e21-a651-7fb5b1412ce2
+       ed0c10a5-5396-4a96-9ee3-6f4aa0d1120d:0x0000e00000000000:0xff      : ed0c10a5-5396-4a96-9ee3-6f4aa0d1120d
+       cb76d769-a1ed-4fb1-98c3-266951610fd8:0x0000e00000000000:0xff      : cb76d769-a1ed-4fb1-98c3-266951610fd8
+       14f8138e-3b61-580b-544b-2609378ae460:0x0000600000000000:0xff      : 14f8138e-3b61-580b-544b-2609378ae460
+       6f93acd0-1c1c-5637-8860-e38dc9dd1e69:0x0000e00000000000:0xff      : 6f93acd0-1c1c-5637-8860-e38dc9dd1e69
+       bcb6ba09-84a1-48a7-b1c2-42cb89f39007:0x0000e00000000000:0xff      : bcb6ba09-84a1-48a7-b1c2-42cb89f39007
+       364e2beb-6efc-47dc-b8b1-49aae1d83922:0x0000e00000000000:0xff      : 364e2beb-6efc-47dc-b8b1-49aae1d83922
+       d29624ca-200f-44bb-9471-13b01ea15b9e:0x0000e00000000000:0xff      : d29624ca-200f-44bb-9471-13b01ea15b9e
+       99c9988d-2185-5021-a21d-7a863b8a1a10:0x0000e00000000000:0xff      : 99c9988d-2185-5021-a21d-7a863b8a1a10
+       65cacb72-8567-457a-bc48-e16b67fb3e27:0x0000e00000000000:0xff      : 65cacb72-8567-457a-bc48-e16b67fb3e27
+       e2c91436-8fb1-446a-9655-31395f42a737:0x0000e00000000000:0xff      : e2c91436-8fb1-446a-9655-31395f42a737
+       ffdb0cfd-833c-4f16-ad3f-ec4be3cc1af5:0x0000e00000000000:0xff      : ffdb0cfd-833c-4f16-ad3f-ec4be3cc1af5
+       cf7f94b3-08dc-5257-422f-497d7dc86ab3:0x0000e00000000000:0xff      : cf7f94b3-08dc-5257-422f-497d7dc86ab3
+       846aaa8d-c5c3-539a-aa7e-805a6a7853a4:0x0000e00000000000:0xff      : 846aaa8d-c5c3-539a-aa7e-805a6a7853a4
+       594bf743-ce2e-48ee-83ee-3d50a0add692:0x0000e00000000000:0xff      : 594bf743-ce2e-48ee-83ee-3d50a0add692
+       8b7650e3-0bd4-458f-b678-34ac4e348b7c:0x0000e00000000000:0xff      : 8b7650e3-0bd4-458f-b678-34ac4e348b7c
+       afa71204-ca19-516e-3b0b-97016857d3d7:0x0000e00000000000:0xff      : afa71204-ca19-516e-3b0b-97016857d3d7
+       864c5689-9310-594c-5cef-000695f5ace8:0x0000e00000000000:0xff      : 864c5689-9310-594c-5cef-000695f5ace8
+       49d5f264-500b-54ec-0549-b61dbb42265d:0x0000e00000000000:0xff      : 49d5f264-500b-54ec-0549-b61dbb42265d
+       4b01be74-d810-5994-228e-ee8417be3468:0x0000e00000000000:0xff      : 4b01be74-d810-5994-228e-ee8417be3468
+       2d711040-1c6e-5ed4-655d-5d14c429d39b:0x0000e00000000000:0xff      : 2d711040-1c6e-5ed4-655d-5d14c429d39b
+       7a0db36b-2dca-4b50-ab37-b4b15bf8dad7:0x0000e00000000000:0xff      : 7a0db36b-2dca-4b50-ab37-b4b15bf8dad7
+       c8dbf506-e3d3-4822-930d-84c557eb6247:0x0000e00000000000:0xff      : Microsoft-Windows-SruMon
+       6966fe51-e224-4baa-99bc-897b3ed3b823:0x0000e00000000000:0xff      : 6966fe51-e224-4baa-99bc-897b3ed3b823
+       c906ed7b-d3d9-435b-97cd-22f4e7445f2a:0x0000e00000000000:0xff      : c906ed7b-d3d9-435b-97cd-22f4e7445f2a
+       072665fb-8953-5a85-931d-d06aeab3d109:0x0000e00000000000:0xff      : 072665fb-8953-5a85-931d-d06aeab3d109
+       22fb2cd6-0e7b-422b-a0c7-2fad1fd0e716:0x0000000000000800:0x4       : Microsoft-Windows-Kernel-Process
+       9df18e6f-2779-55d0-d0f3-bce81550ef3b:0x0000e00000000000:0xff      : 9df18e6f-2779-55d0-d0f3-bce81550ef3b
+       4025d192-273d-42ec-bdf8-940ec34eedca:0x0000e00000000000:0xff      : Microsoft-Windows-MCCS-AccountAccessor
+       cbf776fd-5b21-5fbc-e4cd-f19fe9acc193:0x0000e00000000000:0xff      : cbf776fd-5b21-5fbc-e4cd-f19fe9acc193
+       63bcb611-4446-564a-a4b3-7d65624589ef:0x0000e00000000000:0xff      : 63bcb611-4446-564a-a4b3-7d65624589ef
+       b92d1ff0-92ec-444d-b7ec-c016f971c000:0x0000e00000000000:0xff      : b92d1ff0-92ec-444d-b7ec-c016f971c000
+       ce8dee0b-d539-4000-b0f8-77bed049c590:0x0000e00000000000:0xff      : Microsoft-Windows-UserModePowerService
+       e0bb2fc4-4ae5-55c3-069c-ff72f46612cc:0x0000e00000000000:0xff      : e0bb2fc4-4ae5-55c3-069c-ff72f46612cc
+       315a8872-923e-4ea2-9889-33cd4754bf64:0x0000e00000000000:0xff      : Microsoft-Windows-Immersive-Shell
+       98177d7f-7d3a-51ef-2d41-2414bb2c0bdb:0x0000e00000000000:0xff      : 98177d7f-7d3a-51ef-2d41-2414bb2c0bdb
+       aa6f6a10-8a13-417d-8799-52361684bd76:0x0000e00000000000:0xff      : aa6f6a10-8a13-417d-8799-52361684bd76
+       6c6d5103-b4ab-46b1-b4cf-7d330f4c81e6:0x0000e00000000000:0xff      : 6c6d5103-b4ab-46b1-b4cf-7d330f4c81e6
+       0998dfb7-59d7-4e82-92ce-8a83e7c0bb3e:0x0000e00000000000:0xff      : 0998dfb7-59d7-4e82-92ce-8a83e7c0bb3e
+       b94d76c5-9d56-454a-8d1b-6ca30898160e:0x0000e00000000000:0xff      : b94d76c5-9d56-454a-8d1b-6ca30898160e
+       783f30af-5514-51bc-5b99-5d33b678539b:0x0000e00000000000:0xff      : 783f30af-5514-51bc-5b99-5d33b678539b
+       a0b7550f-4e9a-4f03-ad41-b8042d06a2f7:0x0000e00000000000:0xff      : Microsoft-WindowsPhone-CoreUIComponents
+       52134415-75c1-4df9-9118-8b2bd00cc6e2:0x0000e00000000000:0xff      : 52134415-75c1-4df9-9118-8b2bd00cc6e2
+       79172b48-631e-5d2c-9f04-1ad99f6e1046:0x0000e00000000000:0xff      : 79172b48-631e-5d2c-9f04-1ad99f6e1046
+       8ad60765-a021-4494-8594-9346970cf50f:0x0000e00000000000:0xff      : 8ad60765-a021-4494-8594-9346970cf50f
+       ee97cdc4-b095-5c70-6e37-a541eb74c2b5:0x0000e00000000000:0xff      : ee97cdc4-b095-5c70-6e37-a541eb74c2b5
+       1c58b436-ed03-4184-8b7d-e761a817f345:0x0000e00000000000:0xff      : 1c58b436-ed03-4184-8b7d-e761a817f345
+       d76203c4-8c1b-4e53-afab-c22865594f3f:0x0000e00000000000:0xff      : d76203c4-8c1b-4e53-afab-c22865594f3f
+       2c03c3c6-936c-4c79-b8f9-9f5084153e6d:0x0000e00000000000:0xff      : 2c03c3c6-936c-4c79-b8f9-9f5084153e6d
+       84a5010c-3fd1-499f-885f-7ccb03bfde8d:0x0000e00000000000:0xff      : 84a5010c-3fd1-499f-885f-7ccb03bfde8d
+       0bca4784-8257-51a0-d9ec-24fe1fe4c90d:0x0000400000000000:0xff      : Microsoft.Windows.App.Browser
+       63b6c2d2-0440-44de-a674-aa51a251b123:0x0000e00000000000:0xff      : 63b6c2d2-0440-44de-a674-aa51a251b123
+       4e7add1a-6945-435a-82b6-612688ba9f57:0x0000e00000000000:0xff      : 4e7add1a-6945-435a-82b6-612688ba9f57
+       dda1d007-6e0a-4fb6-83a3-996599b3826e:0x0000e00000000000:0xff      : dda1d007-6e0a-4fb6-83a3-996599b3826e
+       22eb0808-0b6c-5cd4-5511-6a77e6e73a93:0x0000e00000000000:0xff      : 22eb0808-0b6c-5cd4-5511-6a77e6e73a93
+       44492b72-a8e2-4f20-b0ae-f1d437657c92:0x0000e00000000000:0xff      : 44492b72-a8e2-4f20-b0ae-f1d437657c92
+       ab0d8ef9-866d-4d39-b83f-453f3b8f6325:0x0000e00000000000:0xff      : Microsoft-Windows-OneX
+       d1f688bf-012f-4aec-a38c-e7d4649f8cd2:0x0000e00000000000:0xff      : Microsoft-Windows-UserDataAccess-UserDataUtils
+       6b4e98da-b103-588e-d0db-c7a111582066:0x0000e00000000000:0xff      : 6b4e98da-b103-588e-d0db-c7a111582066
+       46dc5dcf-095f-4157-aaee-dd6ae23720e0:0x0000e00000000000:0xff      : 46dc5dcf-095f-4157-aaee-dd6ae23720e0
+       393ff4cc-f02d-5d0a-4180-b79bf8da529d:0x0000e00000000000:0xff      : 393ff4cc-f02d-5d0a-4180-b79bf8da529d
+       3d6120a6-0986-51c4-213a-e2975903051d:0x0000e00000000000:0xff      : 3d6120a6-0986-51c4-213a-e2975903051d
+       46dc5dcf-095f-4157-abed-fd6ae23720e0:0x0000e00000000000:0xff      : 46dc5dcf-095f-4157-abed-fd6ae23720e0
+       9c81866c-f1b7-4902-ac59-49c7a0839976:0x0000e00000000000:0xff      : 9c81866c-f1b7-4902-ac59-49c7a0839976
+       1a211ee8-52db-4af0-bb66-fb8c9f20b0e2:0x0000e00000000000:0xff      : 1a211ee8-52db-4af0-bb66-fb8c9f20b0e2
+       219bc9ac-db43-505d-4dff-507d357163a1:0x0000e00000000000:0xff      : 219bc9ac-db43-505d-4dff-507d357163a1
+       65a1b6fc-4c24-59c9-e3f3-ad11ac510b41:0x0000600000000000:0xff      : 65a1b6fc-4c24-59c9-e3f3-ad11ac510b41
+       acc49822-f0b2-49ff-bff2-1092384822b6:0x0000e00000000000:0xff      : acc49822-f0b2-49ff-bff2-1092384822b6
+       96c57851-af06-470f-8635-9c5e463e5f0c:0x0000e00000000000:0xff      : 96c57851-af06-470f-8635-9c5e463e5f0c
+       b117acb6-f2da-4c4b-bfb6-6cbfc9928b67:0x0000e00000000000:0xff      : b117acb6-f2da-4c4b-bfb6-6cbfc9928b67
+       1491f89f-c57d-4135-8e05-76f0f68124a8:0x0000e00000000000:0xff      : 1491f89f-c57d-4135-8e05-76f0f68124a8
+       2fdb1f25-8de1-4bc1-bac2-e445e5b38743:0x0000e00000000000:0xff      : 2fdb1f25-8de1-4bc1-bac2-e445e5b38743
+       9bfa0c89-0339-4bd1-b631-e8cd1d909c41:0x0000e00000000000:0xff      : 9bfa0c89-0339-4bd1-b631-e8cd1d909c41
+       6d7051a0-9c83-5e52-cf8f-0ecaf5d5f6fd:0x0000e00000000000:0xff      : 6d7051a0-9c83-5e52-cf8f-0ecaf5d5f6fd
+       d235f230-b85a-54d3-4046-32ca71979867:0x0000e00000000000:0xff      : d235f230-b85a-54d3-4046-32ca71979867
+       30dd1049-5862-4ec9-9f03-872e2e44a43b:0x0000e00000000000:0xff      : 30dd1049-5862-4ec9-9f03-872e2e44a43b
+       af9f58ec-0c04-4be9-9eb5-55ff6dbe72d7:0x0000e00000000000:0xff      : af9f58ec-0c04-4be9-9eb5-55ff6dbe72d7
+       bf4c9654-66d1-5720-7b51-d2ae226735ea:0x0000e00000000000:0xff      : bf4c9654-66d1-5720-7b51-d2ae226735ea
+       da7abd3e-3687-4d04-8ba2-38446f5226df:0x0000e00000000000:0xff      : da7abd3e-3687-4d04-8ba2-38446f5226df
+       2dbd0b99-c886-5c44-9fc2-7220ddf5aaf6:0x0000e00000000000:0xff      : 2dbd0b99-c886-5c44-9fc2-7220ddf5aaf6
+       28d62fb0-2131-41d6-84e8-e2325867964c:0x0000e00000000000:0xff      : 28d62fb0-2131-41d6-84e8-e2325867964c
+       a66a8706-ae1e-4a26-a15b-27d924c43063:0x0000e00000000000:0xff      : a66a8706-ae1e-4a26-a15b-27d924c43063
+       96f4a050-7e31-453c-88be-9634f4e02139:0x0000000000000001:0x4       : 96f4a050-7e31-453c-88be-9634f4e02139
+       89dfbde8-86e8-489b-9867-eefdc5e8879b:0x0000e00000000000:0xff      : 89dfbde8-86e8-489b-9867-eefdc5e8879b
+       870ac05a-7777-5c66-c3f0-c1f6b7129ef6:0x0000e00000000000:0xff      : 870ac05a-7777-5c66-c3f0-c1f6b7129ef6
+       e75a83ec-ef30-4e3c-a5fb-1e7626e48f43:0x0000e00000000000:0xff      : e75a83ec-ef30-4e3c-a5fb-1e7626e48f43
+       331c3b3a-2005-44c2-ac5e-77220c37d6b4:0x0000e00000000000:0xff      : Microsoft-Windows-Kernel-Power
+       15773ad5-aa2f-422a-9129-4a83f4c19db0:0x0000e00000000000:0xff      : 15773ad5-aa2f-422a-9129-4a83f4c19db0
+       703fcc13-b66f-5868-ddd9-e2db7f381ffb:0x0000e00000000000:0xff      : 703fcc13-b66f-5868-ddd9-e2db7f381ffb
+       31f05ccd-99d9-5674-0e43-36e104f04d22:0x0000e00000000000:0xff      : 31f05ccd-99d9-5674-0e43-36e104f04d22
+       d0f1a5c6-fc43-48ae-99bf-efb1c38be9d1:0x0000e00000000000:0xff      : d0f1a5c6-fc43-48ae-99bf-efb1c38be9d1
+       8cebf433-4842-449e-9fa0-99c6b14a7126:0x0000e00000000000:0xff      : 8cebf433-4842-449e-9fa0-99c6b14a7126
+       5bc69579-c5e2-4bc8-9a9b-b2795c6b9cbb:0x0000e00000000000:0xff      : 5bc69579-c5e2-4bc8-9a9b-b2795c6b9cbb
+       0a9a90c8-9417-482d-b517-df1774c8f404:0x0000e00000000000:0xff      : 0a9a90c8-9417-482d-b517-df1774c8f404
+       41d006be-1a11-4121-a0eb-0ea2ae688044:0x0000e00000000000:0xff      : 41d006be-1a11-4121-a0eb-0ea2ae688044
+       7d76b731-d927-5737-81c5-ae3d3733c0ab:0x0000e00000000000:0xff      : 7d76b731-d927-5737-81c5-ae3d3733c0ab
+       bd59a9a8-cafb-4503-845e-d85fb72ae2e1:0x0000e00000000000:0xff      : bd59a9a8-cafb-4503-845e-d85fb72ae2e1
+       c95fd9ab-d373-473b-80b7-3a90b8dd5bc2:0x0000e00000000000:0xff      : c95fd9ab-d373-473b-80b7-3a90b8dd5bc2
+       3c302a2a-f195-4fed-bd7b-c91ba3f33879:0x0000e00000000000:0xff      : 3c302a2a-f195-4fed-bd7b-c91ba3f33879
+       10ff35f4-901f-493f-b272-67afb81008d4:0x0000e00000000000:0xff      : 10ff35f4-901f-493f-b272-67afb81008d4
+       a0b6be33-b959-50c3-3c92-8451b6f965c3:0x0000000000000001:0x5       : a0b6be33-b959-50c3-3c92-8451b6f965c3
+       0bd3506a-9030-4f76-9b88-3e8fe1f7cfb6:0x00000000e0000000:0xff      : Microsoft-Windows-NWiFi
+       9f79511c-06ad-4812-b18b-90006088d2ca:0x0000e00000000000:0xff      : Microsoft-WindowsPhone-Shell-Chrome
+       e9eaf418-0c07-464c-ad14-a7f353349a00:0x0000e00000000000:0xff      : e9eaf418-0c07-464c-ad14-a7f353349a00
+       ff79a477-c45f-4a52-8ae0-2b324346d4e4:0x0000e00000000000:0xff      : Windows-ApplicationModel-Store-SDK
+       073c75a0-d07d-4203-9501-a91f2a239d55:0x0000e00000000000:0xff      : 073c75a0-d07d-4203-9501-a91f2a239d55
+       94b4fed6-bedc-4cde-a81c-8d5f40af3c78:0x0000e00000000000:0xff      : 94b4fed6-bedc-4cde-a81c-8d5f40af3c78
+       c31e3c2c-0867-5334-34af-93b3dfdee3b8:0x0000e00000000000:0xff      : c31e3c2c-0867-5334-34af-93b3dfdee3b8
+       06184c97-5201-480e-92af-3a3626c5b140:0x0000e00000000000:0xff      : 06184c97-5201-480e-92af-3a3626c5b140
+       b87cf16b-0bf8-4492-a510-d5f59626b033:0x0000e00000000000:0xff      : b87cf16b-0bf8-4492-a510-d5f59626b033
+       540dc156-e9d6-42dc-a225-29794149a495:0x0000e00000000000:0xff      : 540dc156-e9d6-42dc-a225-29794149a495
+       973c694b-79a6-480e-89a5-c8c20745d461:0x0000e00000000000:0xff      : 973c694b-79a6-480e-89a5-c8c20745d461
+       b881e3b7-cf0e-4cc3-86f9-6027db19c688:0x0000e00000000000:0xff      : b881e3b7-cf0e-4cc3-86f9-6027db19c688
+       aea3a1a8-ea43-4802-b750-2dd678910779:0x0000e00000000000:0xff      : aea3a1a8-ea43-4802-b750-2dd678910779
+       aa3a221d-9a6f-4cf9-904e-897100ce8915:0x0000e00000000000:0xff      : aa3a221d-9a6f-4cf9-904e-897100ce8915
+       21063878-2959-42ea-a85a-0da1ab119c03:0x0000e00000000000:0xff      : 21063878-2959-42ea-a85a-0da1ab119c03
+       82b5ad62-b453-481a-b838-ca1eeae6e472:0x0000e00000000000:0xff      : 82b5ad62-b453-481a-b838-ca1eeae6e472
+       f3a71a4b-6118-4257-8ccb-39a33ba059d4:0x0000e00000000000:0xff      : f3a71a4b-6118-4257-8ccb-39a33ba059d4
+       ddb15654-924f-42de-8be1-2f8bf4946be1:0x0000e00000000000:0xff      : ddb15654-924f-42de-8be1-2f8bf4946be1
+       7fcb9791-f481-46d1-846e-2eb6f003c4d3:0x0000e00000000000:0xff      : Microsoft-Windows-MCCS-SyncController
+       02f42b1b-4b78-48ce-8cdf-d98f8b443b93:0x0000e00000000000:0xff      : 02f42b1b-4b78-48ce-8cdf-d98f8b443b93
+       0001376b-930d-50cd-2b29-491ca938cd54:0x0000e00000000000:0xff      : 0001376b-930d-50cd-2b29-491ca938cd54
+       6c0ebbbb-c292-457d-9675-dfcc1c0d58b0:0x0000e00000000000:0xff      : 6c0ebbbb-c292-457d-9675-dfcc1c0d58b0
+       0d770577-bb34-538f-9c4f-da99fb5df794:0x0000e00000000000:0xff      : 0d770577-bb34-538f-9c4f-da99fb5df794
+       7073707a-0587-4e03-b31f-6443eb1acbcd:0x0000e00000000000:0xff      : 7073707a-0587-4e03-b31f-6443eb1acbcd
+       dd685aa3-9e8c-5e0c-819d-a3d24d221af1:0x0000e00000000000:0xff      : dd685aa3-9e8c-5e0c-819d-a3d24d221af1
+       fcf77cb9-e787-4e43-8d12-f6f7545bb938:0x0000e00000000000:0xff      : fcf77cb9-e787-4e43-8d12-f6f7545bb938
+       bb8dd8e5-3650-5ca7-4fea-46f75f152414:0x0000e00000000000:0xff      : bb8dd8e5-3650-5ca7-4fea-46f75f152414
+       7d5ab09c-908a-5449-b08c-6767407c4965:0x0000e00000000000:0xff      : 7d5ab09c-908a-5449-b08c-6767407c4965
+       0bd19909-eb6f-4b16-8074-6dce803f091d:0x0000e00000000000:0xff      : Microsoft-Windows-UserDataAccess-Poom
+       1aff6089-e863-4d36-bdfd-3581f07440be:0x0000e00000000000:0xff      : 1aff6089-e863-4d36-bdfd-3581f07440be
+       950d4eda-1729-47cc-8f1e-d9ed5aa17642:0x0000e00000000000:0xff      : 950d4eda-1729-47cc-8f1e-d9ed5aa17642
+       6eaa8566-66f9-5c32-c995-05cbb0b423ac:0x0000e00000000000:0xff      : 6eaa8566-66f9-5c32-c995-05cbb0b423ac
+       767166e4-869c-5cc7-4f54-b13d12274111:0x0000e00000000000:0xff      : 767166e4-869c-5cc7-4f54-b13d12274111
+       5e85651d-3ff2-4733-b0a2-e83dfa96d757:0x0000e00000000000:0xff      : 5e85651d-3ff2-4733-b0a2-e83dfa96d757
+       b8020478-a6a8-42bb-9ede-b2d3ebf8da7c:0x0000e00000000000:0xff      : b8020478-a6a8-42bb-9ede-b2d3ebf8da7c
+       3d8e0e0a-54db-46d1-94ba-7ff7209d6a31:0x0000e00000000000:0xff      : 3d8e0e0a-54db-46d1-94ba-7ff7209d6a31
+       6ecba0bf-67f5-499e-901f-82973c1091ff:0x0000e00000000000:0xff      : 6ecba0bf-67f5-499e-901f-82973c1091ff
+       8127f6d4-59f9-4abf-8952-3e3a02073d5f:0x0000e00000000000:0xff      : Microsoft-Windows-AppXDeployment
+       04eccf8e-8490-4ad1-8ed5-0ae7750e69e6:0x0000e00000000000:0xff      : Microsoft-Windows-MCCS-AccountsHost
+       969e8d6b-df02-56e3-a058-ec3bef103534:0x0000e00000000000:0xff      : 969e8d6b-df02-56e3-a058-ec3bef103534
+       deb96c0a-d2d9-5868-a5d5-50ee13513c8b:0x0000e00000000000:0xff      : deb96c0a-d2d9-5868-a5d5-50ee13513c8b
+       b6a9c8ba-70de-42e4-88de-001a041b0768:0x0000e00000000000:0xff      : b6a9c8ba-70de-42e4-88de-001a041b0768
+       318bbc33-cdfd-42c0-b5e5-57ed92e8935f:0x0000e00000000000:0xff      : 318bbc33-cdfd-42c0-b5e5-57ed92e8935f
+       9ca335ed-c0a6-4b4d-b084-9c9b5143aff0:0x0000e00000000000:0xff      : 9ca335ed-c0a6-4b4d-b084-9c9b5143aff0
+       2d0a7070-7102-43c0-9a9e-196c43c3af7c:0x0000e00000000000:0xff      : 2d0a7070-7102-43c0-9a9e-196c43c3af7c
+       3c42000f-cc27-48c3-a005-48f6e38b131f:0x0000e00000000000:0xff      : Microsoft-WindowsPhone-AppPlatProvider
+       5c15713b-c125-4cdc-b35b-e37546ac8adb:0x0000e00000000000:0xff      : 5c15713b-c125-4cdc-b35b-e37546ac8adb
+       63bca7a1-77ec-4ea7-95d0-98d3f0c0ebf7:0x0000e00000000000:0xff      : 63bca7a1-77ec-4ea7-95d0-98d3f0c0ebf7
+       0616f7dd-722a-4df1-b87a-414fa870d8b7:0x0000400000000000:0xff      : 0616f7dd-722a-4df1-b87a-414fa870d8b7
+       e98ebdbf-3058-4784-8521-47860b1d2b8e:0x0000e00000000000:0xff      : Microsoft-WindowsPhone-Ufx
+       771e7665-3e83-4475-8ae6-8f5384c41408:0x0000e00000000000:0xff      : 771e7665-3e83-4475-8ae6-8f5384c41408
+       18608e62-a628-49d9-8c02-55972e097d24:0x0000e00000000000:0xff      : 18608e62-a628-49d9-8c02-55972e097d24
+       5e753e4d-2b0d-4451-b8f9-0f1253ca0b44:0x0000e00000000000:0xff      : 5e753e4d-2b0d-4451-b8f9-0f1253ca0b44
+       9b223f67-67a1-5b53-9126-4593fe81df25:0x0000e00000000000:0xff      : 9b223f67-67a1-5b53-9126-4593fe81df25
+       7614521c-4d0b-4341-bfc9-873082c0f1d3:0x0000e00000000000:0xff      : 7614521c-4d0b-4341-bfc9-873082c0f1d3
+       1bf43430-9464-4b83-b7fb-e2638876aeef:0x0000e00000000000:0xff      : 1bf43430-9464-4b83-b7fb-e2638876aeef
+       4ca869f9-d720-449f-a322-28d0d1763e50:0x0000e00000000000:0xff      : 4ca869f9-d720-449f-a322-28d0d1763e50
+       12bca6d1-2e36-4515-af2d-ab00a7613a6f:0x0000e00000000000:0xff      : 12bca6d1-2e36-4515-af2d-ab00a7613a6f
+       5590bf8b-9781-5d78-961f-5bb8b21fbaf6:0x0000e00000000000:0xff      : 5590bf8b-9781-5d78-961f-5bb8b21fbaf6
+       ee845016-ebe1-41eb-be52-5e3ae58339f2:0x0000e00000000000:0xff      : ee845016-ebe1-41eb-be52-5e3ae58339f2
+       1247a572-e563-52f8-1be5-7581e71bce0f:0x0000e00000000000:0xff      : 1247a572-e563-52f8-1be5-7581e71bce0f
+       30818a38-cdb2-4e6b-9ab5-e4257e94381d:0x0000e00000000000:0xff      : 30818a38-cdb2-4e6b-9ab5-e4257e94381d
+       baa05370-7451-48d2-8f38-778380946ce9:0x0000e00000000000:0xff      : baa05370-7451-48d2-8f38-778380946ce9
+       15a7a4f8-0072-4eab-abab-f98a4d666aed:0x0000e00000000000:0xff      : 15a7a4f8-0072-4eab-abab-f98a4d666aed
+       9f4cc6dc-1bab-5772-0c71-a89954718d66:0x0000e00000000000:0xff      : 9f4cc6dc-1bab-5772-0c71-a89954718d66
+       ee818f02-698c-48be-8ff2-326c6dd34db1:0x0000e00000000000:0xff      : ee818f02-698c-48be-8ff2-326c6dd34db1
+       15a7a4f8-0072-4eab-abad-f98a4d666aed:0x0000e00000000000:0xff      : 15a7a4f8-0072-4eab-abad-f98a4d666aed
+       ffd1d811-6488-4d44-82af-c31d372609a9:0x0000e00000000000:0xff      : ffd1d811-6488-4d44-82af-c31d372609a9
+       05f02597-fe85-4e67-8542-69567ab8fd4f:0x0000e00000000000:0xff      : Microsoft-Windows-LiveId
+       3c430b0a-397a-4e1d-9a83-9c388405c00c:0x0000e00000000000:0xff      : 3c430b0a-397a-4e1d-9a83-9c388405c00c
+       1b206982-6302-43cf-b4b8-b7fbd9be1913:0x0000e00000000000:0xff      : 1b206982-6302-43cf-b4b8-b7fbd9be1913
+       565174a1-b385-5a0e-5333-afc6187b1f82:0x0000e00000000000:0xff      : 565174a1-b385-5a0e-5333-afc6187b1f82
+       8a36782f-4949-4980-ba6e-acadf0fe679a:0x0000e00000000000:0xff      : 8a36782f-4949-4980-ba6e-acadf0fe679a
+       0aba6892-455b-551d-7da8-3a8f85225e1a:0x0000e00000000000:0xff      : 0aba6892-455b-551d-7da8-3a8f85225e1a
+       0bb8e5ca-316f-4b0f-9100-debbc6671308:0x0000e00000000000:0xff      : 0bb8e5ca-316f-4b0f-9100-debbc6671308
+       78267204-1ef8-4199-8e25-3b42000c4b23:0x0000e00000000000:0xff      : 78267204-1ef8-4199-8e25-3b42000c4b23
+       7acf487e-104b-533e-f68a-a7e9b0431edb:0x0000e00000000000:0xff      : 7acf487e-104b-533e-f68a-a7e9b0431edb
+       2056054c-97a6-5ae4-b181-38bc6b58007e:0x0000e00000000000:0xff      : 2056054c-97a6-5ae4-b181-38bc6b58007e
+       dcb453db-c652-48be-a0f8-a64459d5162e:0x0000e00000000000:0xff      : D2DWin8
+       1701c7dc-045c-45c0-8cd6-4d42e3bbf387:0x0000e00000000000:0xff      : 1701c7dc-045c-45c0-8cd6-4d42e3bbf387
+       8971e817-3247-579a-74fb-624214ec10b8:0x0000e00000000000:0xff      : 8971e817-3247-579a-74fb-624214ec10b8
+       ae5c851e-b4b0-4f47-9d6a-2b2f02e39a5a:0x0000e00000000000:0xff      : ae5c851e-b4b0-4f47-9d6a-2b2f02e39a5a
+       221a8b88-4fb1-4d57-8027-3b148b43c8b9:0x0000400000000000:0xff      : 221a8b88-4fb1-4d57-8027-3b148b43c8b9
+       de441ffa-fafa-4495-977f-2e9d2509746d:0x0000e00000000000:0xff      : de441ffa-fafa-4495-977f-2e9d2509746d
+       2e1eb30a-c39f-453f-b25f-74e14862f946:0x0000e00000000000:0xff      : 2e1eb30a-c39f-453f-b25f-74e14862f946
+       cf5838d7-9fdc-5907-a62c-abd41de9d862:0x0000e00000000000:0xff      : cf5838d7-9fdc-5907-a62c-abd41de9d862
+       48d445a8-2f64-4d49-b093-a5774d8dc531:0x0000e00000000000:0xff      : Microsoft-Windows-SrumTelemetry
+       0b9b891e-ff74-49ac-a582-4c58bdf12d8b:0x0000e00000000000:0xff      : 0b9b891e-ff74-49ac-a582-4c58bdf12d8b
+       3d1d28b1-73f5-5937-3446-0de4df173ff5:0x0000e00000000000:0xff      : 3d1d28b1-73f5-5937-3446-0de4df173ff5
+       ab67b0f3-ae94-452d-b595-307667142420:0x0000e00000000000:0xff      : ab67b0f3-ae94-452d-b595-307667142420
+       21c36b70-7cda-5bc2-09b3-92d7d0459faa:0x0000e00000000000:0xff      : 21c36b70-7cda-5bc2-09b3-92d7d0459faa
+       00432966-2ca5-5920-a571-defd107e9a55:0x0000e00000000000:0xff      : 00432966-2ca5-5920-a571-defd107e9a55
+       6ff5771a-f64e-473f-a2e8-4654c218ff3a:0x0000e00000000000:0xff      : 6ff5771a-f64e-473f-a2e8-4654c218ff3a
+       4d9dfb91-4337-465a-a8b5-05a27d930d48:0x0000e00000000000:0xff      : 4d9dfb91-4337-465a-a8b5-05a27d930d48
+       2839ff94-8f12-4e1b-82e3-af7af77a450f:0x0000e00000000002:0xff      : 2839ff94-8f12-4e1b-82e3-af7af77a450f
+       86cc27ea-6f87-47f7-8b43-3473527d4a87:0x0000e00000000000:0xff      : 86cc27ea-6f87-47f7-8b43-3473527d4a87
+       509d9518-eae5-4c53-ae47-271ba6b7ef53:0x0000e00000000000:0xff      : 509d9518-eae5-4c53-ae47-271ba6b7ef53
+       3d2b6366-47a4-5e10-6974-e5f7de0d3f28:0x0000e00000000000:0xff      : 3d2b6366-47a4-5e10-6974-e5f7de0d3f28
+       66ba1a86-43c6-41ac-955b-28b520db532a:0x0000e00000000000:0xff      : 66ba1a86-43c6-41ac-955b-28b520db532a
+       c2709ea3-ae58-5742-3c79-9c11f30145ac:0x0000e00000000000:0xff      : c2709ea3-ae58-5742-3c79-9c11f30145ac
+       03bbe5b8-c788-4d0b-b47e-5b5731398a89:0x0000e00000000000:0xff      : 03bbe5b8-c788-4d0b-b47e-5b5731398a89
+       5100ef35-4747-4d3f-92a1-4ed6d661c3fb:0x0000e00000000000:0xff      : 5100ef35-4747-4d3f-92a1-4ed6d661c3fb
+       fa386406-8e25-47f7-a03f-413635a55dc0:0x0000e00000000000:0xff      : fa386406-8e25-47f7-a03f-413635a55dc0
+       4180c4f7-e238-5519-338f-ec214f0b49aa:0x0000e00000000000:0xff      : Microsoft.Windows.ResourceManager
+       4f28a611-e7f9-4fa6-8bf1-8698d06336e9:0x0000e00000000000:0xff      : 4f28a611-e7f9-4fa6-8bf1-8698d06336e9
+       dbe9b383-7cf3-4331-91cc-a3cb16a3b538:0x0000000000080000:0x4       : Winlogon
+       d951cb3f-2cba-4a1c-9436-6cf2e904dde8:0x0000e00000000000:0xff      : d951cb3f-2cba-4a1c-9436-6cf2e904dde8
+       f70a576f-6c0f-58c7-b941-8042a1158feb:0x0000e00000000000:0xff      : f70a576f-6c0f-58c7-b941-8042a1158feb
+       de5dcaee-6f88-585a-05ee-d8b05b912772:0x0000e00000000000:0xff      : de5dcaee-6f88-585a-05ee-d8b05b912772
+       56f519ab-9df6-4345-8491-a4ba21ac825b:0x0000e00000000000:0xff      : Microsoft-Windows-UserDataAccess-UnifiedStore
+       dd98ec7c-0d36-4a77-a2fc-c57a1176399a:0x0000e00000000000:0xff      : dd98ec7c-0d36-4a77-a2fc-c57a1176399a
+       44e18db2-6cfd-4a07-8fe7-6073794c531a:0x0000e00000000000:0xff      : 44e18db2-6cfd-4a07-8fe7-6073794c531a
+       b4b126de-32fe-4591-9ac5-b0778d79a0e7:0x0000e00000000000:0xff      : b4b126de-32fe-4591-9ac5-b0778d79a0e7
+       a6a9ce06-035f-40cb-829b-ebb822697591:0x0000e00000000000:0xff      : a6a9ce06-035f-40cb-829b-ebb822697591
+       b8ddcea7-b520-4909-bceb-e0170c9f0e99:0x0000e00000000000:0xff      : b8ddcea7-b520-4909-bceb-e0170c9f0e99
+       fb19ee2c-0d22-4a2e-969e-dd41ae0ce1a9:0x0000e00000000000:0xff      : Microsoft-Windows-UserDataAccess-UserDataService
+       f4190f32-f96e-479c-a45d-d485cffe42e6:0x0000e00000000000:0xff      : f4190f32-f96e-479c-a45d-d485cffe42e6
+       ce20d1cc-faee-4ef6-9bf2-2837cef71258:0x0000e00000000000:0xff      : ce20d1cc-faee-4ef6-9bf2-2837cef71258
+       8a4fc74e-b158-4fc1-a266-f7670c6aa75d:0x0000e00000000000:0xff      : 8a4fc74e-b158-4fc1-a266-f7670c6aa75d
+       76d1c1d6-4cee-5e0c-ee01-cd252eef4036:0x0000e00000000000:0xff      : 76d1c1d6-4cee-5e0c-ee01-cd252eef4036
+       ddd9464f-84f5-4536-9f80-03e9d3254e5b:0x0000e00000000000:0xff      : ddd9464f-84f5-4536-9f80-03e9d3254e5b
+       b2a2afc4-fd0b-5a85-9eef-0ce26805cb02:0x0000e00000000000:0xff      : b2a2afc4-fd0b-5a85-9eef-0ce26805cb02
+       6ecc4586-a9b8-421d-8678-4625026f82be:0x0000e00000000000:0xff      : 6ecc4586-a9b8-421d-8678-4625026f82be
+       1b7da76e-0a98-4e71-a9a5-dfd0a5262c13:0x0000e00000000000:0xff      : 1b7da76e-0a98-4e71-a9a5-dfd0a5262c13
+       a19fdc69-a626-5289-be4d-1f508a8c9a3b:0xffffffffffffffff:0x5       : a19fdc69-a626-5289-be4d-1f508a8c9a3b
+       289e2456-ee16-4c81-aaf1-7414d66ca0be:0x0000e00000000000:0xff      : 289e2456-ee16-4c81-aaf1-7414d66ca0be
+       30336ed4-e327-447c-9de0-51b652c86108:0x0000e00000000000:0xff      : ShellCore
+       72a4952f-db5c-4d90-8f9d-0ed3465b315e:0x0000e00000000000:0xff      : 72a4952f-db5c-4d90-8f9d-0ed3465b315e
+       13020f14-3a73-4db1-8be0-679e16ce17c2:0x0000e00000000000:0xff      : 13020f14-3a73-4db1-8be0-679e16ce17c2
+       0e7e8596-d648-5c94-adbd-3d780faa58e8:0x0000e00000000000:0xff      : 0e7e8596-d648-5c94-adbd-3d780faa58e8
+       55d407f6-b994-49f1-95e7-9a3e4b628f46:0x0000e00000000000:0xff      : 55d407f6-b994-49f1-95e7-9a3e4b628f46
+       7665d4fd-30eb-4ddc-9dc1-4ebab74ed98e:0x0000e00000000000:0xff      : 7665d4fd-30eb-4ddc-9dc1-4ebab74ed98e
+       27445658-7f9c-465c-a1e9-894c5cb6cd59:0x0000e00000000000:0xff      : 27445658-7f9c-465c-a1e9-894c5cb6cd59
+       9891e0a7-f966-547f-eb21-d98616bf72ee:0x0000e00000000000:0xff      : 9891e0a7-f966-547f-eb21-d98616bf72ee
+       f85b4793-1347-5620-7572-b79d5a28da82:0x0000e00000000000:0xff      : f85b4793-1347-5620-7572-b79d5a28da82
+       6ade59e8-a7c0-53d6-c3e0-8fe89759ca13:0x0000e00000000000:0xff      : 6ade59e8-a7c0-53d6-c3e0-8fe89759ca13
+       5a454db4-0839-4ee5-8157-1e54f6eef842:0x0000e00000000000:0xff      : 5a454db4-0839-4ee5-8157-1e54f6eef842
+       9d2a53b2-1411-5c1c-d88c-f2bf057645bb:0x0000e00000000000:0xff      : 9d2a53b2-1411-5c1c-d88c-f2bf057645bb
+       d375f14e-9624-5a18-f53e-5bce2043a97f:0x0000e00000000000:0xff      : d375f14e-9624-5a18-f53e-5bce2043a97f
+       77811378-e885-4ac2-a580-bc86e4f1bc93:0x0000e00000000000:0xff      : 77811378-e885-4ac2-a580-bc86e4f1bc93
+       eb3540f2-1909-5d51-b72d-a3ecb0b9bf08:0x0000e00000000000:0xff      : eb3540f2-1909-5d51-b72d-a3ecb0b9bf08
+       eb65a492-86c0-406a-bace-9912d595bd69:0x0000e00000000000:0xff      : Microsoft-Windows-AppModel-Exec
+       cf82aecb-ffff-4049-bd5b-687734a5d519:0x0000e00000000000:0xff      : cf82aecb-ffff-4049-bd5b-687734a5d519
+       dd2e708d-f725-5c93-d0d1-91c985457612:0x0000e00000000000:0xff      : dd2e708d-f725-5c93-d0d1-91c985457612
+       e07696f9-80f1-44de-848d-1356b25460dc:0x0000e00000000000:0xff      : e07696f9-80f1-44de-848d-1356b25460dc
+       8ccca27d-f1d8-4dda-b5dd-339aee937731:0x0000e00000000000:0xff      : 8ccca27d-f1d8-4dda-b5dd-339aee937731
+       45ac0c12-fa92-4407-bc96-577642890490:0x0000e00000000000:0xff      : 45ac0c12-fa92-4407-bc96-577642890490
+       db5afa36-72be-5ee9-fb28-349ccdfc00ad:0x0000e00000000000:0xff      : db5afa36-72be-5ee9-fb28-349ccdfc00ad
+       05f95efe-7f75-49c7-a994-60a55cc09571:0x0000e00000000000:0xff      : 05f95efe-7f75-49c7-a994-60a55cc09571
+       a140e353-85e5-507d-d20f-bfc45b6ffc7f:0x0000e00000000000:0xff      : a140e353-85e5-507d-d20f-bfc45b6ffc7f
+       8aa41f62-e9cd-4291-bae1-94daa9a3ac26:0x0000e00000000000:0xff      : 8aa41f62-e9cd-4291-bae1-94daa9a3ac26
+       f8f90fe5-8c92-4146-a764-305aaf12b066:0x0000e00000000000:0xff      : f8f90fe5-8c92-4146-a764-305aaf12b066
+       7e9e8b9c-406c-5d73-e566-0f50ea3ade3e:0x0000e00000000000:0xff      : 7e9e8b9c-406c-5d73-e566-0f50ea3ade3e
+       3b3877a1-ae3b-54f1-0101-1e2424f6fcbb:0x0000e00000000000:0xff      : 3b3877a1-ae3b-54f1-0101-1e2424f6fcbb
+       56dc463b-97e8-4b59-e836-ab7c9bb96301:0x0000000200000000:0x5       : Microsoft-Windows-Diagtrack
+
+Kernel Flags: 
+       PROC_THREAD    : Process and Thread create/delete
+       LOADER         : Kernel and user mode Image Load/Unload events
+       PROFILE        : CPU Sample profile
+       CSWITCH        : Context Switch
+       COMPACT_CSWITCH: Compact Context Switch
+       DISPATCHER     : CPU Scheduler
+       DPC            : DPC Events
+       INTERRUPT      : Interrupt events
+       INTERRUPT_STEER: Interrupt Steering events
+       WDF_DPC        : WDF DPC events
+       WDF_INTERRUPT  : WDF Interrupt events
+       SYSCALL        : System calls
+       PRIORITY       : Priority change events
+       SPINLOCK       : Spinlock Collisions
+       SYNCOBJECTS    : Synchronization Objects
+       KQUEUE         : Kernel Queue Enqueue/Dequeue
+       ALPC           : Advanced Local Procedure Call
+       PERF_COUNTER   : Process Perf Counters
+       DISK_IO        : Disk I/O
+       DISK_IO_INIT   : Disk I/O Initiation
+       FILE_IO        : File system operation end times and results 
+       FILE_IO_INIT   : File system operation (create/open/close/read/write) 
+       HARD_FAULTS    : Hard Page Faults
+       FILENAME       : FileName (e.g., FileName create/delete/rundown) 
+       SPLIT_IO       : Split I/O
+       REGISTRY       : Registry tracing
+       REGISTRY_NOTIF : Registry change notification
+       REG_HIVE       : Registry hive tracing
+       DRIVERS        : Driver events
+       POWER          : Power management events
+       CC             : Cache manager events
+       NETWORKTRACE   : Network events (e.g., tcp/udp send/receive)
+       VIRT_ALLOC     : Virtual allocation reserve and release
+       MEMINFO        : Memory List Info
+       ALL_FAULTS     : All page faults including hard, Copy on write, demand zero faults, etc.
+       MEMINFO_WS     : Working set Info
+       VAMAP          : MapFile info
+       FOOTPRINT      : Support footprint analysis (i.e., flush workingset on FlushMark)
+       MEMORY         : Memory tracing
+       REFSET         : Support footprint analysis (i.e., flush workingset on FlushMark and trace start)
+       HIBERRUNDOWN   : Rundown(s) during hibernate
+       CONTMEMGEN     : Contiguous Memory Generation
+       POOL           : Pool tracing
+       SHOULDYIELD    : Tracing for the cooperative DPC mechanism
+       CLUSTER_OFF    : Turn off Hard page fault clustering
+       WS             : Support workingset analysis
+       CPU_CONFIG     : NUMA topology, Processor Group and Processor Index to Number mapping. By default it is always enabled.
+       SESSION        : Session rundown/create/delete events.
+       ANTI_STARVATION: Events tracking boosts for Ready threads for several seconds
+       IDLE_STATES    : CPU Idle States
+       TIMER          : Timer settings and its expiration
+       CLOCKINT       : Clock Interrupt Events
+       IPI            : Inter-processor Interrupt Events
+       OPTICAL_IO     : Optical I/O
+       OPTICAL_IO_INIT: Optical I/O Initiation
+       FLT_IO_INIT    : Minifilter callback initiation
+       FLT_IO         : Minifilter callback completion
+       FLT_FASTIO     : Minifilter fastio callback completion
+       FLT_IO_FAILURE : Minifilter callback completion with failure
+       PROCESS_FREEZE : Process Freeze/Thaw events
+       WAKE_COUNTER   : Process Wake Counter events
+       WAKE_DROP      : Process Wake Charges dropped
+       WAKE_EVENT     : Process Wake Events
+       OB_HANDLE      : Object handle events
+       OB_OBJECT      : Object events
+       KE_CLOCK       : Clock Configuration events
+       PMC_PROFILE    : PMC sampling events
+       DPC_QUEUE      : DPC queue events
+       CACHE_FLUSH    : Cache flush events
+       DEBUG_EVENTS   : Debugger scheduling events
+
+Kernel Groups: 
+       Base           : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+PROFILE+MEMINFO+MEMINFO_WS
+       Diag           : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+DPC+INTERRUPT+CSWITCH+PERF_COUNTER+COMPACT_CSWITCH
+       DiagEasy       : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+DPC+INTERRUPT+CSWITCH+PERF_COUNTER
+       Latency        : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+DPC+INTERRUPT+CSWITCH+PROFILE
+       FileIO         : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+FILE_IO+FILE_IO_INIT
+       IOTrace        : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+CSWITCH
+       ResumeTrace    : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+PROFILE+POWER
+       SysProf        : PROC_THREAD+LOADER+PROFILE
+       MemoryAnalysis : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+MEMORY+MEMINFO+ALL_FAULTS+VIRT_ALLOC+PROFILE+FOOTPRINT+VAMAP+SESSION
+       WorkingSet     : PROC_THREAD+LOADER+HARD_FAULTS+VIRT_ALLOC+MEMINFO+VAMAP+SESSION+MEMINFO_WS+WS
+       ResidentSet    : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+MEMORY+MEMINFO+VAMAP+SESSION+VIRT_ALLOC
+       ReferenceSet   : PROC_THREAD+LOADER+HARD_FAULTS+MEMORY+FOOTPRINT+VIRT_ALLOC+MEMINFO+VAMAP+SESSION+REFSET+MEMINFO_WS
+       Network        : PROC_THREAD+LOADER+NETWORKTRACE
+       TraceOn4       : PROC_THREAD+LOADER+DISK_IO+HARD_FAULTS+CSWITCH+MEMORY+REGISTRY+PROFILE
+
