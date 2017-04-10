@@ -1,0 +1,21 @@
+# Install Hyper-V
+$isHypervInstalled = $false
+$serverLevels = Get-ItemProperty -path $regestryKey;
+$isServerCoreSku = $serverLevels.ServerCore -eq 1
+Write-Host "isServerCoreSku $isServerCoreSku"
+$features = DISM.exe /Online /Get-Features /Format:Table
+$hypervStatus = $features | where {$_ -match "Microsoft-Hyper-V" -and $_ -notmatch "Microsoft-Hyper-V-"}
+if($hypervStatus -ne $null -and $hypervStatus -match "Enabled")
+{
+   $isHypervInstalled = $true
+}
+if($isHypervInstalled -eq $false)
+{
+    DISM.exe /Online /NoRestart /Enable-Feature /all /FeatureName:Microsoft-Hyper-V
+    DISM.exe /Online /NoRestart /Enable-Feature /all /FeatureName:Microsoft-Hyper-V-Management-PowerShell
+	
+	if($isServerCoreSku -eq $false){
+		DISM.exe /Online /NoRestart /Enable-Feature /all /FeatureName:Microsoft-Hyper-V-Management-Client
+	}
+    Write-Host "Installed Hyper-V"
+}
